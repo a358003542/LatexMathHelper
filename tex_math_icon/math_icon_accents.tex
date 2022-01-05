@@ -1,0 +1,82 @@
+\documentclass[tikz,border=0pt]{standalone}
+
+\usepackage{fontspec} 
+\usepackage{amssymb,amsmath}
+
+\setmainfont[Mapping=tex-text]{DejaVu Serif}
+\setsansfont[Mapping=tex-text]{DejaVu Sans}
+\setmonofont[Mapping=tex-text]{DejaVu Sans Mono}
+
+\begin{document}
+\definecolor{TextColor}{HTML}{000000}
+
+
+\tikzset{outline/.style={
+    help lines,
+    %color = white,
+    line width = 0.1pt,
+    xstep = 0.01,
+    ystep = 0.01
+}}
+
+\tikzset{nodestyle/.style={
+    text=TextColor, 
+     font=\Huge,
+     scale=1,
+     anchor =center,
+     inner sep = 1pt,
+     outer sep = 0pt,
+     minimum size = 1cm,
+     %fill = gray!50
+}}
+
+
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\acute{x}$};
+\end{tikzpicture}
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\grave{x}$};
+\end{tikzpicture}
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\tilde{x}$};
+\end{tikzpicture}
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\bar{x}$};
+\end{tikzpicture}
+%%%%%%%%%%%%%%%%%
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\breve{x}$};
+\end{tikzpicture}
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\check{x}$};
+\end{tikzpicture}
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\hat{x}$};
+\end{tikzpicture}
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\vec{x}$};
+\end{tikzpicture}
+
+%%%%%%%%%%%%%%%%%%%%
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\dot{x}$};
+\end{tikzpicture}
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\ddot{x}$};
+\end{tikzpicture}
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\dddot{x}$};
+\end{tikzpicture}
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\mathring{x}$};
+\end{tikzpicture}
+%%%%%%%%%%%%%%%%
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\widetilde{xxx}$};
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\widehat{xxx}$};
+\end{tikzpicture}
+
+\end{document}
