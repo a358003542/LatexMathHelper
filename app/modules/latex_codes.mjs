@@ -56,3 +56,5 @@ const LatexCodes = {
     "math_accents_widetilde": ["\\widetilde{", "}"],
     "math_accents_widehat": ["\\widehat{", "}"],
 }
+
+export { LatexCodes }

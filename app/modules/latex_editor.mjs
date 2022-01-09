@@ -1,8 +1,8 @@
 
+import { LatexCodes } from './latex_codes.mjs'
 
 const editor = document.getElementById("latex-editor")
 const latexResult = document.getElementById("latex-result")
-
 
 
 function inputToEditor(editor, startString, endString) {
@@ -47,9 +47,11 @@ function inputLatex(name) {
 
 function displayLatex() {
     latexResult.textContent = `$$${editor.value}$$`
-    MathJax.typeset()
+    window.MathJax.typeset()
 }
 
 editor.addEventListener("input", function (event) {
     displayLatex()
 }, false)
+
+export { inputLatex }

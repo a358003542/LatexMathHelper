@@ -16,154 +16,174 @@
 </head>
 
 <body>
-  <br>
-
   <div class="container">
+
+
+    <div class="row">
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col align-self-end">
+        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+          data-bs-target="#Help">Help</button>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="alert alert-info" role="alert" id="alertInfo">
+        PlaceHolder String...
+      </div>
+    </div>
 
     <div class="row">
       <div class="col">
         <div class="dropdown">
           <div class="image-button-group-head">
-            <button type="button" onclick="inputLatex('greek_letters_alpha');" class="image-button">
+            <button type="button" button-key="greek_letters_alpha" class="image-button">
               <img src="./images/greek_letters/math_icon_greek_letters-001.png">
             </button>
-            <button type="button" onclick="inputLatex('greek_letters_beta');" class="image-button">
+            <button type="button" button-key="greek_letters_beta" class="image-button">
               <img src="./images/greek_letters/math_icon_greek_letters-002.png">
             </button>
-            <button type="button" onclick="inputLatex('greek_letters_gamma');" class="image-button">
+            <button type="button" button-key="greek_letters_gamma" class="image-button">
               <img src="./images/greek_letters/math_icon_greek_letters-003.png">
             </button>
-            <button type="button" onclick="inputLatex('greek_letters_delta');" class="image-button">
+            <button type="button" button-key="greek_letters_delta" class="image-button">
               <img src="./images/greek_letters/math_icon_greek_letters-004.png">
             </button>
-            <button type="button" onclick="inputLatex('greek_letters_epsilon');" class="image-button">
-              <img src="./images/greek_letters/math_icon_greek_letters-005.png">
+            <button type="button" button-key="greek_letters_varepsilon" class="image-button">
+              <img src="./images/greek_letters/math_icon_greek_letters-025.png">
             </button>
-            <button type="button" onclick="inputLatex('greek_letters_zeta');" class="image-button">
+            <button type="button" button-key="greek_letters_zeta" class="image-button">
               <img src="./images/greek_letters/math_icon_greek_letters-006.png">
             </button>
-            <button type="button" onclick="inputLatex('greek_letters_eta');" class="image-button">
+            <button type="button" button-key="greek_letters_eta" class="image-button">
               <img src="./images/greek_letters/math_icon_greek_letters-007.png">
             </button>
+
           </div>
 
           <div class="image-button-group-body">
             <div class="image-button-group-row">
-              <button type="button" onclick="inputLatex('greek_letters_theta');" class="image-button">
+              <button type="button" button-key="greek_letters_theta" class="image-button">
                 <img src="./images/greek_letters/math_icon_greek_letters-008.png">
               </button>
-              <button type="button" onclick="inputLatex('greek_letters_iota');" class="image-button">
+              <button type="button" button-key="greek_letters_iota" class="image-button">
                 <img src="./images/greek_letters/math_icon_greek_letters-009.png">
               </button>
-              <button type="button" onclick="inputLatex('greek_letters_kappa');" class="image-button">
+              <button type="button" button-key="greek_letters_kappa" class="image-button">
                 <img src="./images/greek_letters/math_icon_greek_letters-010.png">
               </button>
-              <button type="button" onclick="inputLatex('greek_letters_lambda');" class="image-button">
+              <button type="button" button-key="greek_letters_lambda" class="image-button">
                 <img src="./images/greek_letters/math_icon_greek_letters-011.png">
               </button>
-              <button type="button" onclick="inputLatex('greek_letters_mu');" class="image-button">
+              <button type="button" button-key="greek_letters_mu" class="image-button">
                 <img src="./images/greek_letters/math_icon_greek_letters-012.png">
               </button>
-              <button type="button" onclick="inputLatex('greek_letters_nu');" class="image-button">
+              <button type="button" button-key="greek_letters_nu" class="image-button">
                 <img src="./images/greek_letters/math_icon_greek_letters-013.png">
               </button>
-              <button type="button" onclick="inputLatex('greek_letters_xi');" class="image-button">
+              <button type="button" button-key="greek_letters_xi" class="image-button">
                 <img src="./images/greek_letters/math_icon_greek_letters-014.png">
               </button>
+
             </div>
 
             <div class="image-button-group-row">
-              <button type="button" onclick="inputLatex('greek_letters_pi');" class="image-button">
+              <button type="button" button-key="greek_letters_pi" class="image-button">
                 <img src="./images/greek_letters/math_icon_greek_letters-015.png">
               </button>
-              <button type="button" onclick="inputLatex('greek_letters_rho');" class="image-button">
+              <button type="button" button-key="greek_letters_rho" class="image-button">
                 <img src="./images/greek_letters/math_icon_greek_letters-016.png">
               </button>
-              <button type="button" onclick="inputLatex('greek_letters_sigma');" class="image-button">
-                <img src="./images/greek_letters/math_icon_greek_letters-017.png">
-              </button>
-              <button type="button" onclick="inputLatex('greek_letters_tau');" class="image-button">
-                <img src="./images/greek_letters/math_icon_greek_letters-018.png">
-              </button>
-              <button type="button" onclick="inputLatex('greek_letters_upsilon');" class="image-button">
-                <img src="./images/greek_letters/math_icon_greek_letters-019.png">
-              </button>
-              <button type="button" onclick="inputLatex('greek_letters_phi');" class="image-button">
-                <img src="./images/greek_letters/math_icon_greek_letters-020.png">
-              </button>
-              <button type="button" onclick="inputLatex('greek_letters_chi');" class="image-button">
-                <img src="./images/greek_letters/math_icon_greek_letters-021.png">
-              </button>
-            </div>
-
-            <div class="image-button-group-row">
-              <button type="button" onclick="inputLatex('greek_letters_psi');" class="image-button">
-                <img src="./images/greek_letters/math_icon_greek_letters-022.png">
-              </button>
-              <button type="button" onclick="inputLatex('greek_letters_omega');" class="image-button">
-                <img src="./images/greek_letters/math_icon_greek_letters-023.png">
-              </button>
-              <button type="button" onclick="inputLatex('greek_letters_digamma');" class="image-button">
-                <img src="./images/greek_letters/math_icon_greek_letters-024.png">
-              </button>
-              <button type="button" onclick="inputLatex('greek_letters_varepsilon');" class="image-button">
-                <img src="./images/greek_letters/math_icon_greek_letters-025.png">
-              </button>
-              <button type="button" onclick="inputLatex('greek_letters_varkappa');" class="image-button">
-                <img src="./images/greek_letters/math_icon_greek_letters-026.png">
-              </button>
-              <button type="button" onclick="inputLatex('greek_letters_varphi');" class="image-button">
-                <img src="./images/greek_letters/math_icon_greek_letters-027.png">
-              </button>
-              <button type="button" onclick="inputLatex('greek_letters_varpi');" class="image-button">
-                <img src="./images/greek_letters/math_icon_greek_letters-028.png">
-              </button>
-            </div>
-
-            <div class="image-button-group-row">
-              <button type="button" onclick="inputLatex('greek_letters_varrho');" class="image-button">
-                <img src="./images/greek_letters/math_icon_greek_letters-029.png">
-              </button>
-              <button type="button" onclick="inputLatex('greek_letters_varsigma');" class="image-button">
+              <button type="button" button-key="greek_letters_varsigma" class="image-button">
                 <img src="./images/greek_letters/math_icon_greek_letters-030.png">
               </button>
-              <button type="button" onclick="inputLatex('greek_letters_vartheta');" class="image-button">
-                <img src="./images/greek_letters/math_icon_greek_letters-031.png">
+              <button type="button" button-key="greek_letters_sigma" class="image-button">
+                <img src="./images/greek_letters/math_icon_greek_letters-017.png">
               </button>
-              <button type="button" onclick="inputLatex('greek_letters_Gamma');" class="image-button">
-                <img src="./images/greek_letters/math_icon_greek_letters-032.png">
+              <button type="button" button-key="greek_letters_tau" class="image-button">
+                <img src="./images/greek_letters/math_icon_greek_letters-018.png">
               </button>
-              <button type="button" onclick="inputLatex('greek_letters_Delta');" class="image-button">
-                <img src="./images/greek_letters/math_icon_greek_letters-033.png">
+              <button type="button" button-key="greek_letters_upsilon" class="image-button">
+                <img src="./images/greek_letters/math_icon_greek_letters-019.png">
               </button>
-              <button type="button" onclick="inputLatex('greek_letters_Lambda');" class="image-button">
-                <img src="./images/greek_letters/math_icon_greek_letters-034.png">
+              <button type="button" button-key="greek_letters_varphi" class="image-button">
+                <img src="./images/greek_letters/math_icon_greek_letters-027.png">
               </button>
-              <button type="button" onclick="inputLatex('greek_letters_Phi');" class="image-button">
-                <img src="./images/greek_letters/math_icon_greek_letters-035.png">
-              </button>
+
             </div>
 
             <div class="image-button-group-row">
-              <button type="button" onclick="inputLatex('greek_letters_Pi');" class="image-button">
-                <img src="./images/greek_letters/math_icon_greek_letters-036.png">
+              <button type="button" button-key="greek_letters_chi" class="image-button">
+                <img src="./images/greek_letters/math_icon_greek_letters-021.png">
               </button>
-              <button type="button" onclick="inputLatex('greek_letters_Psi');" class="image-button">
-                <img src="./images/greek_letters/math_icon_greek_letters-037.png">
+              <button type="button" button-key="greek_letters_psi" class="image-button">
+                <img src="./images/greek_letters/math_icon_greek_letters-022.png">
               </button>
-              <button type="button" onclick="inputLatex('greek_letters_Sigma');" class="image-button">
-                <img src="./images/greek_letters/math_icon_greek_letters-038.png">
+              <button type="button" button-key="greek_letters_omega" class="image-button">
+                <img src="./images/greek_letters/math_icon_greek_letters-023.png">
               </button>
-              <button type="button" onclick="inputLatex('greek_letters_Theta');" class="image-button">
+              <button type="button" button-key="greek_letters_vartheta" class="image-button">
+                <img src="./images/greek_letters/math_icon_greek_letters-031.png">
+              </button>
+              <button type="button" button-key="greek_letters_phi" class="image-button">
+                <img src="./images/greek_letters/math_icon_greek_letters-020.png">
+              </button>
+              <button type="button" button-key="greek_letters_varpi" class="image-button">
+                <img src="./images/greek_letters/math_icon_greek_letters-028.png">
+              </button>
+              <button type="button" button-key="greek_letters_digamma" class="image-button">
+                <img src="./images/greek_letters/math_icon_greek_letters-024.png">
+              </button>
+
+            </div>
+
+            <div class="image-button-group-row">
+              <button type="button" button-key="greek_letters_varkappa" class="image-button">
+                <img src="./images/greek_letters/math_icon_greek_letters-026.png">
+              </button>
+              <button type="button" button-key="greek_letters_varrho" class="image-button">
+                <img src="./images/greek_letters/math_icon_greek_letters-029.png">
+              </button>
+              <button type="button" button-key="greek_letters_epsilon" class="image-button">
+                <img src="./images/greek_letters/math_icon_greek_letters-005.png">
+              </button>
+              <button type="button" button-key="greek_letters_Gamma" class="image-button">
+                <img src="./images/greek_letters/math_icon_greek_letters-032.png">
+              </button>
+              <button type="button" button-key="greek_letters_Delta" class="image-button">
+                <img src="./images/greek_letters/math_icon_greek_letters-033.png">
+              </button>
+              <button type="button" button-key="greek_letters_Theta" class="image-button">
                 <img src="./images/greek_letters/math_icon_greek_letters-039.png">
               </button>
-              <button type="button" onclick="inputLatex('greek_letters_Upsilon');" class="image-button">
-                <img src="./images/greek_letters/math_icon_greek_letters-040.png">
+              <button type="button" button-key="greek_letters_Lambda" class="image-button">
+                <img src="./images/greek_letters/math_icon_greek_letters-034.png">
               </button>
-              <button type="button" onclick="inputLatex('greek_letters_Xi');" class="image-button">
+
+            </div>
+
+            <div class="image-button-group-row">
+              <button type="button" button-key="greek_letters_Xi" class="image-button">
                 <img src="./images/greek_letters/math_icon_greek_letters-041.png">
               </button>
-              <button type="button" onclick="inputLatex('greek_letters_Omega');" class="image-button">
+              <button type="button" button-key="greek_letters_Pi" class="image-button">
+                <img src="./images/greek_letters/math_icon_greek_letters-036.png">
+              </button>
+              <button type="button" button-key="greek_letters_Sigma" class="image-button">
+                <img src="./images/greek_letters/math_icon_greek_letters-038.png">
+              </button>
+              <button type="button" button-key="greek_letters_Upsilon" class="image-button">
+                <img src="./images/greek_letters/math_icon_greek_letters-040.png">
+              </button>
+              <button type="button" button-key="greek_letters_Phi" class="image-button">
+                <img src="./images/greek_letters/math_icon_greek_letters-035.png">
+              </button>
+              <button type="button" button-key="greek_letters_Psi" class="image-button">
+                <img src="./images/greek_letters/math_icon_greek_letters-037.png">
+              </button>
+              <button type="button" button-key="greek_letters_Omega" class="image-button">
                 <img src="./images/greek_letters/math_icon_greek_letters-042.png">
               </button>
             </div>
@@ -171,62 +191,62 @@
           </div>
 
         </div>
-      
+
       </div>
 
       <div class="col">
         <div class="dropdown">
           <div class="image-button-group-head">
-            <button type="button" onclick="inputLatex('math_accents_acute');" class="image-button">
+            <button type="button" button-key="math_accents_acute" class="image-button">
               <img src="./images/accents/math_icon_accents-001.png">
             </button>
-            <button type="button" onclick="inputLatex('math_accents_grave');" class="image-button">
+            <button type="button" button-key="math_accents_grave" class="image-button">
               <img src="./images/accents/math_icon_accents-002.png">
             </button>
-            <button type="button" onclick="inputLatex('math_accents_tilde');" class="image-button">
+            <button type="button" button-key="math_accents_tilde" class="image-button">
               <img src="./images/accents/math_icon_accents-003.png">
             </button>
-            <button type="button" onclick="inputLatex('math_accents_bar');" class="image-button">
+            <button type="button" button-key="math_accents_bar" class="image-button">
               <img src="./images/accents/math_icon_accents-004.png">
             </button>
           </div>
 
           <div class="image-button-group-body">
             <div class="image-button-group-row">
-              <button type="button" onclick="inputLatex('math_accents_breve');" class="image-button">
+              <button type="button" button-key="math_accents_breve" class="image-button">
                 <img src="./images/accents/math_icon_accents-005.png">
               </button>
-              <button type="button" onclick="inputLatex('math_accents_check');" class="image-button">
+              <button type="button" button-key="math_accents_check" class="image-button">
                 <img src="./images/accents/math_icon_accents-006.png">
               </button>
-              <button type="button" onclick="inputLatex('math_accents_hat');" class="image-button">
+              <button type="button" button-key="math_accents_hat" class="image-button">
                 <img src="./images/accents/math_icon_accents-007.png">
               </button>
-              <button type="button" onclick="inputLatex('math_accents_vec');" class="image-button">
+              <button type="button" button-key="math_accents_vec" class="image-button">
                 <img src="./images/accents/math_icon_accents-008.png">
               </button>
             </div>
 
             <div class="image-button-group-row">
-              <button type="button" onclick="inputLatex('math_accents_dot');" class="image-button">
+              <button type="button" button-key="math_accents_dot" class="image-button">
                 <img src="./images/accents/math_icon_accents-009.png">
               </button>
-              <button type="button" onclick="inputLatex('math_accents_ddot');" class="image-button">
+              <button type="button" button-key="math_accents_ddot" class="image-button">
                 <img src="./images/accents/math_icon_accents-010.png">
               </button>
-              <button type="button" onclick="inputLatex('math_accents_dddot');" class="image-button">
+              <button type="button" button-key="math_accents_dddot" class="image-button">
                 <img src="./images/accents/math_icon_accents-011.png">
               </button>
-              <button type="button" onclick="inputLatex('math_accents_mathring');" class="image-button">
+              <button type="button" button-key="math_accents_mathring" class="image-button">
                 <img src="./images/accents/math_icon_accents-012.png">
               </button>
             </div>
 
             <div class="image-button-group-row">
-              <button type="button" onclick="inputLatex('math_accents_widetilde');" class="image-button image-button-wide">
+              <button type="button" button-key="math_accents_widetilde" class="image-button image-button-wide">
                 <img src="./images/accents/math_icon_accents-013.png">
               </button>
-              <button type="button" onclick="inputLatex('math_accents_widehat');" class="image-button image-button-wide">
+              <button type="button" button-key="math_accents_widehat" class="image-button image-button-wide">
                 <img src="./images/accents/math_icon_accents-014.png">
               </button>
             </div>
@@ -235,10 +255,6 @@
 
         </div>
       </div>
-
-
-
-
 
     </div>
 
@@ -251,44 +267,35 @@
     </div>
 
 
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      Launch modal
-    </button>
+  </div>
 
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
+  <!-- modals -->
+  <div class="modal fade" id="Help" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">帮助信息</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Unicode符号查询推荐 <a target="_blank" href="https://unicode-table.com/cn/">这个网站</a>。
+              如果有一些符号看上去大概差不多的，那么在应用上拉丁字母和扩展分区的优先级会高一些。</li>
+            <li>希腊字母有一些没有列出来是因为它们和平时使用的拉丁字母是一样的。</li>
+            <li>希腊字母在mathrm等命令下对应的Unicode编码又有所不同。</li>
+            <li>数学着重符号比如$\acute{a}$等可能有对应的Unicode编码，但显示效果很不一样，个人推断这些生成的符号可能就是Tex排版出来的，并没有所谓的Unicode符号对应。</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
-
-    <p>
-      When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-      \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
-    </p>
-
-    <p>$\ce{H2O}$</p>
-
   </div>
 
-  <script src="./renderer.js"></script>
-  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
+  <!-- modals -->
   <script>
-    MathJax = {
+    window.MathJax = {
       tex: {
         inlineMath: [['$', '$'], ['\\(', '\\)']],
         displayMath: [["$$", "$$"], ['\\[', '\\]']],
@@ -299,15 +306,14 @@
       loader: {
         load: ['[tex]/mhchem']
       },
-    };
-
-  </script>
-  <script id="MathJax-script" async src="../node_modules/mathjax-full/es5/tex-mml-chtml.js">
+    }
   </script>
 
-  <script src="./js/latex_codes.js"></script>
-  <script src="./js/latex_editor.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../node_modules/lodash/lodash.min.js"></script>
+  <script id="MathJax-script" async src="../node_modules/mathjax-full/es5/tex-mml-chtml.js"></script>
 
+  <script type="module" src="./renderer.mjs"></script>
 
 </body>
 

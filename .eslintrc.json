@@ -6,8 +6,16 @@
     },
     "extends": "eslint:recommended",
     "parserOptions": {
-        "ecmaVersion": 13
+        "ecmaVersion": 13,
+        "sourceType": "module"
+    },
+    "globals": {
+        "__dirname": "readonly",
+        "process": "readonly",
+        "_": "readonly",
+        "MathJax":"writable"
     },
     "rules": {
+        "no-unused-vars":"warn"
     }
 }
