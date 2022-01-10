@@ -1,8 +1,8 @@
 import { inputLatex } from './latex_editor.mjs'
-const alertInfoPanel = document.getElementById('alertInfo')
+const statusBarPanel = document.getElementById('statusBar')
 
-function alertInfo(content) {
-    alertInfoPanel.textContent = content
+function showStatusInfo(content) {
+    statusBarPanel.textContent = content
 }
 
 
@@ -222,4 +222,4 @@ const ButtonSettings = {
     "math_accents_widehat": { "click": {}, "mouseover": {} },
 }
 
-export { ButtonSettings, alertInfo }
+export { ButtonSettings, showStatusInfo }

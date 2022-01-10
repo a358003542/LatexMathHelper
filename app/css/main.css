@@ -79,3 +79,12 @@
     height:150px;
 }
 
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+#statusBar{
+    margin-bottom: 0;
+}
