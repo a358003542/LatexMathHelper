@@ -81,39 +81,39 @@ const ButtonSettings = {
     },
     "greek_letters_upsilon": {
         "click": {},
-        "mouseover": { "funcArgs": ["Unicode: 003C5"] }
+        "mouseover": { "funcArgs": ["Greek Small Letter Upsilon Unicode: 003C5"] }
     },
     "greek_letters_varphi": {
         "click": {},
-        "mouseover": { "funcArgs": ["Unicode: 003C6"] }
+        "mouseover": { "funcArgs": ["Greek Small Letter Phi Unicode: 003C6"] }
     },
     "greek_letters_chi": {
         "click": {},
-        "mouseover": { "funcArgs": ["Unicode: 003C7"] }
+        "mouseover": { "funcArgs": ["Greek Small Letter Chi Unicode: 003C7"] }
     },
     "greek_letters_psi": {
         "click": {},
-        "mouseover": { "funcArgs": ["Unicode: 003C8"] }
+        "mouseover": { "funcArgs": ["Greek Small Letter Psi Unicode: 003C8"] }
     },
     "greek_letters_omega": {
         "click": {},
-        "mouseover": { "funcArgs": ["Unicode: 003C9"] }
+        "mouseover": { "funcArgs": ["Greek Small Letter Omega Unicode: 003C9"] }
     },
     "greek_letters_vartheta": {
         "click": {},
-        "mouseover": { "funcArgs": ["Unicode: 003D1"] }
+        "mouseover": { "funcArgs": ["Greek Theta Symbol Unicode: 003D1"] }
     },
     "greek_letters_phi": {
         "click": {},
-        "mouseover": { "funcArgs": ["Unicode: 003D5"] }
+        "mouseover": { "funcArgs": ["Greek Phi Symbol Unicode: 003D5"] }
     },
     "greek_letters_varpi": {
         "click": {},
-        "mouseover": { "funcArgs": ["Unicode: 003D6"] }
+        "mouseover": { "funcArgs": ["Greek Pi Symbol Unicode: 003D6"] }
     },
     "greek_letters_digamma": {
         "click": {},
-        "mouseover": { "funcArgs": ["Unicode: 003DD"] }
+        "mouseover": { "funcArgs": ["Greek Small Letter Digamma Unicode: 003DD"] }
     },
     "greek_letters_varepsilon": {
         "click": {},
@@ -121,15 +121,15 @@ const ButtonSettings = {
     },
     "greek_letters_varkappa": {
         "click": {},
-        "mouseover": { "funcArgs": ["Unicode: 003F0"] }
+        "mouseover": { "funcArgs": ["Greek Kappa Symbol Unicode: 003F0"] }
     },
     "greek_letters_varrho": {
         "click": {},
-        "mouseover": { "funcArgs": ["Unicode: 003F1"] }
+        "mouseover": { "funcArgs": ["Greek Rho Symbol Unicode: 003F1"] }
     },
     "greek_letters_epsilon": {
         "click": {},
-        "mouseover": { "funcArgs": ["Unicode: 003F5"] }
+        "mouseover": { "funcArgs": ["Greek Lunate Epsilon Symbol Unicode: 003F5"] }
     },
     "greek_letters_Gamma": {
         "click": {},
@@ -178,48 +178,95 @@ const ButtonSettings = {
     "math_accents_acute": {
         "click": {},
         "mouseover":
-            { "funcArgs": ["要查找Unicode符号推荐搜索关键词： Acute 。"] }
+            { "funcArgs": ["Unicode Search key: Acute "] }
     },
     "math_accents_grave": {
         "click": {},
-        "mouseover": { "funcArgs": ["要查找Unicode符号推荐搜索关键词： Grave 。"] }
+        "mouseover": { "funcArgs": ["Unicode Search key: Grave "] }
     },
     "math_accents_tilde": {
         "click": {},
-        "mouseover": { "funcArgs": ["要查找Unicode符号推荐搜索关键词： Tilde 。"] }
+        "mouseover": { "funcArgs": ["Unicode Search key: Tilde "] }
     },
     "math_accents_bar": {
         "click": {},
-        "mouseover": { "funcArgs": ["要查找Unicode符号推荐搜索关键词： Macron 。"] }
+        "mouseover": { "funcArgs": ["Unicode Search key: Macron "] }
     },
     "math_accents_breve": {
         "click": {},
-        "mouseover": { "funcArgs": ["要查找Unicode符号推荐搜索关键词： Breve 。"] }
+        "mouseover": { "funcArgs": ["Unicode Search key: Breve "] }
     },
     "math_accents_check": {
         "click": {},
-        "mouseover": { "funcArgs": ["要查找Unicode符号推荐搜索关键词： Caron 。"] }
+        "mouseover": { "funcArgs": ["Unicode Search key: Caron "] }
     },
     "math_accents_hat": {
         "click": {},
-        "mouseover": { "funcArgs": ["要查找Unicode符号推荐搜索关键词： Circumflex  。"] }
+        "mouseover": { "funcArgs": ["Unicode Search key: Circumflex  "] }
     },
-    "math_accents_vec": { "click": {}, "mouseover": {} },
+    "math_accents_vec": {
+        "click": {},
+        "mouseover": { "funcArgs": ["Relevant Unicode Symbol: 020D7 "] }
+    },
     "math_accents_dot": {
         "click": {},
-        "mouseover": { "funcArgs": ["要查找Unicode符号推荐搜索关键词： Dot Above  。"] }
+        "mouseover": { "funcArgs": ["Unicode Search key: Dot Above  "] }
     },
     "math_accents_ddot": {
         "click": {},
-        "mouseover": { "funcArgs": ["要查找Unicode符号推荐搜索关键词： Diaeresis "] }
+        "mouseover": { "funcArgs": ["Unicode Search key: Diaeresis "] }
     },
-    "math_accents_dddot": { "click": {}, "mouseover": {} },
+    "math_accents_dddot": {
+        "click": {},
+        "mouseover": { "funcArgs": ["Relevant Unicode Symbol: 020DB "] }
+    },
     "math_accents_mathring": {
         "click": {},
-        "mouseover": { "funcArgs": ["要查找Unicode符号推荐搜索关键词： Ring Above "] }
+        "mouseover": { "funcArgs": ["Unicode Search key: Ring Above "] }
     },
     "math_accents_widetilde": { "click": {}, "mouseover": {} },
     "math_accents_widehat": { "click": {}, "mouseover": {} },
+    "math_set_varnothing": {
+        "click": {},
+        "mouseover": {"funcArgs": ["Empty set Unicode: 02205 "]}
+    },
+    "math_set_2": {
+        "click": {},
+        "mouseover": {"funcArgs": ["Set of natual numbers Unicode: 02115 "]}
+    },
+    "math_set_3": {
+        "click": {},
+        "mouseover": {"funcArgs": ["Set of integers Unicode: 02124 "]}
+    },
+    "math_set_5": {
+        "click": {},
+        "mouseover": {"funcArgs": ["Set of rational numbers Unicode: 0211A "]}
+    },
+
+    "math_set_6": {
+        "click": {},
+        "mouseover": {"funcArgs": ["Set of real numbers Unicode: 0211D "]}
+    },
+    "math_set_8": {
+        "click": {},
+        "mouseover": {"funcArgs": ["Set of complex numbers Unicode: 02102 "]}
+    },
+    "math_set_9": {
+        "click": {},
+        "mouseover": {"funcArgs": ["Set of integer modulo n "]}
+    },
+    "math_set_10": {
+        "click": {},
+        "mouseover": {"funcArgs": ["Three-dimensional Euclidean space "]}
+    },
+    "math_set_7": {
+        "click": {},
+        "mouseover": {"funcArgs": ["Set of positive real numbers "]}
+    },
+    "math_set_4": {
+        "click": {},
+        "mouseover": {"funcArgs": ["Set of positive integers "]}
+    },
 }
 
 export { ButtonSettings, showStatusInfo }

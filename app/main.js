@@ -2,6 +2,7 @@
 const { app, BrowserWindow, Menu, clipboard } = require('electron')
 const path = require('path')
 
+const isMac = process.platform === 'darwin'
 const DEBUG = true
 
 function createWindow() {
@@ -15,18 +16,128 @@ function createWindow() {
     }
   })
 
-  if (DEBUG){
+  if (DEBUG) {
     browserWindow.maximize()
+    // 打开开发工具
+    browserWindow.webContents.openDevTools()
   }
 
   // 加载 index.html
   browserWindow.loadFile('app/index.html')
 
-  // 打开开发工具
-  // browserWindow.webContents.openDevTools()
-
   return browserWindow
 }
+
+function showHelpInfoPanel(){
+  globalThis.webContents.executeJavaScript('window.helpModal.show();')
+}
+
+function showReferenceInfoPanel(){
+  globalThis.webContents.executeJavaScript('window.referenceModel.show();')
+}
+
+const template = [
+  // { role: 'appMenu' }
+  ...(isMac ? [{
+    label: app.name,
+    submenu: [
+      { role: 'about' },
+      { type: 'separator' },
+      { role: 'services' },
+      { type: 'separator' },
+      { role: 'hide' },
+      { role: 'hideOthers' },
+      { role: 'unhide' },
+      { type: 'separator' },
+      { role: 'quit' }
+    ]
+  }] : []),
+  // { role: 'fileMenu' }
+  {
+    label: 'File',
+    submenu: [
+      isMac ? { role: 'close' } : { role: 'quit' }
+    ]
+  },
+  // { role: 'editMenu' }
+  {
+    label: 'Edit',
+    submenu: [
+      { role: 'undo' },
+      { role: 'redo' },
+      { type: 'separator' },
+      { role: 'cut' },
+      { role: 'copy' },
+      { role: 'paste' },
+      ...(isMac ? [
+        { role: 'pasteAndMatchStyle' },
+        { role: 'delete' },
+        { role: 'selectAll' },
+        { type: 'separator' },
+        {
+          label: 'Speech',
+          submenu: [
+            { role: 'startSpeaking' },
+            { role: 'stopSpeaking' }
+          ]
+        }
+      ] : [
+        { role: 'delete' },
+        { type: 'separator' },
+        { role: 'selectAll' }
+      ])
+    ]
+  },
+  // { role: 'viewMenu' }
+  {
+    label: 'View',
+    submenu: [
+      { role: 'reload' },
+      { role: 'forceReload' },
+      {
+        role: 'toggleDevTools',
+        visible: DEBUG
+      },
+      { type: 'separator' },
+      { role: 'resetZoom' },
+      { role: 'zoomIn' },
+      { role: 'zoomOut' },
+      { type: 'separator' },
+      { role: 'togglefullscreen' }
+    ]
+  },
+  // { role: 'windowMenu' }
+  {
+    label: 'Window',
+    submenu: [
+      { role: 'minimize' },
+      { role: 'zoom' },
+      ...(isMac ? [
+        { type: 'separator' },
+        { role: 'front' },
+        { type: 'separator' },
+        { role: 'window' }
+      ] : [
+        { role: 'close' }
+      ])
+    ]
+  },
+  {
+    role: 'help',
+    submenu: [
+      {
+        label: "help",
+        click: showHelpInfoPanel
+      },
+      {
+        label: "reference",
+        click: showReferenceInfoPanel
+      },
+    ]
+  }
+]
+
+
 
 // 这段程序将会在 Electron 结束初始化
 // 和创建浏览器窗口的时候调用
@@ -39,6 +150,10 @@ app.whenReady().then(() => {
   globalThis.browserWindow = browserWindow
   globalThis.webContents = webContents
 
+  // set mainmenu
+  const menu = Menu.buildFromTemplate(template)
+  Menu.setApplicationMenu(menu)
+
   app.on('activate', function () {
     // 通常在 macOS 上，当点击 dock 中的应用程序图标时，如果没有其他
     // 打开的窗口，那么程序会重新创建一个窗口。
@@ -50,6 +165,7 @@ app.whenReady().then(() => {
     if (process.platform !== 'darwin') app.quit()
   })
 
+  // set context menu
   webContents.on('context-menu', handleContextMenu)
 })
 

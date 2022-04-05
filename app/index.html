@@ -19,19 +19,10 @@
   <div class="container">
 
     <br>
-    <div class="row">
-      <div class="col"></div>
-      <div class="col"></div>
-      <div class="col align-self-end">
-        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
-          data-bs-target="#Help">Help</button>
-      </div>
-    </div>
 
-    <br>
+    <div class="row row-cols-auto">
 
-
-    <div class="row">
+      <!-- greek letters -->
       <div class="col">
         <div class="dropdown">
           <div class="image-button-group-head">
@@ -190,6 +181,7 @@
 
       </div>
 
+      <!-- math accents -->
       <div class="col">
         <div class="dropdown">
           <div class="image-button-group-head">
@@ -252,6 +244,55 @@
         </div>
       </div>
 
+      <!-- math set symbols -->
+      <div class="col">
+        <div class="dropdown">
+          <div class="image-button-group-head">
+            <button type="button" button-key="math_set_varnothing" class="image-button">
+              <img src="./images/math_set_symbols/math_set_symbols-001.png">
+            </button>
+            <button type="button" button-key="math_set_2" class="image-button">
+              <img src="./images/math_set_symbols/math_set_symbols-002.png">
+            </button>
+            <button type="button" button-key="math_set_3" class="image-button">
+              <img src="./images/math_set_symbols/math_set_symbols-003.png">
+            </button>
+            <button type="button" button-key="math_set_5" class="image-button">
+              <img src="./images/math_set_symbols/math_set_symbols-005.png">
+            </button>
+          </div>
+
+          <div class="image-button-group-body">
+            <div class="image-button-group-row">
+              <button type="button" button-key="math_set_6" class="image-button">
+                <img src="./images/math_set_symbols/math_set_symbols-006.png">
+              </button>
+              <button type="button" button-key="math_set_8" class="image-button">
+                <img src="./images/math_set_symbols/math_set_symbols-008.png">
+              </button>
+              <button type="button" button-key="math_set_9" class="image-button">
+                <img src="./images/math_set_symbols/math_set_symbols-009.png">
+              </button>
+              <button type="button" button-key="math_set_10" class="image-button">
+                <img src="./images/math_set_symbols/math_set_symbols-010.png">
+              </button>
+            </div>
+
+            <div class="image-button-group-row">
+              <button type="button" button-key="math_set_7" class="image-button image-button-wide1">
+                <img src="./images/math_set_symbols/math_set_symbols-007.png">
+              </button>
+              <button type="button" button-key="math_set_4" class="image-button image-button-wide1">
+                <img src="./images/math_set_symbols/math_set_symbols-004.png">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- end of cols -->
     </div>
 
     <div class="row">
@@ -280,7 +321,7 @@
         </div>
         <div class="modal-body">
           <ul>
-            <li>Unicode符号查询: <code>https://unicode-table.com/cn/</code>。
+            <li>Unicode符号查询: <a href="https://unicode-table.com/cn/">unicode-table</a>。
               如果有一些符号看上去大概差不多的，那么在应用上拉丁字母和扩展分区的优先级会高一些。</li>
             <li>希腊字母有一些没有列出来是因为它们和平时使用的拉丁字母是一样的。</li>
             <li>希腊字母在mathrm等命令下对应的Unicode编码又有所不同。</li>
@@ -294,12 +335,41 @@
     </div>
   </div>
 
+  <div class="modal fade" id="Reference" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">参考资料</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>pdf: Unicode characters and corresponding Latex math code commands.</li>
+            <li>pdf: Comprehensive List of Mathematical Symbols, Math Vault.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- modals -->
+
+
+
   <script>
     window.MathJax = {
       tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [["$$", "$$"], ['\\[', '\\]']],
+        inlineMath: [
+          ['$', '$'],
+          ['\\(', '\\)']
+        ],
+        displayMath: [
+          ["$$", "$$"],
+          ['\\[', '\\]']
+        ],
         packages: {
           '[+]': ['mhchem']
         }
@@ -313,6 +383,15 @@
   <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="../node_modules/lodash/lodash.min.js"></script>
   <script id="MathJax-script" async src="../node_modules/mathjax-full/es5/tex-mml-chtml.js"></script>
+
+  <script>
+    window.helpModal = new bootstrap.Modal(document.getElementById('Help'), {
+      keyboard: false
+    });
+    window.referenceModel = new bootstrap.Modal(document.getElementById('Reference'), {
+      keyboard: false
+    });
+  </script>
 
   <script type="module" src="./renderer.mjs"></script>
 

@@ -55,6 +55,16 @@ const LatexCodes = {
     "math_accents_mathring": ["\\mathring{", "}"],
     "math_accents_widetilde": ["\\widetilde{", "}"],
     "math_accents_widehat": ["\\widehat{", "}"],
+    "math_set_varnothing": "\\varnothing",
+    "math_set_2": "\\mathbb{N}",
+    "math_set_3": "\\mathbb{Z}",
+    "math_set_5": "\\mathbb{Q}",
+    "math_set_6": "\\mathbb{R}",
+    "math_set_8": "\\mathbb{C}",
+    "math_set_9": "\\mathbb{Z}_n",
+    "math_set_10": "\\mathbb{R}^3",
+    "math_set_7": "\\mathbb{R}_+",
+    "math_set_4": "\\mathbb{Z}_+",
 }
 
 export { LatexCodes }
