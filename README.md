@@ -6,7 +6,7 @@ LatexMathHelper
 ![latexMathHelper](./resources/latexMathHelper.png)
 
 ## 开发计划
-pre版本1.0版本将参考资料3讨论的数学符号都实现便捷输入。
+pre版本到1.0版本将参考资料3讨论的数学符号都实现便捷输入。
 
 **后续各位有需求提issue来新增功能。**
 
