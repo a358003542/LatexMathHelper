@@ -1,6 +1,6 @@
 {
   "name": "latexmathhelper",
-  "version": "0.1.5",
+  "version": "0.1.6-pre",
   "description": "latex math environment input helper",
   "main": "app/main.js",
   "scripts": {

@@ -1,9 +1,10 @@
 // 控制应用生命周期和创建原生浏览器窗口的模组
 const { app, BrowserWindow, Menu, clipboard } = require('electron')
 const path = require('path')
+const { DEBUG } = require('./latexMathHelper/const')
+const {menu_template} = require('./latexMathHelper/menu')
 
-const isMac = process.platform === 'darwin'
-const DEBUG = true
+
 
 function createWindow() {
   // 创建浏览器窗口
@@ -28,115 +29,6 @@ function createWindow() {
   return browserWindow
 }
 
-function showHelpInfoPanel(){
-  globalThis.webContents.executeJavaScript('window.helpModal.show();')
-}
-
-function showReferenceInfoPanel(){
-  globalThis.webContents.executeJavaScript('window.referenceModel.show();')
-}
-
-const template = [
-  // { role: 'appMenu' }
-  ...(isMac ? [{
-    label: app.name,
-    submenu: [
-      { role: 'about' },
-      { type: 'separator' },
-      { role: 'services' },
-      { type: 'separator' },
-      { role: 'hide' },
-      { role: 'hideOthers' },
-      { role: 'unhide' },
-      { type: 'separator' },
-      { role: 'quit' }
-    ]
-  }] : []),
-  // { role: 'fileMenu' }
-  {
-    label: 'File',
-    submenu: [
-      isMac ? { role: 'close' } : { role: 'quit' }
-    ]
-  },
-  // { role: 'editMenu' }
-  {
-    label: 'Edit',
-    submenu: [
-      { role: 'undo' },
-      { role: 'redo' },
-      { type: 'separator' },
-      { role: 'cut' },
-      { role: 'copy' },
-      { role: 'paste' },
-      ...(isMac ? [
-        { role: 'pasteAndMatchStyle' },
-        { role: 'delete' },
-        { role: 'selectAll' },
-        { type: 'separator' },
-        {
-          label: 'Speech',
-          submenu: [
-            { role: 'startSpeaking' },
-            { role: 'stopSpeaking' }
-          ]
-        }
-      ] : [
-        { role: 'delete' },
-        { type: 'separator' },
-        { role: 'selectAll' }
-      ])
-    ]
-  },
-  // { role: 'viewMenu' }
-  {
-    label: 'View',
-    submenu: [
-      { role: 'reload' },
-      { role: 'forceReload' },
-      {
-        role: 'toggleDevTools',
-        visible: DEBUG
-      },
-      { type: 'separator' },
-      { role: 'resetZoom' },
-      { role: 'zoomIn' },
-      { role: 'zoomOut' },
-      { type: 'separator' },
-      { role: 'togglefullscreen' }
-    ]
-  },
-  // { role: 'windowMenu' }
-  {
-    label: 'Window',
-    submenu: [
-      { role: 'minimize' },
-      { role: 'zoom' },
-      ...(isMac ? [
-        { type: 'separator' },
-        { role: 'front' },
-        { type: 'separator' },
-        { role: 'window' }
-      ] : [
-        { role: 'close' }
-      ])
-    ]
-  },
-  {
-    role: 'help',
-    submenu: [
-      {
-        label: "help",
-        click: showHelpInfoPanel
-      },
-      {
-        label: "reference",
-        click: showReferenceInfoPanel
-      },
-    ]
-  }
-]
-
 
 
 // 这段程序将会在 Electron 结束初始化
@@ -151,7 +43,7 @@ app.whenReady().then(() => {
   globalThis.webContents = webContents
 
   // set mainmenu
-  const menu = Menu.buildFromTemplate(template)
+  const menu = Menu.buildFromTemplate(menu_template)
   Menu.setApplicationMenu(menu)
 
   app.on('activate', function () {

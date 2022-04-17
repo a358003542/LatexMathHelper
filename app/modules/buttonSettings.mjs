@@ -224,49 +224,170 @@ const ButtonSettings = {
         "click": {},
         "mouseover": { "funcArgs": ["Unicode Search key: Ring Above "] }
     },
-    "math_accents_widetilde": { "click": {}, "mouseover": {} },
-    "math_accents_widehat": { "click": {}, "mouseover": {} },
+    "math_accents_widetilde": {
+        "click": {},
+        "mouseover": { "funcArgs": ["notations "] }
+    },
+    "math_accents_widehat": {
+        "click": {},
+        "mouseover": { "funcArgs": ["notations "] }
+    },
+    "notations-003": {
+        "click": {},
+        "mouseover": { "funcArgs": ["notations "] }
+    },
+    "notations-004": {
+        "click": {},
+        "mouseover": { "funcArgs": ["notations "] }
+    },
+    "notations-005": {
+        "click": {},
+        "mouseover": { "funcArgs": ["notations "] }
+    },
+    "notations-006": {
+        "click": {},
+        "mouseover": { "funcArgs": ["notations "] }
+    },
+    "notations-007": {
+        "click": {},
+        "mouseover": { "funcArgs": ["notations "] }
+    },
+
+    "notations-008": {
+        "click": {},
+        "mouseover": { "funcArgs": ["notations "] }
+    },
+    "notations-009": {
+        "click": {},
+        "mouseover": { "funcArgs": ["notations "] }
+    },
+    "notations-0010": {
+        "click": {},
+        "mouseover": { "funcArgs": ["notations "] }
+    },
+    "notations-0011": {
+        "click": {},
+        "mouseover": { "funcArgs": ["notations "] }
+    },
+    "notations-0012": {
+        "click": {},
+        "mouseover": { "funcArgs": ["notations "] }
+    },
+
     "math_set_varnothing": {
         "click": {},
-        "mouseover": {"funcArgs": ["Empty set Unicode: 02205 "]}
+        "mouseover": { "funcArgs": ["Empty set Unicode: 02205 "] }
     },
     "math_set_2": {
         "click": {},
-        "mouseover": {"funcArgs": ["Set of natual numbers Unicode: 02115 "]}
+        "mouseover": { "funcArgs": ["Set of natual numbers Unicode: 02115 "] }
     },
     "math_set_3": {
         "click": {},
-        "mouseover": {"funcArgs": ["Set of integers Unicode: 02124 "]}
+        "mouseover": { "funcArgs": ["Set of integers Unicode: 02124 "] }
     },
     "math_set_5": {
         "click": {},
-        "mouseover": {"funcArgs": ["Set of rational numbers Unicode: 0211A "]}
+        "mouseover": { "funcArgs": ["Set of rational numbers Unicode: 0211A "] }
     },
 
     "math_set_6": {
         "click": {},
-        "mouseover": {"funcArgs": ["Set of real numbers Unicode: 0211D "]}
+        "mouseover": { "funcArgs": ["Set of real numbers Unicode: 0211D "] }
     },
     "math_set_8": {
         "click": {},
-        "mouseover": {"funcArgs": ["Set of complex numbers Unicode: 02102 "]}
+        "mouseover": { "funcArgs": ["Set of complex numbers Unicode: 02102 "] }
     },
     "math_set_9": {
         "click": {},
-        "mouseover": {"funcArgs": ["Set of integer modulo n "]}
+        "mouseover": { "funcArgs": ["Set of integer modulo n "] }
     },
     "math_set_10": {
         "click": {},
-        "mouseover": {"funcArgs": ["Three-dimensional Euclidean space "]}
+        "mouseover": { "funcArgs": ["Three-dimensional Euclidean space "] }
     },
     "math_set_7": {
         "click": {},
-        "mouseover": {"funcArgs": ["Set of positive real numbers "]}
+        "mouseover": { "funcArgs": ["Set of positive real numbers "] }
     },
     "math_set_4": {
         "click": {},
-        "mouseover": {"funcArgs": ["Set of positive integers "]}
+        "mouseover": { "funcArgs": ["Set of positive integers "] }
     },
+    "basic_symbols_001": {
+        "click": {},
+        "mouseover": { "funcArgs": ["basic symbols "] }
+    },
+    "basic_symbols_002": {
+        "click": {},
+        "mouseover": { "funcArgs": ["basic symbols "] }
+    },
+    "basic_symbols_003": {
+        "click": {},
+        "mouseover": { "funcArgs": ["basic symbols "] }
+    },
+    "basic_symbols_004": {
+        "click": {},
+        "mouseover": { "funcArgs": ["basic symbols "] }
+    },
+    "basic_symbols_005": {
+        "click": {},
+        "mouseover": { "funcArgs": ["basic symbols "] }
+    },
+    "basic_symbols_006": {
+        "click": {},
+        "mouseover": { "funcArgs": ["basic symbols "] }
+    },
+    "basic_symbols_007": {
+        "click": {},
+        "mouseover": { "funcArgs": ["basic symbols "] }
+    },
+    "basic_symbols_008": {
+        "click": {},
+        "mouseover": { "funcArgs": ["basic symbols "] }
+    },
+    "basic_symbols_009": {
+        "click": {},
+        "mouseover": { "funcArgs": ["basic symbols "] }
+    },
+    "basic_symbols_010": {
+        "click": {},
+        "mouseover": { "funcArgs": ["basic symbols "] }
+    },
+    "basic_symbols_011": {
+        "click": {},
+        "mouseover": { "funcArgs": ["basic symbols "] }
+    },
+    "basic_symbols_012": {
+        "click": {},
+        "mouseover": { "funcArgs": ["basic symbols "] }
+    },
+    "basic_symbols_013": {
+        "click": {},
+        "mouseover": { "funcArgs": ["basic symbols "] }
+    },
+    "basic_symbols_014": {
+        "click": {},
+        "mouseover": { "funcArgs": ["basic symbols "] }
+    },
+    "basic_symbols_015": {
+        "click": {},
+        "mouseover": { "funcArgs": ["basic symbols "] }
+    },
+    "basic_symbols_016": {
+        "click": {},
+        "mouseover": { "funcArgs": ["basic symbols "] }
+    },
+    "basic_symbols_017": {
+        "click": {},
+        "mouseover": { "funcArgs": ["basic symbols "] }
+    },
+    "basic_symbols_018": {
+        "click": {},
+        "mouseover": { "funcArgs": ["basic symbols "] }
+    },
+
 }
 
 export { ButtonSettings, showStatusInfo }

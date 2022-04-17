@@ -73,3 +73,6 @@ function forceLinkOpenExternal() {
     }
 }
 forceLinkOpenExternal()
+
+// bind inputLatex message channle to inputLatex function
+window.electron.receive("inputLatex", inputLatex)

@@ -1,7 +1,21 @@
 # LatexMathHelper
 LatexMathHelper
 
+## 截图
+
+![latexMathHelper](./resources/latexMathHelper.png)
+
+## 开发计划
+pre版本1.0版本将参考资料3讨论的数学符号都实现便捷输入。
+
+**后续各位有需求提issue来新增功能。**
+
 ## CHANGELOG
+### 0.1.6
+- 增加数学函数输入菜单
+- 增加一些基本的符号
+- 增加上下标记符号
+
 ### 0.1.5
 - 增加数学集合符号
 - 所有链接都跳转到系统的默认浏览器
