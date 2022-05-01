@@ -2,7 +2,8 @@ import { inputLatex } from './latex_editor.mjs'
 const statusBarPanel = document.getElementById('statusBar')
 
 function showStatusInfo(content) {
-    statusBarPanel.textContent = content
+    statusBarPanel.innerHTML = content
+    window.MathJax.typeset([statusBarPanel])
 }
 
 
@@ -224,6 +225,14 @@ const ButtonSettings = {
         "click": {},
         "mouseover": { "funcArgs": ["Unicode Search key: Ring Above "] }
     },
+    "math_accents_imath": {
+        "click": {},
+        "mouseover": { "funcArgs": ["add accent to i, need use \\imath get the dotless i. "] }
+    },
+    "math_accents_jmath": {
+        "click": {},
+        "mouseover": { "funcArgs": ["add accent to j, need use \\jmath get the dotless j. "] }
+    },
     "math_accents_widetilde": {
         "click": {},
         "mouseover": { "funcArgs": ["notations "] }
@@ -261,15 +270,15 @@ const ButtonSettings = {
         "click": {},
         "mouseover": { "funcArgs": ["notations "] }
     },
-    "notations-0010": {
+    "notations-010": {
         "click": {},
         "mouseover": { "funcArgs": ["notations "] }
     },
-    "notations-0011": {
+    "notations-011": {
         "click": {},
         "mouseover": { "funcArgs": ["notations "] }
     },
-    "notations-0012": {
+    "notations-012": {
         "click": {},
         "mouseover": { "funcArgs": ["notations "] }
     },
@@ -315,17 +324,22 @@ const ButtonSettings = {
         "click": {},
         "mouseover": { "funcArgs": ["Set of positive integers "] }
     },
+    // basic_symbols
     "basic_symbols_001": {
         "click": {},
-        "mouseover": { "funcArgs": ["basic symbols "] }
+        "mouseover": { "funcArgs": ["Cardinality of natural numbers: <code>$\\aleph_0$</code> $\\aleph_0$ "] }
+    },
+    "basic_symbols_019": {
+        "click": {},
+        "mouseover": { "funcArgs": ["Cardinality of real numbers: <code>$\\mathfrak{c}$</code> $\\mathfrak{c}$ "] }
     },
     "basic_symbols_002": {
         "click": {},
-        "mouseover": { "funcArgs": ["basic symbols "] }
+        "mouseover": { "funcArgs": ["Line one in geometry: <code>$\\ell_1$</code> $\\ell_1$"] }
     },
     "basic_symbols_003": {
         "click": {},
-        "mouseover": { "funcArgs": ["basic symbols "] }
+        "mouseover": { "funcArgs": ["Partial differential: <code>$\\partial x$</code> $\\partial x$"] }
     },
     "basic_symbols_004": {
         "click": {},
@@ -388,6 +402,37 @@ const ButtonSettings = {
         "mouseover": { "funcArgs": ["basic symbols "] }
     },
 
+    "math_font_examples_1": {
+        "mouseover": { "funcArgs": ["normal math font"] }
+    },
+    "math_font_examples_2": {
+        "click": {},
+        "mouseover": { "funcArgs": ["mathbf"] }
+    },
+    "math_font_examples_3": {
+        "click": {},
+        "mouseover": { "funcArgs": ["mathrm"] }
+    },
+    "math_font_examples_4": {
+        "click": {},
+        "mouseover": { "funcArgs": ["mathsf"] }
+    },
+    "math_font_examples_5": {
+        "click": {},
+        "mouseover": { "funcArgs": ["mathit"] }
+    },
+    "math_font_examples_6": {
+        "click": {},
+        "mouseover": { "funcArgs": ["mathcal"] }
+    },
+    "math_font_examples_7": {
+        "click": {},
+        "mouseover": { "funcArgs": ["mathbb"] }
+    },
+    "math_font_examples_8": {
+        "click": {},
+        "mouseover": { "funcArgs": ["mathfrak"] }
+    },
 }
 
 export { ButtonSettings, showStatusInfo }

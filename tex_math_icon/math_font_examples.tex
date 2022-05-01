@@ -1,0 +1,64 @@
+\documentclass[tikz,border=0pt]{standalone}
+
+\usepackage{fontspec} 
+\usepackage{amssymb,amsmath}
+
+\setmainfont[Mapping=tex-text]{DejaVu Serif}
+\setsansfont[Mapping=tex-text]{DejaVu Sans}
+\setmonofont[Mapping=tex-text]{DejaVu Sans Mono}
+
+\begin{document}
+\definecolor{TextColor}{HTML}{000000}
+
+
+\tikzset{outline/.style={
+    help lines,
+    %color = white,
+    line width = 0.1pt,
+    xstep = 0.01,
+    ystep = 0.01
+}}
+
+\tikzset{nodestyle/.style={
+    text=TextColor, 
+     font=\Huge,
+     scale=1,
+     anchor =center,
+     inner sep = 1pt,
+     outer sep = 0pt,
+     minimum size = 1cm,
+     %fill = gray!50
+}}
+
+
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$ABCDE$};
+\end{tikzpicture}
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\mathbf{ABCDE}$};
+\end{tikzpicture}
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\mathrm{ABCDE}$};
+\end{tikzpicture}
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\mathsf{ABCDE}$};
+\end{tikzpicture}
+%%%%%%%%%%%%%%%%%
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\mathit{ABCDE}$};
+\end{tikzpicture}
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\mathcal{ABCDE}$};
+\end{tikzpicture}
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\mathbb{ABCDE}$};
+\end{tikzpicture}
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\mathfrak{ABCDE}$};
+\end{tikzpicture}
+
+
+%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}

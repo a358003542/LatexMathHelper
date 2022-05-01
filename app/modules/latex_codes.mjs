@@ -53,6 +53,8 @@ const LatexCodes = {
     "math_accents_ddot": ["\\ddot{", "}"],
     "math_accents_dddot": ["\\dddot{", "}"],
     "math_accents_mathring": ["\\mathring{", "}"],
+    "math_accents_imath": "\\hat{\\imath}",
+    "math_accents_jmath": "\\hat{\\jmath}",
     "math_accents_widetilde": ["\\widetilde{", "}"],
     "math_accents_widehat": ["\\widehat{", "}"],
 
@@ -135,6 +137,16 @@ const LatexCodes = {
     "basic_symbols_016": "\\complement",
     "basic_symbols_017": "\\mho",
     "basic_symbols_018": "\\Finv",
+    "basic_symbols_019": "\\mathfrak{c}",
+
+
+    "math_font_examples_2": ["\\mathbf{", "}"],
+    "math_font_examples_3": ["\\mathrm{", "}"],
+    "math_font_examples_4": ["\\mathsf{", "}"],
+    "math_font_examples_5": ["\\mathit{", "}"],
+    "math_font_examples_6": ["\\mathcal{", "}"],
+    "math_font_examples_7": ["\\mathbb{", "}"],
+    "math_font_examples_8": ["\\mathfrak{", "}"],
 }
 
 export { LatexCodes }

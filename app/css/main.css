@@ -60,6 +60,9 @@
 .image-button-wide2{
     width: 50px;
 }
+.image-button-wide16{
+    width: 120px;
+}
 
 .image-button:hover{
 	background:#FFF none repeat scroll 0 0;

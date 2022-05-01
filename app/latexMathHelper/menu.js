@@ -2,6 +2,10 @@ const { app } = require('electron')
 const isMac = process.platform === 'darwin'
 const { DEBUG } = require('./const')
 
+function showExample1() {
+    globalThis.webContents.executeJavaScript('window.examplePanel1.show();')
+}
+
 function showHelpInfoPanel() {
     globalThis.webContents.executeJavaScript('window.helpModal.show();')
 }
@@ -272,6 +276,15 @@ const template = [
                 ],
             },
             { type: 'separator' },
+        ]
+    },
+    {
+        label: 'Examples',
+        submenu: [
+            {
+                label: "example1",
+                click: showExample1
+            },
         ]
     },
     {

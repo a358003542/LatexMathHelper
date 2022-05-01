@@ -47,7 +47,7 @@ function inputLatex(name) {
 
 function displayLatex() {
     latexResult.textContent = `$$${editor.value}$$`
-    window.MathJax.typeset()
+    window.MathJax.typeset([latexResult])
 }
 
 editor.addEventListener("input", function (event) {
