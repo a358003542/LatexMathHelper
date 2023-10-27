@@ -1,5 +1,8 @@
 // 控制应用生命周期和创建原生浏览器窗口的模组
 const { app, BrowserWindow, Menu, clipboard } = require('electron')
+// stop your app launching multiple times during installation
+if (require('electron-squirrel-startup')) app.quit();
+
 const path = require('path')
 const { DEBUG } = require('./latexMathHelper/const')
 const {menu_template} = require('./latexMathHelper/menu')
@@ -8,25 +11,24 @@ const {menu_template} = require('./latexMathHelper/menu')
 
 function createWindow() {
   // 创建浏览器窗口
-  const browserWindow = new BrowserWindow({
+  const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
     webPreferences: {
-      preload: path.join(__dirname, 'preload.js'),
-      spellcheck: false
-    }
+      preload: MAIN_WINDOW_PRELOAD_WEBPACK_ENTRY,
+    },
   })
 
   if (DEBUG) {
-    browserWindow.maximize()
+    mainWindow.maximize()
     // 打开开发工具
-    browserWindow.webContents.openDevTools()
+    mainWindow.webContents.openDevTools()
   }
 
-  // 加载 index.html
-  browserWindow.loadFile('app/index.html')
+  // and load the index.html of the app.
+  mainWindow.loadURL(MAIN_WINDOW_WEBPACK_ENTRY);
 
-  return browserWindow
+  return mainWindow
 }
 
 
@@ -43,8 +45,8 @@ app.whenReady().then(() => {
   globalThis.webContents = webContents
 
   // set mainmenu
-  const menu = Menu.buildFromTemplate(menu_template)
-  Menu.setApplicationMenu(menu)
+  //const menu = Menu.buildFromTemplate(menu_template)
+  //Menu.setApplicationMenu(menu)
 
   app.on('activate', function () {
     // 通常在 macOS 上，当点击 dock 中的应用程序图标时，如果没有其他
@@ -58,111 +60,111 @@ app.whenReady().then(() => {
   })
 
   // set context menu
-  webContents.on('context-menu', handleContextMenu)
+  //webContents.on('context-menu', handleContextMenu)
 })
 
-function hasText(params) {
-  return Boolean(params.selectionText.trim().length > 0)
-}
-function IsMenuTemplateVisable(menuTemplate) {
-  let count = 0
-  for (let item of menuTemplate) {
-    if (item.visible) {
-      count++
-    }
-  }
-  if (count > 0) {
-    return true
-  } else {
-    return false
-  }
-}
-function handleContextMenu(event, params) {
-  const browserWindow = globalThis.browserWindow
-  const webContents = globalThis.webContents
+// function hasText(params) {
+//   return Boolean(params.selectionText.trim().length > 0)
+// }
+// function IsMenuTemplateVisable(menuTemplate) {
+//   let count = 0
+//   for (let item of menuTemplate) {
+//     if (item.visible) {
+//       count++
+//     }
+//   }
+//   if (count > 0) {
+//     return true
+//   } else {
+//     return false
+//   }
+// }
+// function handleContextMenu(event, params) {
+//   const browserWindow = globalThis.browserWindow
+//   const webContents = globalThis.webContents
 
-  const defaultActions = {
-    separator: { type: 'separator' },
-    cut: {
-      id: 'cut',
-      label: 'Cu&t',
-      visible: params.isEditable,
-      click(menuItem) {
-        if (!menuItem.transform && webContents) {
-          webContents.cut();
-        } else {
-          params.selectionText = menuItem.transform ? menuItem.transform(params.selectionText) : params.selectionText;
-          clipboard.writeText(params.selectionText);
-        }
-      }
-    },
-    copy: {
-      id: 'copy',
-      label: '&Copy',
-      visible: params.isEditable || hasText(params),
-      click(menuItem) {
-        if (!menuItem.transform && webContents) {
-          webContents.copy();
-        } else {
-          params.selectionText = menuItem.transform ? menuItem.transform(params.selectionText) : params.selectionText;
-          clipboard.writeText(params.selectionText);
-        }
-      }
-    },
-    paste: {
-      id: 'paste',
-      label: '&Paste',
-      visible: params.isEditable,
-      click(menuItem) {
-        if (menuItem.transform) {
-          let clipboardContent = clipboard.readText(params.selectionText);
-          clipboardContent = menuItem.transform ? menuItem.transform(clipboardContent) : clipboardContent;
-          webContents.insertText(clipboardContent);
-        } else {
-          webContents.paste();
-        }
-      }
-    },
-    inspect: {
-      id: 'inspect',
-      label: 'I&nspect Element',
-      visible: DEBUG,
-      click() {
-        browserWindow.inspectElement(params.x, params.y);
+//   const defaultActions = {
+//     separator: { type: 'separator' },
+//     cut: {
+//       id: 'cut',
+//       label: 'Cu&t',
+//       visible: params.isEditable,
+//       click(menuItem) {
+//         if (!menuItem.transform && webContents) {
+//           webContents.cut();
+//         } else {
+//           params.selectionText = menuItem.transform ? menuItem.transform(params.selectionText) : params.selectionText;
+//           clipboard.writeText(params.selectionText);
+//         }
+//       }
+//     },
+//     copy: {
+//       id: 'copy',
+//       label: '&Copy',
+//       visible: params.isEditable || hasText(params),
+//       click(menuItem) {
+//         if (!menuItem.transform && webContents) {
+//           webContents.copy();
+//         } else {
+//           params.selectionText = menuItem.transform ? menuItem.transform(params.selectionText) : params.selectionText;
+//           clipboard.writeText(params.selectionText);
+//         }
+//       }
+//     },
+//     paste: {
+//       id: 'paste',
+//       label: '&Paste',
+//       visible: params.isEditable,
+//       click(menuItem) {
+//         if (menuItem.transform) {
+//           let clipboardContent = clipboard.readText(params.selectionText);
+//           clipboardContent = menuItem.transform ? menuItem.transform(clipboardContent) : clipboardContent;
+//           webContents.insertText(clipboardContent);
+//         } else {
+//           webContents.paste();
+//         }
+//       }
+//     },
+//     inspect: {
+//       id: 'inspect',
+//       label: 'I&nspect Element',
+//       visible: DEBUG,
+//       click() {
+//         browserWindow.inspectElement(params.x, params.y);
 
-        if (webContents.isDevToolsOpened()) {
-          webContents.devToolsWebContents.focus();
-        }
-      }
-    },
-  }
-  let menuTemplate = []
+//         if (webContents.isDevToolsOpened()) {
+//           webContents.devToolsWebContents.focus();
+//         }
+//       }
+//     },
+//   }
+//   let menuTemplate = []
 
-  let menuTemplateEdit = [
-    defaultActions.cut,
-    defaultActions.copy,
-    defaultActions.paste
-  ]
+//   let menuTemplateEdit = [
+//     defaultActions.cut,
+//     defaultActions.copy,
+//     defaultActions.paste
+//   ]
 
-  menuTemplate = menuTemplate.concat(menuTemplateEdit)
+//   menuTemplate = menuTemplate.concat(menuTemplateEdit)
 
-  let menuTemplateDebug = [
-    defaultActions.inspect,
-  ]
+//   let menuTemplateDebug = [
+//     defaultActions.inspect,
+//   ]
 
-  if (IsMenuTemplateVisable(menuTemplate) && IsMenuTemplateVisable(menuTemplateDebug)) {
-    console.log(IsMenuTemplateVisable(menuTemplate))
-    menuTemplate.push(defaultActions.separator)
-    menuTemplate = menuTemplate.concat(menuTemplateDebug)
-  } else if (IsMenuTemplateVisable(menuTemplateDebug)) {
-    menuTemplate = menuTemplate.concat(menuTemplateDebug)
-  }
+//   if (IsMenuTemplateVisable(menuTemplate) && IsMenuTemplateVisable(menuTemplateDebug)) {
+//     console.log(IsMenuTemplateVisable(menuTemplate))
+//     menuTemplate.push(defaultActions.separator)
+//     menuTemplate = menuTemplate.concat(menuTemplateDebug)
+//   } else if (IsMenuTemplateVisable(menuTemplateDebug)) {
+//     menuTemplate = menuTemplate.concat(menuTemplateDebug)
+//   }
 
-  if (IsMenuTemplateVisable(menuTemplate)) {
-    const menu = Menu.buildFromTemplate(menuTemplate)
-    menu.popup(globalThis.browserWindow)
-  }
-}
+//   if (IsMenuTemplateVisable(menuTemplate)) {
+//     const menu = Menu.buildFromTemplate(menuTemplate)
+//     menu.popup(globalThis.browserWindow)
+//   }
+// }
 
 
 // 在这个文件中，你可以包含应用程序剩余的所有部分的代码，

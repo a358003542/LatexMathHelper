@@ -1,0 +1,100 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown:hover .image-button-group-head{
+	border-bottom:0px;
+	border-radius:3px 3px 0px 0px
+}
+.dropdown:hover .image-button-group-body{
+    display: block;
+}
+.dropdown:hover .image-button:hover{
+	background:#FFF none repeat scroll 0 0;
+	box-shadow:1px 1px 0 rgba(0,0,0,0.3) inset,-1px 0 rgba(0,0,0,0.3) inset,0 -1px 0 rgba(0,0,0,0.2) inset
+}
+.dropdown:hover .image-button:active{
+	background:#FFF none repeat scroll 0 0;
+	box-shadow:1px 1px 0 rgba(0,0,0,0.3) inset,-1px 0 rgba(0,0,0,0.3) inset,0 -1px 0 rgba(0,0,0,0.2) inset,0 0 8px rgba(0,0,0,0.3) inset
+} 
+
+.image-button-group-head{
+	display:inline-block;
+	/* background:#DDD none repeat scroll 0 0 padding-box; */
+	padding:2px;
+	/* border-bottom:2px solid #AAA; */
+	border-radius:3px;
+}
+.image-button-group-body{
+    position: absolute;
+    display: none;
+    z-index: 3;
+}
+
+.image-button-group-row{
+	margin-top: -9px;
+	display:inline-block;
+	/* background:#DDD none repeat scroll 0 0 padding-box; */
+	padding:2px;
+}
+.image-button-group-row:last-child{
+	border-radius:0px 0px 3px 3px;
+	/* border-bottom:2px solid #AAA; */
+}
+
+.image-button{
+    padding: 0px;
+    float:left;
+    margin-right:2px;
+    border-radius: .25rem!important;
+    width: 40px;
+    height: 40px;
+    text-shadow:1px 0 #FFF;
+}
+.image-button-wide{
+    width: 60px;
+}
+.image-button-wide1{
+    width: 45px;
+}
+.image-button-wide2{
+    width: 50px;
+}
+.image-button-wide16{
+    width: 120px;
+}
+
+.image-button:hover{
+	background:#FFF none repeat scroll 0 0;
+	box-shadow:1px 1px 0 rgba(0,0,0,0.3) inset,-1px 0 rgba(0,0,0,0.3) inset,0 -1px 0 rgba(0,0,0,0.2) inset
+}
+.image-button:active{
+	background:#FFF none repeat scroll 0 0;
+	box-shadow:1px 1px 0 rgba(0,0,0,0.3) inset,-1px 0 rgba(0,0,0,0.3) inset,0 -1px 0 rgba(0,0,0,0.2) inset,0 0 8px rgba(0,0,0,0.3) inset
+}
+
+.image-button img{
+    width: 100%;
+}
+
+#latex-editor{
+    min-width:450px; 
+    width: 100%; 
+    height:150px;
+}
+
+#latex-result{
+    min-width:450px; 
+    width: 100%; 
+    height:150px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+#statusBar{
+    margin-bottom: 0;
+}
