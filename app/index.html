@@ -4,24 +4,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net/; 
+    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.jsdelivr.net/">
 
   <title>Latex Math Helper</title>
 
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'],
+          ['\\(', '\\)']
+        ],
+        displayMath: [
+          ["$$", "$$"],
+          ['\\[', '\\]']
+        ],
+        packages: {
+          '[+]': ['mhchem']
+        }
+      },
+      loader: {
+        load: ['[tex]/mhchem']
+      },
+    }
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
 </head>
 
 <body>
-  <div class="container">
-    <main>
-      <br>
-      <div id="root"></div>
-    </main>
-  </div>
 
-  <footer class="footer">
-    <div class="alert alert-info text-center" role="alert" id="statusBar">
-    </div>
-  </footer>
-
+  <div id="root"></div>
 
   <!-- modals example1 -->
   <div class="modal fade" id="example1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -100,41 +114,17 @@
     </div>
   </div>
 
-  <script>
-    window.MathJax = {
-      tex: {
-        inlineMath: [
-          ['$', '$'],
-          ['\\(', '\\)']
-        ],
-        displayMath: [
-          ["$$", "$$"],
-          ['\\[', '\\]']
-        ],
-        packages: {
-          '[+]': ['mhchem']
-        }
-      },
-      loader: {
-        load: ['[tex]/mhchem']
-      },
-    }
-  </script>
-
-  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="../node_modules/lodash/lodash.min.js"></script>
-  <script id="MathJax-script" async src="../node_modules/mathjax-full/es5/tex-mml-chtml.js"></script>
 
   <script>
-    window.examplePanel1 = new bootstrap.Modal(document.getElementById('example1'), {
-      keyboard: false
-    });
-    window.helpModal = new bootstrap.Modal(document.getElementById('Help'), {
-      keyboard: false
-    });
-    window.referenceModel = new bootstrap.Modal(document.getElementById('Reference'), {
-      keyboard: false
-    });
+    // window.examplePanel1 = new bootstrap.Modal(document.getElementById('example1'), {
+    //   keyboard: false
+    // });
+    // window.helpModal = new bootstrap.Modal(document.getElementById('Help'), {
+    //   keyboard: false
+    // });
+    // window.referenceModel = new bootstrap.Modal(document.getElementById('Reference'), {
+    //   keyboard: false
+    // });
 
   </script>
 

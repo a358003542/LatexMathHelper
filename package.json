@@ -1,6 +1,6 @@
 {
   "name": "latexmathhelper",
-  "version": "0.2.0-pre",
+  "version": "0.2.0",
   "description": "latex math environment input helper",
   "author": {
     "name": "wanze",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "main": ".webpack/main",
   "scripts": {
-    "start": "electron-forge start",
+    "start": "electron-forge start --enable-logging",
     "package": "electron-forge package",
     "make": "electron-forge make"
   },
