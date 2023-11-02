@@ -2,18 +2,6 @@ const { app } = require('electron')
 const isMac = process.platform === 'darwin'
 const { DEBUG } = require('./const')
 
-function showExample1() {
-    globalThis.webContents.executeJavaScript('window.examplePanel1.show();')
-}
-
-function showHelpInfoPanel() {
-    globalThis.webContents.executeJavaScript('window.helpModal.show();')
-}
-
-function showReferenceInfoPanel() {
-    globalThis.webContents.executeJavaScript('window.referenceModel.show();')
-}
-
 const template = [
     // { role: 'appMenu' }
     ...(isMac ? [{
@@ -283,7 +271,7 @@ const template = [
         submenu: [
             {
                 label: "example1",
-                click: showExample1
+                click: () => globalThis.webContents.send('openModal', "modal_example1")
             },
         ]
     },
@@ -292,11 +280,11 @@ const template = [
         submenu: [
             {
                 label: "help",
-                click: showHelpInfoPanel
+                click: () => globalThis.webContents.send('openModal', "modal_help")
             },
             {
                 label: "reference",
-                click: showReferenceInfoPanel
+                click: () => globalThis.webContents.send('openModal', "modal_reference")
             },
         ]
     }

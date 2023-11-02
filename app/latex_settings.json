@@ -1,515 +1,620 @@
 {
     "greek_letters_alpha": {
         "latex_code": "\\alpha",
-        "help_info": "Greek Small Letter Alpha Unicode: 003B1"
+        "help_info": "Greek Small Letter Alpha Unicode: 003B1",
+        "button_image": "images/greek_letters/math_icon_greek_letters-001.png"
     },
     "greek_letters_beta": {
         "latex_code": "\\beta",
-        "help_info": "Greek Small Letter Beta Unicode: 003B2"
+        "help_info": "Greek Small Letter Beta Unicode: 003B2",
+        "button_image": "images/greek_letters/math_icon_greek_letters-002.png"
     },
     "greek_letters_gamma": {
         "latex_code": "\\gamma",
-        "help_info": "Greek Small Letter Gamma Unicode: 003B3"
+        "help_info": "Greek Small Letter Gamma Unicode: 003B3",
+        "button_image": "images/greek_letters/math_icon_greek_letters-003.png"
     },
     "greek_letters_delta": {
         "latex_code": "\\delta",
-        "help_info": "Greek Small Letter Delta Unicode: 003B4"
+        "help_info": "Greek Small Letter Delta Unicode: 003B4",
+        "button_image": "images/greek_letters/math_icon_greek_letters-004.png"
     },
     "greek_letters_zeta": {
         "latex_code": "\\zeta",
-        "help_info": "Greek Small Letter Zeta Unicode: 003B6"
+        "help_info": "Greek Small Letter Zeta Unicode: 003B6",
+        "button_image": "images/greek_letters/math_icon_greek_letters-006.png"
     },
     "greek_letters_eta": {
         "latex_code": "\\eta",
-        "help_info": "Greek Small Letter Eta Unicode: 003B7"
+        "help_info": "Greek Small Letter Eta Unicode: 003B7",
+        "button_image": "images/greek_letters/math_icon_greek_letters-007.png"
     },
     "greek_letters_theta": {
         "latex_code": "\\theta",
-        "help_info": "Greek Small Letter Theta Unicode: 003B8"
+        "help_info": "Greek Small Letter Theta Unicode: 003B8",
+        "button_image": "images/greek_letters/math_icon_greek_letters-008.png"
     },
     "greek_letters_iota": {
         "latex_code": "\\iota",
-        "help_info": "Greek Small Letter Iota Unicode: 003B9"
+        "help_info": "Greek Small Letter Iota Unicode: 003B9",
+        "button_image": "images/greek_letters/math_icon_greek_letters-009.png"
     },
     "greek_letters_kappa": {
         "latex_code": "\\kappa",
-        "help_info": "Greek Small Letter Kappa Unicode: 003BA"
+        "help_info": "Greek Small Letter Kappa Unicode: 003BA",
+        "button_image": "images/greek_letters/math_icon_greek_letters-010.png"
     },
     "greek_letters_lambda": {
         "latex_code": "\\lambda",
-        "help_info": "Greek Small Letter Lamda Unicode: 003BB"
+        "help_info": "Greek Small Letter Lamda Unicode: 003BB",
+        "button_image": "images/greek_letters/math_icon_greek_letters-011.png"
     },
     "greek_letters_mu": {
         "latex_code": "\\mu",
-        "help_info": "Greek Small Letter Mu Unicode: 003BC"
+        "help_info": "Greek Small Letter Mu Unicode: 003BC",
+        "button_image": "images/greek_letters/math_icon_greek_letters-012.png"
     },
     "greek_letters_nu": {
         "latex_code": "\\mu",
-        "help_info": "Greek Small Letter Nu Unicode: 003BD"
+        "help_info": "Greek Small Letter Nu Unicode: 003BD",
+        "button_image": "images/greek_letters/math_icon_greek_letters-013.png"
     },
     "greek_letters_xi": {
         "latex_code": "\\xi",
-        "help_info": "Greek Small Letter Xi Unicode: 003BE"
+        "help_info": "Greek Small Letter Xi Unicode: 003BE",
+        "button_image": "images/greek_letters/math_icon_greek_letters-014.png"
     },
     "greek_letters_pi": {
         "latex_code": "\\pi",
-        "help_info": "Greek Small Letter Pi Unicode: 003C0"
+        "help_info": "Greek Small Letter Pi Unicode: 003C0",
+        "button_image": "images/greek_letters/math_icon_greek_letters-015.png"
     },
     "greek_letters_rho": {
         "latex_code": "\\rho",
-        "help_info": "Greek Small Letter Rho Unicode: 003C1"
+        "help_info": "Greek Small Letter Rho Unicode: 003C1",
+        "button_image": "images/greek_letters/math_icon_greek_letters-016.png"
     },
     "greek_letters_varsigma": {
         "latex_code": "\\varsigma",
-        "help_info": "Greek Small Letter Final Sigma Unicode: 003C2"
+        "help_info": "Greek Small Letter Final Sigma Unicode: 003C2",
+        "button_image": "images/greek_letters/math_icon_greek_letters-030.png"
     },
     "greek_letters_sigma": {
         "latex_code": "\\sigma",
-        "help_info": "Greek Small Letter Sigma Unicode: 003C3"
+        "help_info": "Greek Small Letter Sigma Unicode: 003C3",
+        "button_image": "images/greek_letters/math_icon_greek_letters-017.png"
     },
     "greek_letters_tau": {
         "latex_code": "\\tau",
-        "help_info": "Greek Small Letter Tau Unicode: 003C4"
+        "help_info": "Greek Small Letter Tau Unicode: 003C4",
+        "button_image": "images/greek_letters/math_icon_greek_letters-018.png"
     },
     "greek_letters_upsilon": {
         "latex_code": "\\upsilon",
-        "help_info": "Greek Small Letter Upsilon Unicode: 003C5"
+        "help_info": "Greek Small Letter Upsilon Unicode: 003C5",
+        "button_image": "images/greek_letters/math_icon_greek_letters-019.png"
     },
     "greek_letters_varphi": {
         "latex_code": "\\varphi",
-        "help_info": "Greek Small Letter Phi Unicode: 003C6"
+        "help_info": "Greek Small Letter Phi Unicode: 003C6",
+        "button_image": "images/greek_letters/math_icon_greek_letters-027.png"
     },
     "greek_letters_chi": {
         "latex_code": "\\chi",
-        "help_info": "Greek Small Letter Chi Unicode: 003C7"
+        "help_info": "Greek Small Letter Chi Unicode: 003C7",
+        "button_image": "images/greek_letters/math_icon_greek_letters-021.png"
     },
     "greek_letters_psi": {
         "latex_code": "\\psi",
-        "help_info": "Greek Small Letter Psi Unicode: 003C8"
+        "help_info": "Greek Small Letter Psi Unicode: 003C8",
+        "button_image": "images/greek_letters/math_icon_greek_letters-022.png"
     },
     "greek_letters_omega": {
         "latex_code": "\\omega",
-        "help_info": "Greek Small Letter Omega Unicode: 003C9"
+        "help_info": "Greek Small Letter Omega Unicode: 003C9",
+        "button_image": "images/greek_letters/math_icon_greek_letters-023.png"
     },
     "greek_letters_vartheta": {
         "latex_code": "\\vartheta",
-        "help_info": "Greek Theta Symbol Unicode: 003D1"
+        "help_info": "Greek Theta Symbol Unicode: 003D1",
+        "button_image": "images/greek_letters/math_icon_greek_letters-031.png"
     },
     "greek_letters_phi": {
         "latex_code": "\\phi",
-        "help_info": "Greek Phi Symbol Unicode: 003D5"
+        "help_info": "Greek Phi Symbol Unicode: 003D5",
+        "button_image": "images/greek_letters/math_icon_greek_letters-020.png"
     },
     "greek_letters_varpi": {
         "latex_code": "\\varpi",
-        "help_info": "Greek Pi Symbol Unicode: 003D6"
+        "help_info": "Greek Pi Symbol Unicode: 003D6",
+        "button_image": "images/greek_letters/math_icon_greek_letters-028.png"
     },
     "greek_letters_digamma": {
         "latex_code": "\\digamma",
-        "help_info": "Greek Small Letter Digamma Unicode: 003DD"
+        "help_info": "Greek Small Letter Digamma Unicode: 003DD",
+        "button_image": "images/greek_letters/math_icon_greek_letters-024.png"
     },
     "greek_letters_varepsilon": {
         "latex_code": "\\varepsilon",
-        "help_info": "Greek Small Letter Epsilon Unicode: 003B5"
+        "help_info": "Greek Small Letter Epsilon Unicode: 003B5",
+        "button_image": "images/greek_letters/math_icon_greek_letters-025.png"
     },
     "greek_letters_varkappa": {
         "latex_code": "\\varkappa",
-        "help_info": "Greek Kappa Symbol Unicode: 003F0"
+        "help_info": "Greek Kappa Symbol Unicode: 003F0",
+        "button_image": "images/greek_letters/math_icon_greek_letters-026.png"
     },
     "greek_letters_varrho": {
         "latex_code": "\\varrho",
-        "help_info": "Greek Rho Symbol Unicode: 003F1"
+        "help_info": "Greek Rho Symbol Unicode: 003F1",
+        "button_image": "images/greek_letters/math_icon_greek_letters-029.png"
     },
     "greek_letters_epsilon": {
         "latex_code": "\\epsilon",
-        "help_info": "Greek Lunate Epsilon Symbol Unicode: 003F5"
+        "help_info": "Greek Lunate Epsilon Symbol Unicode: 003F5",
+        "button_image": "images/greek_letters/math_icon_greek_letters-005.png"
     },
     "greek_letters_Gamma": {
         "latex_code": "\\Gamma",
-        "help_info": "Greek Capital Letter Gamma Unicode: 00393"
+        "help_info": "Greek Capital Letter Gamma Unicode: 00393",
+        "button_image": "images/greek_letters/math_icon_greek_letters-032.png"
     },
     "greek_letters_Delta": {
         "latex_code": "\\Delta",
-        "help_info": "Greek Capital Letter Delta Unicode: 00394"
+        "help_info": "Greek Capital Letter Delta Unicode: 00394",
+        "button_image": "images/greek_letters/math_icon_greek_letters-033.png"
     },
     "greek_letters_Theta": {
         "latex_code": "\\Theta",
-        "help_info": "Greek Capital Letter Theta Unicode: 00398"
+        "help_info": "Greek Capital Letter Theta Unicode: 00398",
+        "button_image": "images/greek_letters/math_icon_greek_letters-039.png"
     },
     "greek_letters_Lambda": {
         "latex_code": "\\Lambda",
-        "help_info": "Greek Capital Letter Lamda Unicode: 0039B"
+        "help_info": "Greek Capital Letter Lamda Unicode: 0039B",
+        "button_image": "images/greek_letters/math_icon_greek_letters-034.png"
     },
     "greek_letters_Xi": {
         "latex_code": "\\Xi",
-        "help_info": "Greek Capital Letter Xi Unicode: 0039E"
+        "help_info": "Greek Capital Letter Xi Unicode: 0039E",
+        "button_image": "images/greek_letters/math_icon_greek_letters-041.png"
     },
     "greek_letters_Pi": {
         "latex_code": "\\Pi",
-        "help_info": "Greek Capital Letter Pi Unicode: 003A0"
+        "help_info": "Greek Capital Letter Pi Unicode: 003A0",
+        "button_image": "images/greek_letters/math_icon_greek_letters-036.png"
     },
     "greek_letters_Sigma": {
         "latex_code": "\\Sigma",
-        "help_info": "Greek Capital Letter Sigma Unicode: 003A3"
+        "help_info": "Greek Capital Letter Sigma Unicode: 003A3",
+        "button_image": "images/greek_letters/math_icon_greek_letters-038.png"
     },
     "greek_letters_Upsilon": {
         "latex_code": "\\Upsilon",
-        "help_info": "Greek Capital Letter Upsilon Unicode: 003A5"
+        "help_info": "Greek Capital Letter Upsilon Unicode: 003A5",
+        "button_image": "images/greek_letters/math_icon_greek_letters-040.png"
     },
     "greek_letters_Phi": {
         "latex_code": "\\Phi",
-        "help_info": "Greek Capital Letter Phi Unicode: 003A6"
+        "help_info": "Greek Capital Letter Phi Unicode: 003A6",
+        "button_image": "images/greek_letters/math_icon_greek_letters-035.png"
     },
     "greek_letters_Psi": {
         "latex_code": "\\Psi",
-        "help_info": "Greek Capital Letter Psi Unicode: 003A8"
+        "help_info": "Greek Capital Letter Psi Unicode: 003A8",
+        "button_image": "images/greek_letters/math_icon_greek_letters-037.png"
     },
     "greek_letters_Omega": {
         "latex_code": "\\Omega",
-        "help_info": "Greek Capital Letter Omega Unicode: 003A9"
+        "help_info": "Greek Capital Letter Omega Unicode: 003A9",
+        "button_image": "images/greek_letters/math_icon_greek_letters-042.png"
     },
     "math_accents_acute": {
         "latex_code": [
             "\\acute{",
             "}"
         ],
-        "help_info": "Unicode Search key: Acute "
+        "help_info": "Unicode Search key: Acute ",
+        "button_image": "images/accents/math_icon_accents-001.png"
     },
     "math_accents_grave": {
         "latex_code": [
             "\\grave{",
             "}"
         ],
-        "help_info": "Unicode Search key: Grave "
+        "help_info": "Unicode Search key: Grave ",
+        "button_image": "images/accents/math_icon_accents-002.png"
     },
     "math_accents_tilde": {
         "latex_code": [
             "\\tilde{",
             "}"
         ],
-        "help_info": "Unicode Search key: Tilde "
+        "help_info": "Unicode Search key: Tilde ",
+        "button_image": "images/accents/math_icon_accents-003.png"
     },
     "math_accents_bar": {
         "latex_code": [
             "\\bar{",
             "}"
         ],
-        "help_info": "Unicode Search key: Macron "
+        "help_info": "Unicode Search key: Macron ",
+        "button_image": "images/accents/math_icon_accents-004.png"
     },
     "math_accents_breve": {
         "latex_code": [
             "\\breve{",
             "}"
         ],
-        "help_info": "Unicode Search key: Breve "
+        "help_info": "Unicode Search key: Breve ",
+        "button_image": "images/accents/math_icon_accents-005.png"
     },
     "math_accents_check": {
         "latex_code": [
             "\\check{",
             "}"
         ],
-        "help_info": "Unicode Search key: Caron "
+        "help_info": "Unicode Search key: Caron ",
+        "button_image": "images/accents/math_icon_accents-006.png"
     },
     "math_accents_hat": {
         "latex_code": [
             "\\hat{",
             "}"
         ],
-        "help_info": "Unicode Search key: Circumflex  "
+        "help_info": "Unicode Search key: Circumflex  ",
+        "button_image": "images/accents/math_icon_accents-007.png"
     },
     "math_accents_vec": {
         "latex_code": [
             "\\vec{",
             "}"
         ],
-        "help_info": "Relevant Unicode Symbol: 020D7 "
+        "help_info": "Relevant Unicode Symbol: 020D7 ",
+        "button_image": "images/accents/math_icon_accents-008.png"
     },
     "math_accents_dot": {
         "latex_code": [
             "\\dot{",
             "}"
         ],
-        "help_info": "Unicode Search key: Dot Above  "
+        "help_info": "Unicode Search key: Dot Above  ",
+        "button_image": "images/accents/math_icon_accents-009.png"
     },
     "math_accents_ddot": {
         "latex_code": [
             "\\ddot{",
             "}"
         ],
-        "help_info": "Unicode Search key: Diaeresis "
+        "help_info": "Unicode Search key: Diaeresis ",
+        "button_image": "images/accents/math_icon_accents-010.png"
     },
     "math_accents_dddot": {
         "latex_code": [
             "\\dddot{",
             "}"
         ],
-        "help_info": "Relevant Unicode Symbol: 020DB "
+        "help_info": "Relevant Unicode Symbol: 020DB ",
+        "button_image": "images/accents/math_icon_accents-011.png"
     },
     "math_accents_mathring": {
         "latex_code": [
             "\\mathring{",
             "}"
         ],
-        "help_info": "Unicode Search key: Ring Above "
+        "help_info": "Unicode Search key: Ring Above ",
+        "button_image": "images/accents/math_icon_accents-012.png"
     },
     "math_accents_imath": {
         "latex_code": "\\hat{\\imath}",
-        "help_info": "add accent to i, need use \\imath get the dotless i. "
+        "help_info": "add accent to i, need use \\imath get the dotless i. ",
+        "button_image": "images/accents/math_icon_accents-015.png"
     },
     "math_accents_jmath": {
         "latex_code": "\\hat{\\jmath}",
-        "help_info": "add accent to j, need use \\jmath get the dotless j. "
+        "help_info": "add accent to j, need use \\jmath get the dotless j. ",
+        "button_image": "images/accents/math_icon_accents-016.png"
     },
     "math_accents_widetilde": {
         "latex_code": [
             "\\widetilde{",
             "}"
         ],
-        "help_info": "notations "
+        "help_info": "notations ",
+        "button_image": "images/notations/notations-001.png"
     },
     "math_accents_widehat": {
         "latex_code": [
             "\\widehat{",
             "}"
         ],
-        "help_info": "notations "
+        "help_info": "notations ",
+        "button_image": "images/notations/notations-002.png"
     },
     "notations-003": {
         "latex_code": [
             "\\overline{",
             "}"
         ],
-        "help_info": "notations "
+        "help_info": "notations ",
+        "button_image": "images/notations/notations-003.png"
     },
     "notations-004": {
         "latex_code": [
             "\\underline{",
             "}"
         ],
-        "help_info": "notations "
+        "help_info": "notations ",
+        "button_image": "images/notations/notations-004.png"
     },
     "notations-005": {
         "latex_code": [
             "\\overbrace{",
             "}"
         ],
-        "help_info": "notations "
+        "help_info": "notations ",
+        "button_image": "images/notations/notations-005.png"
     },
     "notations-006": {
         "latex_code": [
             "\\underbrace{",
             "}"
         ],
-        "help_info": "notations "
+        "help_info": "notations ",
+        "button_image": "images/notations/notations-006.png"
     },
     "notations-007": {
         "latex_code": [
             "\\overleftarrow{",
             "}"
         ],
-        "help_info": "notations "
+        "help_info": "notations ",
+        "button_image": "images/notations/notations-007.png"
     },
     "notations-008": {
         "latex_code": [
             "\\underleftarrow{",
             "}"
         ],
-        "help_info": "notations "
+        "help_info": "notations ",
+        "button_image": "images/notations/notations-008.png"
     },
     "notations-009": {
         "latex_code": [
             "\\overrightarrow{",
             "}"
         ],
-        "help_info": "notations "
+        "help_info": "notations ",
+        "button_image": "images/notations/notations-009.png"
     },
     "notations-010": {
         "latex_code": [
             "\\underrightarrow{",
             "}"
         ],
-        "help_info": "notations "
+        "help_info": "notations ",
+        "button_image": "images/notations/notations-010.png"
     },
     "notations-011": {
         "latex_code": [
             "\\overleftrightarrow{",
             "}"
         ],
-        "help_info": "notations "
+        "help_info": "notations ",
+        "button_image": "images/notations/notations-011.png"
     },
     "notations-012": {
         "latex_code": [
             "\\underleftrightarrow{",
             "}"
         ],
-        "help_info": "notations "
+        "help_info": "notations ",
+        "button_image": "images/notations/notations-012.png"
     },
     "math_set_varnothing": {
         "latex_code": "\\varnothing",
-        "help_info": "Empty set Unicode: 02205 "
+        "help_info": "Empty set Unicode: 02205 ",
+        "button_image": "images/math_set_symbols/math_set_symbols-001.png"
     },
     "math_set_2": {
         "latex_code": "\\mathbb{N}",
-        "help_info": "Set of natual numbers Unicode: 02115 "
+        "help_info": "Set of natual numbers Unicode: 02115 ",
+        "button_image": "images/math_set_symbols/math_set_symbols-002.png"
     },
     "math_set_3": {
         "latex_code": "\\mathbb{Z}",
-        "help_info": "Set of integers Unicode: 02124 "
+        "help_info": "Set of integers Unicode: 02124 ",
+        "button_image": "images/math_set_symbols/math_set_symbols-003.png"
     },
     "math_set_5": {
         "latex_code": "\\mathbb{Q}",
-        "help_info": "Set of rational numbers Unicode: 0211A "
+        "help_info": "Set of rational numbers Unicode: 0211A ",
+        "button_image": "images/math_set_symbols/math_set_symbols-005.png"
     },
     "math_set_6": {
         "latex_code": "\\mathbb{R}",
-        "help_info": "Set of real numbers Unicode: 0211D "
+        "help_info": "Set of real numbers Unicode: 0211D ",
+        "button_image": "images/math_set_symbols/math_set_symbols-006.png"
     },
     "math_set_8": {
         "latex_code": "\\mathbb{C}",
-        "help_info": "Set of complex numbers Unicode: 02102 "
+        "help_info": "Set of complex numbers Unicode: 02102 ",
+        "button_image": "images/math_set_symbols/math_set_symbols-008.png"
     },
     "math_set_9": {
         "latex_code": "\\mathbb{Z}_n",
-        "help_info": "Set of integer modulo n "
+        "help_info": "Set of integer modulo n ",
+        "button_image": "images/math_set_symbols/math_set_symbols-009.png"
     },
     "math_set_10": {
         "latex_code": "\\mathbb{R}^3",
-        "help_info": "Three-dimensional Euclidean space "
+        "help_info": "Three-dimensional Euclidean space ",
+        "button_image": "images/math_set_symbols/math_set_symbols-010.png"
     },
     "math_set_7": {
         "latex_code": "\\mathbb{R}_+",
-        "help_info": "Set of positive real numbers "
+        "help_info": "Set of positive real numbers ",
+        "button_image": "images/math_set_symbols/math_set_symbols-007.png"
     },
     "math_set_4": {
         "latex_code": "\\mathbb{Z}_+",
-        "help_info": "Set of positive integers "
+        "help_info": "Set of positive integers ",
+        "button_image": "images/math_set_symbols/math_set_symbols-004.png"
     },
     "basic_symbols_001": {
         "latex_code": "\\aleph",
-        "help_info": "Cardinality of natural numbers: <code>$\\aleph_0$</code> $\\aleph_0$ "
+        "help_info": "Cardinality of natural numbers: <code>$\\aleph_0$</code> $\\aleph_0$ ",
+        "button_image": "images/basic_symbols/basic_symbols-001.png"
     },
     "basic_symbols_019": {
         "latex_code": "\\mathfrak{c}",
-        "help_info": "Cardinality of real numbers: <code>$\\mathfrak{c}$</code> $\\mathfrak{c}$ "
+        "help_info": "Cardinality of real numbers: <code>$\\mathfrak{c}$</code> $\\mathfrak{c}$ ",
+        "button_image": "images/basic_symbols/basic_symbols-019.png"
     },
     "basic_symbols_002": {
         "latex_code": "\\ell",
-        "help_info": "Line one in geometry: <code>$\\ell_1$</code> $\\ell_1$"
+        "help_info": "Line one in geometry: <code>$\\ell_1$</code> $\\ell_1$",
+        "button_image": "images/basic_symbols/basic_symbols-002.png"
     },
     "basic_symbols_003": {
         "latex_code": "\\partial",
-        "help_info": "Partial differential: <code>$\\partial x$</code> $\\partial x$"
+        "help_info": "Partial differential: <code>$\\partial x$</code> $\\partial x$",
+        "button_image": "images/basic_symbols/basic_symbols-003.png"
     },
     "basic_symbols_004": {
         "latex_code": "\\Game",
-        "help_info": "basic symbols "
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-004.png"
     },
     "basic_symbols_005": {
         "latex_code": "\\beth",
-        "help_info": "basic symbols "
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-005.png"
     },
     "basic_symbols_006": {
         "latex_code": "\\eth",
-        "help_info": "basic symbols "
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-006.png"
     },
     "basic_symbols_007": {
         "latex_code": "\\wp",
-        "help_info": "basic symbols "
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-007.png"
     },
     "basic_symbols_008": {
         "latex_code": "\\Im",
-        "help_info": "basic symbols "
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-008.png"
     },
     "basic_symbols_009": {
         "latex_code": "\\daleth",
-        "help_info": "basic symbols "
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-009.png"
     },
     "basic_symbols_010": {
         "latex_code": "\\hbar",
-        "help_info": "basic symbols "
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-010.png"
     },
     "basic_symbols_011": {
         "latex_code": "\\circledS",
-        "help_info": "basic symbols "
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-011.png"
     },
     "basic_symbols_012": {
         "latex_code": "\\Re",
-        "help_info": "basic symbols "
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-012.png"
     },
     "basic_symbols_013": {
         "latex_code": "\\gimel",
-        "help_info": "basic symbols "
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-013.png"
     },
     "basic_symbols_014": {
         "latex_code": "\\hslash",
-        "help_info": "basic symbols "
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-014.png"
     },
     "basic_symbols_015": {
         "latex_code": "\\Bbbk",
-        "help_info": "basic symbols "
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-015.png"
     },
     "basic_symbols_016": {
         "latex_code": "\\complement",
-        "help_info": "basic symbols "
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-016.png"
     },
     "basic_symbols_017": {
         "latex_code": "\\mho",
-        "help_info": "basic symbols "
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-017.png"
     },
     "basic_symbols_018": {
         "latex_code": "\\Finv",
-        "help_info": "basic symbols "
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-018.png"
     },
     "math_font_examples_1": {
-        "help_info": "normal math font"
+        "help_info": "normal math font",
+        "button_image": "images/math_font_examples/math_font_examples-001.png"
     },
     "math_font_examples_2": {
         "latex_code": [
             "\\mathbf{",
             "}"
         ],
-        "help_info": "mathbf"
+        "help_info": "mathbf",
+        "button_image": "images/math_font_examples/math_font_examples-002.png"
     },
     "math_font_examples_3": {
         "latex_code": [
             "\\mathrm{",
             "}"
         ],
-        "help_info": "mathrm"
+        "help_info": "mathrm",
+        "button_image": "images/math_font_examples/math_font_examples-003.png"
     },
     "math_font_examples_4": {
         "latex_code": [
             "\\mathsf{",
             "}"
         ],
-        "help_info": "mathsf"
+        "help_info": "mathsf",
+        "button_image": "images/math_font_examples/math_font_examples-004.png"
     },
     "math_font_examples_5": {
         "latex_code": [
             "\\mathit{",
             "}"
         ],
-        "help_info": "mathit"
+        "help_info": "mathit",
+        "button_image": "images/math_font_examples/math_font_examples-005.png"
     },
     "math_font_examples_6": {
         "latex_code": [
             "\\mathcal{",
             "}"
         ],
-        "help_info": "mathcal"
+        "help_info": "mathcal",
+        "button_image": "images/math_font_examples/math_font_examples-006.png"
     },
     "math_font_examples_7": {
         "latex_code": [
             "\\mathbb{",
             "}"
         ],
-        "help_info": "mathbb"
+        "help_info": "mathbb",
+        "button_image": "images/math_font_examples/math_font_examples-007.png"
     },
     "math_font_examples_8": {
         "latex_code": [
             "\\mathfrak{",
             "}"
         ],
-        "help_info": "mathfrak"
+        "help_info": "mathfrak",
+        "button_image": "images/math_font_examples/math_font_examples-008.png"
     },
     "function_sin": {
         "latex_code": "\\sin"

@@ -21,6 +21,7 @@ function showHelpInfo(key) {
 function ImageButton(props) {
     let button_key = props.button_key
     let image_src = props.image_src
+    const image_button_class = props.image_button_class
 
     function handleClick(e) {
         inputLatex(button_key)
@@ -29,7 +30,7 @@ function ImageButton(props) {
         showHelpInfo(button_key)
     }
     return (
-        <button type="button" button-key={button_key} className="image-button"
+        <button type="button" button-key={button_key} className={image_button_class}
             onClick={handleClick} onMouseOver={handleMouseOver}>
             <img src={image_src} />
         </button>

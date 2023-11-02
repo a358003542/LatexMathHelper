@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net/; 
-    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.jsdelivr.net/">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net/ http://www.w3.org/ data:; 
+    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.jsdelivr.net/ http://www.w3.org/">
 
   <title>Latex Math Helper</title>
 
@@ -29,104 +29,12 @@
       },
     }
   </script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-  </script>
+  <script src="../main_window/static/mathjax/tex-chtml.js" id="MathJax-script" async></script>
 </head>
 
 <body>
 
   <div id="root"></div>
-
-  <!-- modals example1 -->
-  <div class="modal fade" id="example1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable modal-xl">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Example1</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-
-          <div class="row">
-            <div class="col">
-              <pre>$$a_1x_1 + a_2x_2 + \cdots + a_nx_n = b$$
-              </pre>
-            </div>
-
-            <div class="col">
-              $$a_1x_1 + a_2x_2 + \cdots + a_nx_n = b$$
-            </div>
-
-          </div>
-
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- modals help-->
-  <div class="modal fade" id="Help" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">帮助信息</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <ul>
-            <li>Unicode符号查询: <a href="https://unicode-table.com/cn/">unicode-table</a>。
-              如果有一些符号看上去大概差不多的，那么在应用上拉丁字母和扩展分区的优先级会高一些。</li>
-            <li>希腊字母有一些没有列出来是因为它们和平时使用的拉丁字母是一样的。</li>
-            <li>数学字体的切换只对拉丁大写字母ABC等有意义，一些小写字母加粗推荐使用boldsymbol命令。</li>
-            <li>数学着重符号比如$\acute{a}$等可能有对应的Unicode编码，但显示效果很不一样，个人推断这些生成的符号可能就是Tex排版出来的，并没有所谓的Unicode符号对应。</li>
-          </ul>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- modals reference-->
-  <div class="modal fade" id="Reference" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">参考资料</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <ul>
-            <li>pdf: Unicode characters and corresponding Latex math code commands.</li>
-            <li>pdf: Comprehensive List of Mathematical Symbols, Math Vault.</li>
-            <li>pdf: Short Math Guide for LaTeX, Michael Downes.</li>
-          </ul>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <script>
-    // window.examplePanel1 = new bootstrap.Modal(document.getElementById('example1'), {
-    //   keyboard: false
-    // });
-    // window.helpModal = new bootstrap.Modal(document.getElementById('Help'), {
-    //   keyboard: false
-    // });
-    // window.referenceModel = new bootstrap.Modal(document.getElementById('Reference'), {
-    //   keyboard: false
-    // });
-
-  </script>
 
 </body>
 

@@ -1,56 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import ImageButton from './components/imageButton.jsx';
 import LatexEditor from './components/latexEditor.jsx';
 import LatexResult from './components/latexResult.jsx';
 import StatusBar from './components/statusBar.jsx';
+import InputPanel from './components/inputPanel.jsx';
+import ModalExample1 from './components/modalExample1.jsx';
+import ModalHelp from './components/modalHelp.jsx';
+import ModalReference from './components/modalReference.jsx';
 
-import {inputLatex} from './utils'
+import { inputLatex } from './utils'
 
-import image_greek_letters1 from './images/greek_letters/math_icon_greek_letters-001.png';
-import image_greek_letters2 from './images/greek_letters/math_icon_greek_letters-002.png';
-import image_greek_letters3 from './images/greek_letters/math_icon_greek_letters-003.png';
-import image_greek_letters4 from './images/greek_letters/math_icon_greek_letters-004.png';
-import image_greek_letters25 from './images/greek_letters/math_icon_greek_letters-025.png';
-import image_greek_letters6 from './images/greek_letters/math_icon_greek_letters-006.png';
-import image_greek_letters7 from './images/greek_letters/math_icon_greek_letters-007.png';
-
-
-function InputPanel() {
-  let button_info = [
-    { 'button_key': "greek_letters_alpha", "image_src": image_greek_letters1 },
-    { 'button_key': "greek_letters_beta", "image_src": image_greek_letters2 },
-    { 'button_key': "greek_letters_gamma", "image_src": image_greek_letters3 },
-    { 'button_key': "greek_letters_delta", "image_src": image_greek_letters4 },
-    { 'button_key': "greek_letters_varepsilon", "image_src": image_greek_letters25 },
-    { 'button_key': "greek_letters_zeta", "image_src": image_greek_letters6 },
-    { 'button_key': "greek_letters_eta", "image_src": image_greek_letters7 },
-  ]
-  const image_buttons = button_info.map(button_item => {
-    return <ImageButton button_key={button_item["button_key"]}
-      image_src={button_item["image_src"]} key={button_item["button_key"]} />
-  })
-
-  return (
-    <>
-      <div className="row row-cols-auto">
-        <div className="col">
-          <div className="dropdown">
-            <div className="image-button-group-head">
-
-              {image_buttons}
-
-            </div>
-          </div>
-        </div>
-      </div >
-    </>
-  )
-}
 
 function Main() {
   return (
@@ -67,12 +29,16 @@ function Main() {
         </main>
       </div>
       <StatusBar />
+
+      <ModalExample1 />
+      <ModalHelp />
+      <ModalReference />
+
     </>
   );
 }
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+var root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <Main />
@@ -95,5 +61,22 @@ function forceLinkOpenExternal() {
 
 forceLinkOpenExternal();
 
+function openModal(modal_name) {
+  switch (modal_name) {
+    case 'modal_example1':
+      window.modal_example1.handleShow();
+      break;
+    case 'modal_help':
+      window.modal_help.handleShow();
+      break;
+    case 'modal_reference':
+      window.modal_reference.handleShow();
+      break;
+    default:
+      console.warn('invalid modal name');
+  }
+}
+
 // bind inputLatex message channle to inputLatex function
 window.electron.receive("inputLatex", inputLatex);
+window.electron.receive("openModal", openModal);

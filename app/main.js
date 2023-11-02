@@ -9,6 +9,7 @@ const { menu_template } = require('./menu')
 
 
 
+
 function createWindow() {
   // 创建浏览器窗口
   const mainWindow = new BrowserWindow({
@@ -47,6 +48,9 @@ app.whenReady().then(() => {
   // set mainmenu
   const menu = Menu.buildFromTemplate(menu_template)
   Menu.setApplicationMenu(menu)
+
+
+  console.log(process.resourcesPath)
 
   app.on('activate', function () {
     // 通常在 macOS 上，当点击 dock 中的应用程序图标时，如果没有其他

@@ -2,7 +2,7 @@ const path = require('path')
 module.exports = {
   packagerConfig: {
     asar: true,
-    icon: 'resources/icon' 
+    icon: 'resources/icon.ico',
   },
   rebuildConfig: {},
   makers: [
@@ -31,7 +31,7 @@ module.exports = {
     {
       name: '@electron-forge/plugin-webpack',
       config: {
-        devContentSecurityPolicy: 'default-src \'self\' \'unsafe-inline\' https://cdn.jsdelivr.net/; script-src \'self\' \'unsafe-eval\' \'unsafe-inline\' https://cdn.jsdelivr.net/',
+        devContentSecurityPolicy: 'default-src \'self\' \'unsafe-inline\' https://cdn.jsdelivr.net/ http://www.w3.org/ data:; script-src \'self\' \'unsafe-eval\' \'unsafe-inline\' https://cdn.jsdelivr.net/ http://www.w3.org/',
         mainConfig: './webpack.main.config.js',
         renderer: {
           config: './webpack.renderer.config.js',
