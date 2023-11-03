@@ -4,10 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net/ http://www.w3.org/ data:; 
-    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.jsdelivr.net/ http://www.w3.org/">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net/  data:; 
+    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.jsdelivr.net/ ">
 
   <title>Latex Math Helper</title>
+
+  <link rel="stylesheet" href="../main_window/static/bootstrap/css/bootstrap.min.css">
 
   <script>
     MathJax = {
@@ -36,6 +38,231 @@
 
   <div id="root"></div>
 
+  <!-- modals example_multiline_equations -->
+  <div class="modal fade" id="example_multiline_equations" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Multiline Equations</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <div class="row">
+            <div class="col">
+              <pre class="text-center">
+\begin{equation}\label{xx}
+\begin{split}
+a& =b+c-d\\
+& \quad +e-f\\
+& =g+h\\
+& =i
+\end{split}
+\end{equation}
+              </pre>
+            </div>
+
+            <div class="col">
+              \begin{equation}\label{xx}
+              \begin{split}
+              a& =b+c-d\\
+              & \quad +e-f\\
+              & =g+h\\
+              & =i
+              \end{split}
+              \end{equation}
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col">
+              <pre class="text-center">
+\begin{multline}
+a+b+c+d+e+f\\
++i+j+k+l+m+n\\
++o+p+q+r+s
+\end{multline}
+              </pre>
+            </div>
+
+            <div class="col">
+              \begin{multline}
+              a+b+c+d+e+f\\
+              +i+j+k+l+m+n\\
+              +o+p+q+r+s
+              \end{multline}
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <pre class="text-center">
+\begin{gather}
+a_1=b_1+c_1\\
+a_2=b_2+c_2-d_2+e_2
+\end{gather}
+              </pre>
+            </div>
+
+            <div class="col">
+              \begin{gather}
+              a_1=b_1+c_1\\
+              a_2=b_2+c_2-d_2+e_2
+              \end{gather}
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <pre class="text-center">
+\begin{align}
+a_1& =b_1+c_1\\
+a_2& =b_2+c_2-d_2+e_2
+\end{align}
+              </pre>
+            </div>
+
+            <div class="col">
+              \begin{align}
+              a_1& =b_1+c_1\\
+              a_2& =b_2+c_2-d_2+e_2
+              \end{align}              
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <pre class="text-center">
+\begin{align}
+a_{11}& =b_{11}&
+a_{12}& =b_{12}\\
+a_{21}& =b_{21}&
+a_{22}& =b_{22}+c_{22}
+\end{align}
+              </pre>
+            </div>
+
+            <div class="col">
+              \begin{align}
+              a_{11}& =b_{11}&
+              a_{12}& =b_{12}\\
+              a_{21}& =b_{21}&
+              a_{22}& =b_{22}+c_{22}
+              \end{align}
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <pre class="text-center">
+\begin{alignat}{2}
+a_1& =b_1+c_1& &+e_1-f_1\\
+a_2& =b_2+c_2&{}-d_2&+e_2
+\end{alignat}
+              </pre>
+            </div>
+
+            <div class="col">
+              \begin{alignat}{2}
+              a_1& =b_1+c_1& &+e_1-f_1\\
+              a_2& =b_2+c_2&{}-d_2&+e_2
+              \end{alignat}              
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <pre class="text-center">
+\begin{flalign}
+a_{11}& =b_{11}&
+a_{12}& =b_{12}\\
+a_{21}& =b_{21}&
+a_{22}& =b_{22}+c_{22}
+\end{flalign}  
+              </pre>
+            </div>
+
+            <div class="col">
+              \begin{flalign}
+              a_{11}& =b_{11}&
+              a_{12}& =b_{12}\\
+              a_{21}& =b_{21}&
+              a_{22}& =b_{22}+c_{22}
+              \end{flalign}
+            </div>
+          </div>
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modals help-->
+  <div class="modal fade" id="Help" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">帮助信息</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Unicode符号查询: <code>https://unicode-table.com/cn/</code>。
+              如果有一些符号看上去大概差不多的，那么在应用上拉丁字母和扩展分区的优先级会高一些。</li>
+            <li>希腊字母有一些没有列出来是因为它们和平时使用的拉丁字母是一样的。</li>
+            <li>数学字体的切换只对拉丁大写字母ABC等有意义，一些小写字母加粗推荐使用boldsymbol命令。</li>
+            <li>数学着重符号比如$\acute{a}$等可能有对应的Unicode编码，但显示效果很不一样，个人推断这些生成的符号可能就是Tex排版出来的，并没有所谓的Unicode符号对应。</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- modals reference-->
+  <div class="modal fade" id="Reference" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">参考资料</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>pdf: Unicode characters and corresponding Latex math code commands.</li>
+            <li>pdf: Comprehensive List of Mathematical Symbols, Math Vault.</li>
+            <li>pdf: Short Math Guide for LaTeX, Michael Downes.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../main_window/static/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>
+    window.example_multiline_equations = new bootstrap.Modal(document.getElementById('example_multiline_equations'), {
+      keyboard: false
+    });
+    window.modal_help = new bootstrap.Modal(document.getElementById('Help'), {
+      keyboard: false
+    });
+    window.modal_reference = new bootstrap.Modal(document.getElementById('Reference'), {
+      keyboard: false
+    });
+
+  </script>
 </body>
 
 </html>

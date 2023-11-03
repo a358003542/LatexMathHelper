@@ -126,21 +126,54 @@ const math_set_symbols = [
   "math_set_4",
 ]
 
+const different_empty_spaces = [
+  "different_empty_space_1",
+  "different_empty_space_2",
+  "different_empty_space_3",
+  "different_empty_space_4",
+  "different_empty_space_5",
+]
+
+const common_use_keys = [
+  "common_use_1",
+  "common_use_2",
+  "common_use_3",
+  "common_use_4",
+  "common_use_5",
+  "common_use_6",
+  "common_use_7",
+  "common_use2_1",
+  "common_use2_2",
+  "common_use2_3",
+  "common_use2_4",
+  "common_use2_5",
+  "common_use2_6",
+  "common_use2_7",
+  "common_use2_8",
+]
+
+
 export function InputPanel() {
   return (
     <>
       <div className="row row-cols-auto">
+        <ImageButtonGroup image_button_keys={common_use_keys} group_row_item_nums={4} 
+         image_button_class={"image-button image-button-h100 image-button-w100"}/>
+
         <ImageButtonGroup image_button_keys={greek_letters} group_row_item_nums={6} />
 
         <ImageButtonGroup image_button_keys={basic_symbols} group_row_item_nums={4} />
 
         <ImageButtonGroup image_button_keys={math_fonts} group_row_item_nums={1}
-          image_button_class={"image-button image-button-wide16"} />
+          image_button_class={"image-button image-button-w160"} />
+
+        <ImageButtonGroup image_button_keys={different_empty_spaces} group_row_item_nums={1}
+          image_button_class={"image-button image-button-w140"} />
 
         <ImageButtonGroup image_button_keys={math_accents} group_row_item_nums={4} />
 
         <ImageButtonGroup image_button_keys={notations} group_row_item_nums={4} 
-        image_button_class={"image-button image-button-wide"}/>
+        image_button_class={"image-button image-button-w75"}/>
 
         <ImageButtonGroup image_button_keys={math_set_symbols} group_row_item_nums={4} />
 

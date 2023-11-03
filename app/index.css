@@ -2,99 +2,146 @@
     position: relative;
     display: inline-block;
 }
-.dropdown:hover .image-button-group-head{
-	border-bottom:0px;
-	border-radius:3px 3px 0px 0px
+
+.dropdown:hover .image-button-group-head {
+    border-bottom: 0px;
+    border-radius: 3px 3px 0px 0px
 }
-.dropdown:hover .image-button-group-body{
+
+.dropdown:hover .image-button-group-body {
     display: block;
 }
-.dropdown:hover .image-button:hover{
-	background:#FFF none repeat scroll 0 0;
-	box-shadow:1px 1px 0 rgba(0,0,0,0.3) inset,-1px 0 rgba(0,0,0,0.3) inset,0 -1px 0 rgba(0,0,0,0.2) inset
-}
-.dropdown:hover .image-button:active{
-	background:#FFF none repeat scroll 0 0;
-	box-shadow:1px 1px 0 rgba(0,0,0,0.3) inset,-1px 0 rgba(0,0,0,0.3) inset,0 -1px 0 rgba(0,0,0,0.2) inset,0 0 8px rgba(0,0,0,0.3) inset
-} 
 
-.image-button-group-head{
-	display:inline-block;
-	/* background:#DDD none repeat scroll 0 0 padding-box; */
-	padding:2px;
-	/* border-bottom:2px solid #AAA; */
-	border-radius:3px;
+.dropdown:hover .image-button:hover {
+    background: #FFF none repeat scroll 0 0;
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3) inset, -1px 0 rgba(0, 0, 0, 0.3) inset, 0 -1px 0 rgba(0, 0, 0, 0.2) inset
 }
-.image-button-group-body{
+
+.dropdown:hover .image-button:active {
+    background: #FFF none repeat scroll 0 0;
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3) inset, -1px 0 rgba(0, 0, 0, 0.3) inset, 0 -1px 0 rgba(0, 0, 0, 0.2) inset, 0 0 8px rgba(0, 0, 0, 0.3) inset
+}
+
+.image-button-group-head {
+    display: inline-block;
+    /* background:#DDD none repeat scroll 0 0 padding-box; */
+    padding: 2px;
+    /* border-bottom:2px solid #AAA; */
+    border-radius: 3px;
+}
+
+.image-button-group-body {
     position: absolute;
     display: none;
     z-index: 3;
 }
 
-.image-button-group-row{
-	margin-top: -9px;
-	display:inline-block;
-	/* background:#DDD none repeat scroll 0 0 padding-box; */
-	padding:2px;
-}
-.image-button-group-row:last-child{
-	border-radius:0px 0px 3px 3px;
-	/* border-bottom:2px solid #AAA; */
+.image-button-group-row {
+    margin-top: -9px;
+    display: inline-block;
+    /* background:#DDD none repeat scroll 0 0 padding-box; */
+    padding: 2px;
 }
 
-.image-button{
-    padding: 0px;
-    float:left;
-    margin-right:2px;
-    border-radius: .25rem!important;
-    width: 40px;
-    height: 40px;
-    text-shadow:1px 0 #FFF;
+.image-button-group-row:last-child {
+    border-radius: 0px 0px 3px 3px;
+    /* border-bottom:2px solid #AAA; */
 }
-.image-button-wide{
+
+.image-button {
+    padding: 0px;
+    float: left;
+    margin-right: 2px;
+    border-radius: .25rem !important;
+    width: 50px;
+    height: 50px;
+    text-shadow: 1px 0 #FFF;
+}
+
+.single-col {
+    width: 100%;
+}
+
+.image-button-h100 {
+    height: 100px;
+}
+
+.image-button-w55 {
+    width: 55px;
+}
+
+.image-button-w60 {
     width: 60px;
 }
-.image-button-wide1{
-    width: 45px;
+
+.image-button-w65 {
+    width: 65px;
 }
-.image-button-wide2{
-    width: 50px;
+
+.image-button-w70 {
+    width: 70px;
 }
-.image-button-wide16{
+
+.image-button-w75 {
+    width: 75px;
+}
+
+.image-button-w100 {
+    width: 100px;
+}
+
+.image-button-w110 {
+    width: 110px;
+}
+
+.image-button-w115 {
+    width: 115px;
+}
+
+.image-button-w120 {
     width: 120px;
 }
 
-.image-button:hover{
-	background:#FFF none repeat scroll 0 0;
-	box-shadow:1px 1px 0 rgba(0,0,0,0.3) inset,-1px 0 rgba(0,0,0,0.3) inset,0 -1px 0 rgba(0,0,0,0.2) inset
-}
-.image-button:active{
-	background:#FFF none repeat scroll 0 0;
-	box-shadow:1px 1px 0 rgba(0,0,0,0.3) inset,-1px 0 rgba(0,0,0,0.3) inset,0 -1px 0 rgba(0,0,0,0.2) inset,0 0 8px rgba(0,0,0,0.3) inset
+.image-button-w125 {
+    width: 125px;
 }
 
-.image-button img{
+.image-button-w140 {
+    width: 140px;
+}
+
+.image-button-w160 {
+    width: 160px;
+}
+
+.image-button:hover {
+    background: #FFF none repeat scroll 0 0;
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3) inset, -1px 0 rgba(0, 0, 0, 0.3) inset, 0 -1px 0 rgba(0, 0, 0, 0.2) inset
+}
+
+.image-button:active {
+    background: #FFF none repeat scroll 0 0;
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3) inset, -1px 0 rgba(0, 0, 0, 0.3) inset, 0 -1px 0 rgba(0, 0, 0, 0.2) inset, 0 0 8px rgba(0, 0, 0, 0.3) inset
+}
+
+.image-button img {
     width: 100%;
 }
 
-#latex-editor{
-    min-width:450px; 
-    width: 100%; 
-    height:150px;
-}
-
-#latex-result{
-    min-width:450px; 
-    width: 100%; 
-    height:150px;
-}
-
-.footer {
-    position: absolute;
-    bottom: 0;
+#latex-editor {
     width: 100%;
-  }
+}
 
-#statusBar{
+#latex-result {
+    width: 100%;
+}
+
+
+
+#statusBar {
     margin-bottom: 0;
+}
+
+main {
+    height: 90vh;
 }

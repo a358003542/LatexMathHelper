@@ -270,8 +270,8 @@ const template = [
         label: 'Examples',
         submenu: [
             {
-                label: "example1",
-                click: () => globalThis.webContents.send('openModal', "modal_example1")
+                label: "multiline equations",
+                click: () => globalThis.webContents.send('openModal', "example_multiline_equations")
             },
         ]
     },

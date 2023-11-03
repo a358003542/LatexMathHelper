@@ -3,20 +3,19 @@ const { app, BrowserWindow, Menu, clipboard } = require('electron')
 // stop your app launching multiple times during installation
 if (require('electron-squirrel-startup')) app.quit();
 
-const path = require('path')
+
 const { DEBUG } = require('./const')
 const { menu_template } = require('./menu')
-
-
 
 
 function createWindow() {
   // 创建浏览器窗口
   const mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 1250,
+    height: 900,
     webPreferences: {
       preload: MAIN_WINDOW_PRELOAD_WEBPACK_ENTRY,
+      spellcheck: false
     },
   })
 

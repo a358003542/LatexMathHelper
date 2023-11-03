@@ -1,40 +1,38 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import LatexEditor from './components/latexEditor.jsx';
 import LatexResult from './components/latexResult.jsx';
 import StatusBar from './components/statusBar.jsx';
 import InputPanel from './components/inputPanel.jsx';
-import ModalExample1 from './components/modalExample1.jsx';
-import ModalHelp from './components/modalHelp.jsx';
-import ModalReference from './components/modalReference.jsx';
 
 import { inputLatex } from './utils'
 
 
 function Main() {
   return (
-    <>
-      <div className="container">
-        <main>
+    <div className="flex-wrapper">
+
+      <main >
+        <div className="container">
           <br />
-
           <InputPanel />
+          <hr />
+          <div className="row">
+            <div className="col-6">
+              <LatexEditor />
+            </div>
+            <div className="col-6">
+              <LatexResult />
+            </div>
+          </div>
+        </div>
+      </main>
 
-          <LatexEditor />
-
-          <LatexResult />
-        </main>
-      </div>
       <StatusBar />
 
-      <ModalExample1 />
-      <ModalHelp />
-      <ModalReference />
-
-    </>
+    </div>
   );
 }
 
@@ -45,36 +43,30 @@ root.render(
 );
 
 
-function forceLinkOpenExternal() {
-  const hrefs = document.querySelectorAll('a[href]')
-  for (let link of hrefs) {
-    link.addEventListener(
-      "click",
-      function (event) {
-        event.preventDefault()
-        window.electron.openExternal(link.href)
-      },
-      false
-    )
-  }
+function documentReadyAction() {
 }
 
-forceLinkOpenExternal();
 
 function openModal(modal_name) {
   switch (modal_name) {
-    case 'modal_example1':
-      window.modal_example1.handleShow();
+    case 'example_multiline_equations':
+      window.example_multiline_equations.show();
       break;
     case 'modal_help':
-      window.modal_help.handleShow();
+      window.modal_help.show();
       break;
     case 'modal_reference':
-      window.modal_reference.handleShow();
+      window.modal_reference.show();
       break;
     default:
       console.warn('invalid modal name');
   }
+}
+
+if (document.readyState !== 'loading') {
+  documentReadyAction()
+} else {
+  document.addEventListener('DOMContentLoaded', documentReadyAction)
 }
 
 // bind inputLatex message channle to inputLatex function

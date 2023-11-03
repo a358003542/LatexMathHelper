@@ -31,7 +31,7 @@ module.exports = {
     {
       name: '@electron-forge/plugin-webpack',
       config: {
-        devContentSecurityPolicy: 'default-src \'self\' \'unsafe-inline\' https://cdn.jsdelivr.net/ http://www.w3.org/ data:; script-src \'self\' \'unsafe-eval\' \'unsafe-inline\' https://cdn.jsdelivr.net/ http://www.w3.org/',
+        devContentSecurityPolicy: 'default-src \'self\' \'unsafe-inline\' https://cdn.jsdelivr.net/  data:; script-src \'self\' \'unsafe-eval\' \'unsafe-inline\' https://cdn.jsdelivr.net/ ',
         mainConfig: './webpack.main.config.js',
         renderer: {
           config: './webpack.renderer.config.js',

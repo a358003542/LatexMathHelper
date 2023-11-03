@@ -7,6 +7,11 @@ LatexMathHelper
 
 
 ## CHANGELOG
+### 0.2.2
+- 增加常用输入
+- 版面布局优化调整
+- mathjax离线加载
+
 ### 0.2.1
 用react重新实现
 

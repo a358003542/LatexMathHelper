@@ -16,6 +16,7 @@ module.exports = {
       patterns: [
         { from: 'resources/images', to: 'main_window/static/images' },
         { from: 'resources/mathjax', to: 'main_window/static/mathjax' },
+        { from: 'resources/bootstrap', to: 'main_window/static/bootstrap' },
       ],
     }),
   ]

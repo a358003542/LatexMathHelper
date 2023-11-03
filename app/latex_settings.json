@@ -211,96 +211,96 @@
     },
     "math_accents_acute": {
         "latex_code": [
-            "\\acute{",
-            "}"
+            "\\acute{ ",
+            " }"
         ],
         "help_info": "Unicode Search key: Acute ",
         "button_image": "images/accents/math_icon_accents-001.png"
     },
     "math_accents_grave": {
         "latex_code": [
-            "\\grave{",
-            "}"
+            "\\grave{ ",
+            " }"
         ],
         "help_info": "Unicode Search key: Grave ",
         "button_image": "images/accents/math_icon_accents-002.png"
     },
     "math_accents_tilde": {
         "latex_code": [
-            "\\tilde{",
-            "}"
+            "\\tilde{ ",
+            " }"
         ],
         "help_info": "Unicode Search key: Tilde ",
         "button_image": "images/accents/math_icon_accents-003.png"
     },
     "math_accents_bar": {
         "latex_code": [
-            "\\bar{",
-            "}"
+            "\\bar{ ",
+            " }"
         ],
         "help_info": "Unicode Search key: Macron ",
         "button_image": "images/accents/math_icon_accents-004.png"
     },
     "math_accents_breve": {
         "latex_code": [
-            "\\breve{",
-            "}"
+            "\\breve{ ",
+            " }"
         ],
         "help_info": "Unicode Search key: Breve ",
         "button_image": "images/accents/math_icon_accents-005.png"
     },
     "math_accents_check": {
         "latex_code": [
-            "\\check{",
-            "}"
+            "\\check{ ",
+            " }"
         ],
         "help_info": "Unicode Search key: Caron ",
         "button_image": "images/accents/math_icon_accents-006.png"
     },
     "math_accents_hat": {
         "latex_code": [
-            "\\hat{",
-            "}"
+            "\\hat{ ",
+            " }"
         ],
         "help_info": "Unicode Search key: Circumflex  ",
         "button_image": "images/accents/math_icon_accents-007.png"
     },
     "math_accents_vec": {
         "latex_code": [
-            "\\vec{",
-            "}"
+            "\\vec{ ",
+            " }"
         ],
         "help_info": "Relevant Unicode Symbol: 020D7 ",
         "button_image": "images/accents/math_icon_accents-008.png"
     },
     "math_accents_dot": {
         "latex_code": [
-            "\\dot{",
-            "}"
+            "\\dot{ ",
+            " }"
         ],
         "help_info": "Unicode Search key: Dot Above  ",
         "button_image": "images/accents/math_icon_accents-009.png"
     },
     "math_accents_ddot": {
         "latex_code": [
-            "\\ddot{",
-            "}"
+            "\\ddot{ ",
+            " }"
         ],
         "help_info": "Unicode Search key: Diaeresis ",
         "button_image": "images/accents/math_icon_accents-010.png"
     },
     "math_accents_dddot": {
         "latex_code": [
-            "\\dddot{",
-            "}"
+            "\\dddot{ ",
+            " }"
         ],
         "help_info": "Relevant Unicode Symbol: 020DB ",
         "button_image": "images/accents/math_icon_accents-011.png"
     },
     "math_accents_mathring": {
         "latex_code": [
-            "\\mathring{",
-            "}"
+            "\\mathring{ ",
+            " }"
         ],
         "help_info": "Unicode Search key: Ring Above ",
         "button_image": "images/accents/math_icon_accents-012.png"
@@ -317,96 +317,96 @@
     },
     "math_accents_widetilde": {
         "latex_code": [
-            "\\widetilde{",
-            "}"
+            "\\widetilde{ ",
+            " }"
         ],
         "help_info": "notations ",
         "button_image": "images/notations/notations-001.png"
     },
     "math_accents_widehat": {
         "latex_code": [
-            "\\widehat{",
-            "}"
+            "\\widehat{ ",
+            " }"
         ],
         "help_info": "notations ",
         "button_image": "images/notations/notations-002.png"
     },
     "notations-003": {
         "latex_code": [
-            "\\overline{",
-            "}"
+            "\\overline{ ",
+            " }"
         ],
         "help_info": "notations ",
         "button_image": "images/notations/notations-003.png"
     },
     "notations-004": {
         "latex_code": [
-            "\\underline{",
-            "}"
+            "\\underline{ ",
+            " }"
         ],
         "help_info": "notations ",
         "button_image": "images/notations/notations-004.png"
     },
     "notations-005": {
         "latex_code": [
-            "\\overbrace{",
-            "}"
+            "\\overbrace{ ",
+            " }"
         ],
         "help_info": "notations ",
         "button_image": "images/notations/notations-005.png"
     },
     "notations-006": {
         "latex_code": [
-            "\\underbrace{",
-            "}"
+            "\\underbrace{ ",
+            " }"
         ],
         "help_info": "notations ",
         "button_image": "images/notations/notations-006.png"
     },
     "notations-007": {
         "latex_code": [
-            "\\overleftarrow{",
-            "}"
+            "\\overleftarrow{ ",
+            " }"
         ],
         "help_info": "notations ",
         "button_image": "images/notations/notations-007.png"
     },
     "notations-008": {
         "latex_code": [
-            "\\underleftarrow{",
-            "}"
+            "\\underleftarrow{ ",
+            " }"
         ],
         "help_info": "notations ",
         "button_image": "images/notations/notations-008.png"
     },
     "notations-009": {
         "latex_code": [
-            "\\overrightarrow{",
-            "}"
+            "\\overrightarrow{ ",
+            " }"
         ],
         "help_info": "notations ",
         "button_image": "images/notations/notations-009.png"
     },
     "notations-010": {
         "latex_code": [
-            "\\underrightarrow{",
-            "}"
+            "\\underrightarrow{ ",
+            " }"
         ],
         "help_info": "notations ",
         "button_image": "images/notations/notations-010.png"
     },
     "notations-011": {
         "latex_code": [
-            "\\overleftrightarrow{",
-            "}"
+            "\\overleftrightarrow{ ",
+            " }"
         ],
         "help_info": "notations ",
         "button_image": "images/notations/notations-011.png"
     },
     "notations-012": {
         "latex_code": [
-            "\\underleftrightarrow{",
-            "}"
+            "\\underleftrightarrow{ ",
+            " }"
         ],
         "help_info": "notations ",
         "button_image": "images/notations/notations-012.png"
@@ -562,58 +562,58 @@
     },
     "math_font_examples_2": {
         "latex_code": [
-            "\\mathbf{",
-            "}"
+            "\\mathbf{ ",
+            " }"
         ],
-        "help_info": "mathbf",
+        "help_info": "math font switch mathbf",
         "button_image": "images/math_font_examples/math_font_examples-002.png"
     },
     "math_font_examples_3": {
         "latex_code": [
-            "\\mathrm{",
-            "}"
+            "\\mathrm{ ",
+            " }"
         ],
-        "help_info": "mathrm",
+        "help_info": "math font switch mathrm",
         "button_image": "images/math_font_examples/math_font_examples-003.png"
     },
     "math_font_examples_4": {
         "latex_code": [
-            "\\mathsf{",
-            "}"
+            "\\mathsf{ ",
+            " }"
         ],
-        "help_info": "mathsf",
+        "help_info": "math font switch mathsf",
         "button_image": "images/math_font_examples/math_font_examples-004.png"
     },
     "math_font_examples_5": {
         "latex_code": [
-            "\\mathit{",
-            "}"
+            "\\mathit{ ",
+            " }"
         ],
-        "help_info": "mathit",
+        "help_info": "math font switch mathit",
         "button_image": "images/math_font_examples/math_font_examples-005.png"
     },
     "math_font_examples_6": {
         "latex_code": [
-            "\\mathcal{",
-            "}"
+            "\\mathcal{ ",
+            " }"
         ],
-        "help_info": "mathcal",
+        "help_info": "math font switch mathcal",
         "button_image": "images/math_font_examples/math_font_examples-006.png"
     },
     "math_font_examples_7": {
         "latex_code": [
-            "\\mathbb{",
-            "}"
+            "\\mathbb{ ",
+            " }"
         ],
-        "help_info": "mathbb",
+        "help_info": "math font switch mathbb",
         "button_image": "images/math_font_examples/math_font_examples-007.png"
     },
     "math_font_examples_8": {
         "latex_code": [
-            "\\mathfrak{",
-            "}"
+            "\\mathfrak{ ",
+            " }"
         ],
-        "help_info": "mathfrak",
+        "help_info": "math font switch mathfrak",
         "button_image": "images/math_font_examples/math_font_examples-008.png"
     },
     "function_sin": {
@@ -726,5 +726,150 @@
     },
     "function_mod": {
         "latex_code": "\\bmod"
+    },
+    "different_empty_space_1": {
+        "latex_code": "\\,",
+        "help_info": "different empty space",
+        "button_image": "images/different_empty_space/different_empty_space-1.png"
+    },
+    "different_empty_space_2": {
+        "latex_code": "\\:",
+        "help_info": "different empty space",
+        "button_image": "images/different_empty_space/different_empty_space-2.png"
+    },
+    "different_empty_space_3": {
+        "latex_code": "\\;",
+        "help_info": "different empty space",
+        "button_image": "images/different_empty_space/different_empty_space-3.png"
+    },
+    "different_empty_space_4": {
+        "latex_code": "\\quad",
+        "help_info": "different empty space",
+        "button_image": "images/different_empty_space/different_empty_space-4.png"
+    },
+    "different_empty_space_5": {
+        "latex_code": "\\qquad",
+        "help_info": "different empty space",
+        "button_image": "images/different_empty_space/different_empty_space-5.png"
+    },
+    "common_use_1": {
+        "latex_code": [
+            "\\frac{ ",
+            " }{ }"
+        ],
+        "help_info": "common use",
+        "button_image": "images/common_use/common_use-1.png"
+    },
+    "common_use_2": {
+        "latex_code": [
+            "\\sqrt[ ",
+            " ]{ }"
+        ],
+        "help_info": "common use",
+        "button_image": "images/common_use/common_use-2.png"
+    },
+    "common_use_3": {
+        "latex_code": [
+            "\\left( ",
+            " \\right)"
+        ],
+        "help_info": "common use",
+        "button_image": "images/common_use/common_use-3.png"
+    },
+    "common_use_4": {
+        "latex_code": [
+            "\\left| ",
+            " \\right|"
+        ],
+        "help_info": "common use",
+        "button_image": "images/common_use/common_use-4.png"
+    },
+    "common_use_5": {
+        "latex_code": [
+            "\\left[ ",
+            " \\right]"
+        ],
+        "help_info": "common use",
+        "button_image": "images/common_use/common_use-5.png"
+    },
+    "common_use_6": {
+        "latex_code": [
+            "\\left{ ",
+            " \\right}"
+        ],
+        "help_info": "common use",
+        "button_image": "images/common_use/common_use-6.png"
+    },
+    "common_use_7": {
+        "latex_code": [
+            "\\left\\langle ",
+            " \\right\\rangle"
+        ],
+        "help_info": "common use",
+        "button_image": "images/common_use/common_use-7.png"
+    },
+    "common_use2_1": {
+        "latex_code": [
+            "\\ln_{ ",
+            " }{ }"
+        ],
+        "help_info": "common use",
+        "button_image": "images/common_use2/common_use2-1.png"
+    },
+    "common_use2_2": {
+        "latex_code": [
+            "\\underset{ ",
+            " \\rightarrow\\infty}{\\lim}"
+        ],
+        "help_info": "common use",
+        "button_image": "images/common_use2/common_use2-2.png"
+    },
+    "common_use2_3": {
+        "latex_code": [
+            "{\\sum}_ ",
+            " ^{ }"
+        ],
+        "help_info": "common use",
+        "button_image": "images/common_use2/common_use2-3.png"
+    },
+    "common_use2_4": {
+        "latex_code": [
+            "\\underset{ ",
+            " }{\\overset{ }{\\sum}}"
+        ],
+        "help_info": "common use",
+        "button_image": "images/common_use2/common_use2-4.png"
+    },
+    "common_use2_5": {
+        "latex_code": [
+            "{\\prod}_{ ",
+            " }^{ }"
+        ],
+        "help_info": "common use",
+        "button_image": "images/common_use2/common_use2-5.png"
+    },
+    "common_use2_6": {
+        "latex_code": [
+            "\\underset{ ",
+            " }{\\overset{ }{\\int}}{ }"
+        ],
+        "help_info": "common use",
+        "button_image": "images/common_use2/common_use2-6.png"
+    },
+    "common_use2_7": {
+        "latex_code": [
+            "\\int_{ ",
+            " }^{ }{ }"
+        ],
+        "help_info": "common use",
+        "button_image": "images/common_use2/common_use2-7.png"
+    },
+    "common_use2_8": {
+        "latex_code": [
+            "\\oint_{ ",
+            " }^{ }{ }"
+        ],
+        "help_info": "common use",
+        "button_image": "images/common_use2/common_use2-8.png"
     }
 }

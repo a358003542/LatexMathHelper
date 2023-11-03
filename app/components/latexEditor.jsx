@@ -4,9 +4,7 @@ import { displayLatex } from '../utils';
 
 function LatexEditor() {
     return (
-        <div className="row">
-            <textarea id="latex-editor" onInput={displayLatex}></textarea>
-        </div>
+        <textarea id="latex-editor" rows={"15"} onInput={displayLatex}></textarea>
     )
 }
 
