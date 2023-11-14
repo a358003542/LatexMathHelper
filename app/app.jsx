@@ -15,7 +15,7 @@ function Main() {
     <div className="flex-wrapper">
 
       <main >
-        <div className="container">
+        <div className="container-fluid">
           <br />
           <InputPanel />
           <hr />

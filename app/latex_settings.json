@@ -461,100 +461,270 @@
         "help_info": "Set of positive integers ",
         "button_image": "images/math_set_symbols/math_set_symbols-004.png"
     },
-    "basic_symbols_001": {
+    "basic_symbols_01": {
         "latex_code": "\\aleph",
         "help_info": "Cardinality of natural numbers: <code>$\\aleph_0$</code> $\\aleph_0$ ",
-        "button_image": "images/basic_symbols/basic_symbols-001.png"
+        "button_image": "images/basic_symbols/basic_symbols-01.png"
     },
-    "basic_symbols_019": {
+    "basic_symbols_02": {
         "latex_code": "\\mathfrak{c}",
         "help_info": "Cardinality of real numbers: <code>$\\mathfrak{c}$</code> $\\mathfrak{c}$ ",
-        "button_image": "images/basic_symbols/basic_symbols-019.png"
+        "button_image": "images/basic_symbols/basic_symbols-02.png"
     },
-    "basic_symbols_002": {
+    "basic_symbols_03": {
         "latex_code": "\\ell",
         "help_info": "Line one in geometry: <code>$\\ell_1$</code> $\\ell_1$",
-        "button_image": "images/basic_symbols/basic_symbols-002.png"
+        "button_image": "images/basic_symbols/basic_symbols-03.png"
     },
-    "basic_symbols_003": {
+    "basic_symbols_04": {
         "latex_code": "\\partial",
         "help_info": "Partial differential: <code>$\\partial x$</code> $\\partial x$",
-        "button_image": "images/basic_symbols/basic_symbols-003.png"
+        "button_image": "images/basic_symbols/basic_symbols-04.png"
     },
-    "basic_symbols_004": {
+    "basic_symbols_05": {
         "latex_code": "\\Game",
         "help_info": "basic symbols ",
-        "button_image": "images/basic_symbols/basic_symbols-004.png"
+        "button_image": "images/basic_symbols/basic_symbols-05.png"
     },
-    "basic_symbols_005": {
+    "basic_symbols_06": {
         "latex_code": "\\beth",
         "help_info": "basic symbols ",
-        "button_image": "images/basic_symbols/basic_symbols-005.png"
+        "button_image": "images/basic_symbols/basic_symbols-06.png"
     },
-    "basic_symbols_006": {
+    "basic_symbols_07": {
         "latex_code": "\\eth",
         "help_info": "basic symbols ",
-        "button_image": "images/basic_symbols/basic_symbols-006.png"
+        "button_image": "images/basic_symbols/basic_symbols-07.png"
     },
-    "basic_symbols_007": {
+    "basic_symbols_08": {
         "latex_code": "\\wp",
         "help_info": "basic symbols ",
-        "button_image": "images/basic_symbols/basic_symbols-007.png"
+        "button_image": "images/basic_symbols/basic_symbols-08.png"
     },
-    "basic_symbols_008": {
+    "basic_symbols_09": {
         "latex_code": "\\Im",
         "help_info": "basic symbols ",
-        "button_image": "images/basic_symbols/basic_symbols-008.png"
+        "button_image": "images/basic_symbols/basic_symbols-09.png"
     },
-    "basic_symbols_009": {
+    "basic_symbols_10": {
         "latex_code": "\\daleth",
         "help_info": "basic symbols ",
-        "button_image": "images/basic_symbols/basic_symbols-009.png"
+        "button_image": "images/basic_symbols/basic_symbols-10.png"
     },
-    "basic_symbols_010": {
+    "basic_symbols_11": {
         "latex_code": "\\hbar",
         "help_info": "basic symbols ",
-        "button_image": "images/basic_symbols/basic_symbols-010.png"
+        "button_image": "images/basic_symbols/basic_symbols-11.png"
     },
-    "basic_symbols_011": {
+    "basic_symbols_12": {
         "latex_code": "\\circledS",
         "help_info": "basic symbols ",
-        "button_image": "images/basic_symbols/basic_symbols-011.png"
+        "button_image": "images/basic_symbols/basic_symbols-12.png"
     },
-    "basic_symbols_012": {
+    "basic_symbols_13": {
         "latex_code": "\\Re",
         "help_info": "basic symbols ",
-        "button_image": "images/basic_symbols/basic_symbols-012.png"
+        "button_image": "images/basic_symbols/basic_symbols-13.png"
     },
-    "basic_symbols_013": {
+    "basic_symbols_14": {
         "latex_code": "\\gimel",
         "help_info": "basic symbols ",
-        "button_image": "images/basic_symbols/basic_symbols-013.png"
+        "button_image": "images/basic_symbols/basic_symbols-14.png"
     },
-    "basic_symbols_014": {
+    "basic_symbols_15": {
         "latex_code": "\\hslash",
         "help_info": "basic symbols ",
-        "button_image": "images/basic_symbols/basic_symbols-014.png"
+        "button_image": "images/basic_symbols/basic_symbols-15.png"
     },
-    "basic_symbols_015": {
+    "basic_symbols_16": {
         "latex_code": "\\Bbbk",
         "help_info": "basic symbols ",
-        "button_image": "images/basic_symbols/basic_symbols-015.png"
+        "button_image": "images/basic_symbols/basic_symbols-16.png"
     },
-    "basic_symbols_016": {
+    "basic_symbols_17": {
         "latex_code": "\\complement",
         "help_info": "basic symbols ",
-        "button_image": "images/basic_symbols/basic_symbols-016.png"
+        "button_image": "images/basic_symbols/basic_symbols-17.png"
     },
-    "basic_symbols_017": {
+    "basic_symbols_18": {
         "latex_code": "\\mho",
         "help_info": "basic symbols ",
-        "button_image": "images/basic_symbols/basic_symbols-017.png"
+        "button_image": "images/basic_symbols/basic_symbols-18.png"
     },
-    "basic_symbols_018": {
+    "basic_symbols_19": {
         "latex_code": "\\Finv",
         "help_info": "basic symbols ",
-        "button_image": "images/basic_symbols/basic_symbols-018.png"
+        "button_image": "images/basic_symbols/basic_symbols-19.png"
+    },
+    "basic_symbols_20": {
+        "latex_code": "\\angle",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-20.png"
+    },
+    "basic_symbols_21": {
+        "latex_code": "\\backprime",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-21.png"
+    },
+    "basic_symbols_22": {
+        "latex_code": "\\bigstar",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-22.png"
+    },
+    "basic_symbols_23": {
+        "latex_code": "\\blacklozenge",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-23.png"
+    },
+    "basic_symbols_24": {
+        "latex_code": "\\blacksquare",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-24.png"
+    },
+    "basic_symbols_25": {
+        "latex_code": "\\blacktriangle",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-25.png"
+    },
+    "basic_symbols_26": {
+        "latex_code": "\\blacktriangledown",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-26.png"
+    },
+    "basic_symbols_27": {
+        "latex_code": "\\bot",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-27.png"
+    },
+    "basic_symbols_28": {
+        "latex_code": "\\clubsuit",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-28.png"
+    },
+    "basic_symbols_29": {
+        "latex_code": "\\diagdown",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-29.png"
+    },
+    "basic_symbols_30": {
+        "latex_code": "\\diagup",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-30.png"
+    },
+    "basic_symbols_31": {
+        "latex_code": "\\diamondsuit",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-31.png"
+    },
+    "basic_symbols_32": {
+        "latex_code": "\\emptyset",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-32.png"
+    },
+    "basic_symbols_33": {
+        "latex_code": "\\exists",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-33.png"
+    },
+    "basic_symbols_34": {
+        "latex_code": "\\flat",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-34.png"
+    },
+    "basic_symbols_35": {
+        "latex_code": "\\forall",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-35.png"
+    },
+    "basic_symbols_36": {
+        "latex_code": "\\heartsuit",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-36.png"
+    },
+    "basic_symbols_37": {
+        "latex_code": "\\infty",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-37.png"
+    },
+    "basic_symbols_38": {
+        "latex_code": "\\lozenge",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-38.png"
+    },
+    "basic_symbols_39": {
+        "latex_code": "\\measuredangle",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-39.png"
+    },
+    "basic_symbols_40": {
+        "latex_code": "\\nabla",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-40.png"
+    },
+    "basic_symbols_41": {
+        "latex_code": "\\natural",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-41.png"
+    },
+    "basic_symbols_42": {
+        "latex_code": "\\neg",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-42.png"
+    },
+    "basic_symbols_43": {
+        "latex_code": "\\nexists",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-43.png"
+    },
+    "basic_symbols_44": {
+        "latex_code": "\\prime",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-44.png"
+    },
+    "basic_symbols_45": {
+        "latex_code": "\\sharp",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-45.png"
+    },
+    "basic_symbols_46": {
+        "latex_code": "\\spadesuit",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-46.png"
+    },
+    "basic_symbols_47": {
+        "latex_code": "\\sphericalangle",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-47.png"
+    },
+    "basic_symbols_48": {
+        "latex_code": "\\square",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-48.png"
+    },
+    "basic_symbols_49": {
+        "latex_code": "\\surd",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-49.png"
+    },
+    "basic_symbols_50": {
+        "latex_code": "\\top",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-50.png"
+    },
+    "basic_symbols_51": {
+        "latex_code": "\\triangle",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-51.png"
+    },
+    "basic_symbols_52": {
+        "latex_code": "\\triangledown",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-52.png"
+    },
+    "basic_symbols_53": {
+        "latex_code": "\\varnothing",
+        "help_info": "basic symbols ",
+        "button_image": "images/basic_symbols/basic_symbols-53.png"
     },
     "math_font_examples_1": {
         "help_info": "normal math font",
@@ -794,8 +964,8 @@
     },
     "common_use_6": {
         "latex_code": [
-            "\\left{ ",
-            " \\right}"
+            "\\left\\{ ",
+            " \\right\\}"
         ],
         "help_info": "common use",
         "button_image": "images/common_use/common_use-6.png"
@@ -871,5 +1041,1390 @@
         ],
         "help_info": "common use",
         "button_image": "images/common_use2/common_use2-8.png"
+    },
+    "relation_symbols_01": {
+        "latex_code": "\\approx",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-01.png"
+    },
+    "relation_symbols_02": {
+        "latex_code": "\\approxeq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-02.png"
+    },
+    "relation_symbols_03": {
+        "latex_code": "\\asymp",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-03.png"
+    },
+    "relation_symbols_04": {
+        "latex_code": "\\backsim",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-04.png"
+    },
+    "relation_symbols_05": {
+        "latex_code": "\\backsimeq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-05.png"
+    },
+    "relation_symbols_06": {
+        "latex_code": "\\bumpeq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-06.png"
+    },
+    "relation_symbols_07": {
+        "latex_code": "\\Bumpeq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-07.png"
+    },
+    "relation_symbols_08": {
+        "latex_code": "\\circeq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-08.png"
+    },
+    "relation_symbols_09": {
+        "latex_code": "\\cong",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-09.png"
+    },
+    "relation_symbols_10": {
+        "latex_code": "\\curlyeqprec",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-10.png"
+    },
+    "relation_symbols_11": {
+        "latex_code": "\\curlyeqsucc",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-11.png"
+    },
+    "relation_symbols_12": {
+        "latex_code": "\\doteq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-12.png"
+    },
+    "relation_symbols_13": {
+        "latex_code": "\\doteqdot",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-13.png"
+    },
+    "relation_symbols_14": {
+        "latex_code": "\\eqcirc",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-14.png"
+    },
+    "relation_symbols_15": {
+        "latex_code": "\\eqsim",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-15.png"
+    },
+    "relation_symbols_16": {
+        "latex_code": "\\eqslantgtr",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-16.png"
+    },
+    "relation_symbols_17": {
+        "latex_code": "\\eqslantless",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-17.png"
+    },
+    "relation_symbols_18": {
+        "latex_code": "\\equiv",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-18.png"
+    },
+    "relation_symbols_19": {
+        "latex_code": "\\fallingdotseq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-19.png"
+    },
+    "relation_symbols_20": {
+        "latex_code": "\\geq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-20.png"
+    },
+    "relation_symbols_21": {
+        "latex_code": "\\geqq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-21.png"
+    },
+    "relation_symbols_22": {
+        "latex_code": "\\geqslant",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-22.png"
+    },
+    "relation_symbols_23": {
+        "latex_code": "\\gg",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-23.png"
+    },
+    "relation_symbols_24": {
+        "latex_code": "\\ggg",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-24.png"
+    },
+    "relation_symbols_25": {
+        "latex_code": "\\gnapprox",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-25.png"
+    },
+    "relation_symbols_26": {
+        "latex_code": "\\gneq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-26.png"
+    },
+    "relation_symbols_27": {
+        "latex_code": "\\gneqq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-27.png"
+    },
+    "relation_symbols_28": {
+        "latex_code": "\\gnsim",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-28.png"
+    },
+    "relation_symbols_29": {
+        "latex_code": "\\gtrapprox",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-29.png"
+    },
+    "relation_symbols_30": {
+        "latex_code": "\\gtreqless",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-30.png"
+    },
+    "relation_symbols_31": {
+        "latex_code": "\\gtreqqless",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-31.png"
+    },
+    "relation_symbols_32": {
+        "latex_code": "\\gtrless",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-32.png"
+    },
+    "relation_symbols_33": {
+        "latex_code": "\\gtrsim",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-33.png"
+    },
+    "relation_symbols_34": {
+        "latex_code": "\\gvertneqq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-34.png"
+    },
+    "relation_symbols_35": {
+        "latex_code": "\\leq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-35.png"
+    },
+    "relation_symbols_36": {
+        "latex_code": "\\leqq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-36.png"
+    },
+    "relation_symbols_37": {
+        "latex_code": "\\leqslant",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-37.png"
+    },
+    "relation_symbols_38": {
+        "latex_code": "\\lessapprox",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-38.png"
+    },
+    "relation_symbols_39": {
+        "latex_code": "\\lesseqgtr",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-39.png"
+    },
+    "relation_symbols_40": {
+        "latex_code": "\\lesseqqgtr",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-40.png"
+    },
+    "relation_symbols_41": {
+        "latex_code": "\\lessgtr",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-41.png"
+    },
+    "relation_symbols_42": {
+        "latex_code": "\\lesssim",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-42.png"
+    },
+    "relation_symbols_43": {
+        "latex_code": "\\ll",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-43.png"
+    },
+    "relation_symbols_44": {
+        "latex_code": "\\lll",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-44.png"
+    },
+    "relation_symbols_45": {
+        "latex_code": "\\lnapprox",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-45.png"
+    },
+    "relation_symbols_46": {
+        "latex_code": "\\lneq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-46.png"
+    },
+    "relation_symbols_47": {
+        "latex_code": "\\lneqq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-47.png"
+    },
+    "relation_symbols_48": {
+        "latex_code": "\\lnsim",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-48.png"
+    },
+    "relation_symbols_49": {
+        "latex_code": "\\lvertneqq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-49.png"
+    },
+    "relation_symbols_50": {
+        "latex_code": "\\ncong",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-50.png"
+    },
+    "relation_symbols_51": {
+        "latex_code": "\\neq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-51.png"
+    },
+    "relation_symbols_52": {
+        "latex_code": "\\ngeq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-52.png"
+    },
+    "relation_symbols_53": {
+        "latex_code": "\\ngeqq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-53.png"
+    },
+    "relation_symbols_54": {
+        "latex_code": "\\ngeqslant",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-54.png"
+    },
+    "relation_symbols_55": {
+        "latex_code": "\\ngtr",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-55.png"
+    },
+    "relation_symbols_56": {
+        "latex_code": "\\nleq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-56.png"
+    },
+    "relation_symbols_57": {
+        "latex_code": "\\nleqq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-57.png"
+    },
+    "relation_symbols_58": {
+        "latex_code": "\\nleqslant",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-58.png"
+    },
+    "relation_symbols_59": {
+        "latex_code": "\\nless",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-59.png"
+    },
+    "relation_symbols_60": {
+        "latex_code": "\\nprec",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-60.png"
+    },
+    "relation_symbols_61": {
+        "latex_code": "\\npreceq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-61.png"
+    },
+    "relation_symbols_62": {
+        "latex_code": "\\nsim",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-62.png"
+    },
+    "relation_symbols_63": {
+        "latex_code": "\\nsucc",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-63.png"
+    },
+    "relation_symbols_64": {
+        "latex_code": "\\nsucceq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-64.png"
+    },
+    "relation_symbols_65": {
+        "latex_code": "\\prec",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-65.png"
+    },
+    "relation_symbols_66": {
+        "latex_code": "\\precapprox",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-66.png"
+    },
+    "relation_symbols_67": {
+        "latex_code": "\\preccurlyeq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-67.png"
+    },
+    "relation_symbols_68": {
+        "latex_code": "\\preceq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-68.png"
+    },
+    "relation_symbols_69": {
+        "latex_code": "\\precnapprox",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-69.png"
+    },
+    "relation_symbols_70": {
+        "latex_code": "\\precneqq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-70.png"
+    },
+    "relation_symbols_71": {
+        "latex_code": "\\precnsim",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-71.png"
+    },
+    "relation_symbols_72": {
+        "latex_code": "\\precsim",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-72.png"
+    },
+    "relation_symbols_73": {
+        "latex_code": "\\risingdotseq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-73.png"
+    },
+    "relation_symbols_74": {
+        "latex_code": "\\sim",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-74.png"
+    },
+    "relation_symbols_75": {
+        "latex_code": "\\simeq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-75.png"
+    },
+    "relation_symbols_76": {
+        "latex_code": "\\succ",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-76.png"
+    },
+    "relation_symbols_77": {
+        "latex_code": "\\succapprox",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-77.png"
+    },
+    "relation_symbols_78": {
+        "latex_code": "\\succcurlyeq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-78.png"
+    },
+    "relation_symbols_79": {
+        "latex_code": "\\succeq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-79.png"
+    },
+    "relation_symbols_80": {
+        "latex_code": "\\succnapprox",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-80.png"
+    },
+    "relation_symbols_81": {
+        "latex_code": "\\succneqq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-81.png"
+    },
+    "relation_symbols_82": {
+        "latex_code": "\\succnsim",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-82.png"
+    },
+    "relation_symbols_83": {
+        "latex_code": "\\succsim",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-83.png"
+    },
+    "relation_symbols_84": {
+        "latex_code": "\\thickapprox",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-84.png"
+    },
+    "relation_symbols_85": {
+        "latex_code": "\\thicksim",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-85.png"
+    },
+    "relation_symbols_86": {
+        "latex_code": "\\triangleq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols/relation_symbols-86.png"
+    },
+    "binary_operator_symbols_01": {
+        "latex_code": "\\amalg",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-01.png"
+    },
+    "binary_operator_symbols_02": {
+        "latex_code": "\\ast",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-02.png"
+    },
+    "binary_operator_symbols_03": {
+        "latex_code": "\\barwedge",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-03.png"
+    },
+    "binary_operator_symbols_04": {
+        "latex_code": "\\bigcirc",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-04.png"
+    },
+    "binary_operator_symbols_05": {
+        "latex_code": "\\bigtriangledown",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-05.png"
+    },
+    "binary_operator_symbols_06": {
+        "latex_code": "\\bigtriangleup",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-06.png"
+    },
+    "binary_operator_symbols_07": {
+        "latex_code": "\\boxdot",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-07.png"
+    },
+    "binary_operator_symbols_08": {
+        "latex_code": "\\boxminus",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-08.png"
+    },
+    "binary_operator_symbols_09": {
+        "latex_code": "\\boxplus",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-09.png"
+    },
+    "binary_operator_symbols_10": {
+        "latex_code": "\\boxtimes",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-10.png"
+    },
+    "binary_operator_symbols_11": {
+        "latex_code": "\\bullet",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-11.png"
+    },
+    "binary_operator_symbols_12": {
+        "latex_code": "\\cap",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-12.png"
+    },
+    "binary_operator_symbols_13": {
+        "latex_code": "\\Cap",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-13.png"
+    },
+    "binary_operator_symbols_14": {
+        "latex_code": "\\cdot",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-14.png"
+    },
+    "binary_operator_symbols_15": {
+        "latex_code": "\\centerdot",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-15.png"
+    },
+    "binary_operator_symbols_16": {
+        "latex_code": "\\circ",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-16.png"
+    },
+    "binary_operator_symbols_17": {
+        "latex_code": "\\circledast",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-17.png"
+    },
+    "binary_operator_symbols_18": {
+        "latex_code": "\\circledcirc",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-18.png"
+    },
+    "binary_operator_symbols_19": {
+        "latex_code": "\\circleddash",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-19.png"
+    },
+    "binary_operator_symbols_20": {
+        "latex_code": "\\cup",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-20.png"
+    },
+    "binary_operator_symbols_21": {
+        "latex_code": "\\Cup",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-21.png"
+    },
+    "binary_operator_symbols_22": {
+        "latex_code": "\\curlyvee",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-22.png"
+    },
+    "binary_operator_symbols_23": {
+        "latex_code": "\\curlywedge",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-23.png"
+    },
+    "binary_operator_symbols_24": {
+        "latex_code": "\\dagger",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-24.png"
+    },
+    "binary_operator_symbols_25": {
+        "latex_code": "\\ddagger",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-25.png"
+    },
+    "binary_operator_symbols_26": {
+        "latex_code": "\\diamond",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-26.png"
+    },
+    "binary_operator_symbols_27": {
+        "latex_code": "\\div",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-27.png"
+    },
+    "binary_operator_symbols_28": {
+        "latex_code": "\\divideontimes",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-28.png"
+    },
+    "binary_operator_symbols_29": {
+        "latex_code": "\\dotplus",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-29.png"
+    },
+    "binary_operator_symbols_30": {
+        "latex_code": "\\doublebarwedge",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-30.png"
+    },
+    "binary_operator_symbols_31": {
+        "latex_code": "\\gtrdot",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-31.png"
+    },
+    "binary_operator_symbols_32": {
+        "latex_code": "\\intercal",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-32.png"
+    },
+    "binary_operator_symbols_33": {
+        "latex_code": "\\leftthreetimes",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-33.png"
+    },
+    "binary_operator_symbols_34": {
+        "latex_code": "\\lessdot",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-34.png"
+    },
+    "binary_operator_symbols_35": {
+        "latex_code": "\\ltimes",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-35.png"
+    },
+    "binary_operator_symbols_36": {
+        "latex_code": "\\mp",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-36.png"
+    },
+    "binary_operator_symbols_37": {
+        "latex_code": "\\odot",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-37.png"
+    },
+    "binary_operator_symbols_38": {
+        "latex_code": "\\ominus",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-38.png"
+    },
+    "binary_operator_symbols_39": {
+        "latex_code": "\\oplus",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-39.png"
+    },
+    "binary_operator_symbols_40": {
+        "latex_code": "\\oslash",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-40.png"
+    },
+    "binary_operator_symbols_41": {
+        "latex_code": "\\otimes",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-41.png"
+    },
+    "binary_operator_symbols_42": {
+        "latex_code": "\\pm",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-42.png"
+    },
+    "binary_operator_symbols_43": {
+        "latex_code": "\\rightthreetimes",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-43.png"
+    },
+    "binary_operator_symbols_44": {
+        "latex_code": "\\rtimes",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-44.png"
+    },
+    "binary_operator_symbols_45": {
+        "latex_code": "\\setminus",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-45.png"
+    },
+    "binary_operator_symbols_46": {
+        "latex_code": "\\smallsetminus",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-46.png"
+    },
+    "binary_operator_symbols_47": {
+        "latex_code": "\\sqcap",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-47.png"
+    },
+    "binary_operator_symbols_48": {
+        "latex_code": "\\sqcup",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-48.png"
+    },
+    "binary_operator_symbols_49": {
+        "latex_code": "\\star",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-49.png"
+    },
+    "binary_operator_symbols_50": {
+        "latex_code": "\\times",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-50.png"
+    },
+    "binary_operator_symbols_51": {
+        "latex_code": "\\triangleleft",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-51.png"
+    },
+    "binary_operator_symbols_52": {
+        "latex_code": "\\triangleright",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-52.png"
+    },
+    "binary_operator_symbols_53": {
+        "latex_code": "\\uplus",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-53.png"
+    },
+    "binary_operator_symbols_54": {
+        "latex_code": "\\vee",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-54.png"
+    },
+    "binary_operator_symbols_55": {
+        "latex_code": "\\veebar",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-55.png"
+    },
+    "binary_operator_symbols_56": {
+        "latex_code": "\\wedge",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-56.png"
+    },
+    "binary_operator_symbols_57": {
+        "latex_code": "\\wr",
+        "help_info": "binary operator symbols ",
+        "button_image": "images/binary_operator_symbols/binary_operator_symbols-57.png"
+    },
+    "relation_symbols2_01": {
+        "latex_code": "\\backepsilon",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-01.png"
+    },
+    "relation_symbols2_02": {
+        "latex_code": "\\because",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-02.png"
+    },
+    "relation_symbols2_03": {
+        "latex_code": "\\between",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-03.png"
+    },
+    "relation_symbols2_04": {
+        "latex_code": "\\blacktriangleleft",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-04.png"
+    },
+    "relation_symbols2_05": {
+        "latex_code": "\\blacktriangleright",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-05.png"
+    },
+    "relation_symbols2_06": {
+        "latex_code": "\\bowtie",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-06.png"
+    },
+    "relation_symbols2_07": {
+        "latex_code": "\\dashv",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-07.png"
+    },
+    "relation_symbols2_08": {
+        "latex_code": "\\frown",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-08.png"
+    },
+    "relation_symbols2_09": {
+        "latex_code": "\\in",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-09.png"
+    },
+    "relation_symbols2_10": {
+        "latex_code": "\\mid",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-10.png"
+    },
+    "relation_symbols2_11": {
+        "latex_code": "\\models",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-11.png"
+    },
+    "relation_symbols2_12": {
+        "latex_code": "\\ni",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-12.png"
+    },
+    "relation_symbols2_13": {
+        "latex_code": "\\nmid",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-13.png"
+    },
+    "relation_symbols2_14": {
+        "latex_code": "\\notin",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-14.png"
+    },
+    "relation_symbols2_15": {
+        "latex_code": "\\nparallel",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-15.png"
+    },
+    "relation_symbols2_16": {
+        "latex_code": "\\nshortmid",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-16.png"
+    },
+    "relation_symbols2_17": {
+        "latex_code": "\\nshortparallel",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-17.png"
+    },
+    "relation_symbols2_18": {
+        "latex_code": "\\nsubseteq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-18.png"
+    },
+    "relation_symbols2_19": {
+        "latex_code": "\\nsubseteqq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-19.png"
+    },
+    "relation_symbols2_20": {
+        "latex_code": "\\nsupseteq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-20.png"
+    },
+    "relation_symbols2_21": {
+        "latex_code": "\\nsupseteqq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-21.png"
+    },
+    "relation_symbols2_22": {
+        "latex_code": "\\ntriangleleft",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-22.png"
+    },
+    "relation_symbols2_23": {
+        "latex_code": "\\ntrianglelefteq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-23.png"
+    },
+    "relation_symbols2_24": {
+        "latex_code": "\\ntriangleright",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-24.png"
+    },
+    "relation_symbols2_25": {
+        "latex_code": "\\ntrianglerighteq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-25.png"
+    },
+    "relation_symbols2_26": {
+        "latex_code": "\\nvdash",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-26.png"
+    },
+    "relation_symbols2_27": {
+        "latex_code": "\\nVdash",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-27.png"
+    },
+    "relation_symbols2_28": {
+        "latex_code": "\\nvDash",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-28.png"
+    },
+    "relation_symbols2_29": {
+        "latex_code": "\\nVDash",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-29.png"
+    },
+    "relation_symbols2_30": {
+        "latex_code": "\\parallel",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-30.png"
+    },
+    "relation_symbols2_31": {
+        "latex_code": "\\perp",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-31.png"
+    },
+    "relation_symbols2_32": {
+        "latex_code": "\\pitchfork",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-32.png"
+    },
+    "relation_symbols2_33": {
+        "latex_code": "\\propto",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-33.png"
+    },
+    "relation_symbols2_34": {
+        "latex_code": "\\shortmid",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-34.png"
+    },
+    "relation_symbols2_35": {
+        "latex_code": "\\shortparallel",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-35.png"
+    },
+    "relation_symbols2_36": {
+        "latex_code": "\\smallfrown",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-36.png"
+    },
+    "relation_symbols2_37": {
+        "latex_code": "\\smallsmile",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-37.png"
+    },
+    "relation_symbols2_38": {
+        "latex_code": "\\smile",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-38.png"
+    },
+    "relation_symbols2_39": {
+        "latex_code": "\\sqsubset",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-39.png"
+    },
+    "relation_symbols2_40": {
+        "latex_code": "\\sqsubseteq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-40.png"
+    },
+    "relation_symbols2_41": {
+        "latex_code": "\\sqsupset",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-41.png"
+    },
+    "relation_symbols2_42": {
+        "latex_code": "\\sqsupseteq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-42.png"
+    },
+    "relation_symbols2_43": {
+        "latex_code": "\\subset",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-43.png"
+    },
+    "relation_symbols2_44": {
+        "latex_code": "\\Subset",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-44.png"
+    },
+    "relation_symbols2_45": {
+        "latex_code": "\\subseteq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-45.png"
+    },
+    "relation_symbols2_46": {
+        "latex_code": "\\subseteqq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-46.png"
+    },
+    "relation_symbols2_47": {
+        "latex_code": "\\subsetneq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-47.png"
+    },
+    "relation_symbols2_48": {
+        "latex_code": "\\subsetneqq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-48.png"
+    },
+    "relation_symbols2_49": {
+        "latex_code": "\\supset",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-49.png"
+    },
+    "relation_symbols2_50": {
+        "latex_code": "\\Supset",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-50.png"
+    },
+    "relation_symbols2_51": {
+        "latex_code": "\\supseteq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-51.png"
+    },
+    "relation_symbols2_52": {
+        "latex_code": "\\supseteqq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-52.png"
+    },
+    "relation_symbols2_53": {
+        "latex_code": "\\supsetneq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-53.png"
+    },
+    "relation_symbols2_54": {
+        "latex_code": "\\supsetneqq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-54.png"
+    },
+    "relation_symbols2_55": {
+        "latex_code": "\\therefore",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-55.png"
+    },
+    "relation_symbols2_56": {
+        "latex_code": "\\trianglelefteq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-56.png"
+    },
+    "relation_symbols2_57": {
+        "latex_code": "\\trianglerighteq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-57.png"
+    },
+    "relation_symbols2_58": {
+        "latex_code": "\\varpropto",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-58.png"
+    },
+    "relation_symbols2_59": {
+        "latex_code": "\\varsubsetneq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-59.png"
+    },
+    "relation_symbols2_60": {
+        "latex_code": "\\varsubsetneqq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-60.png"
+    },
+    "relation_symbols2_61": {
+        "latex_code": "\\varsupsetneq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-61.png"
+    },
+    "relation_symbols2_62": {
+        "latex_code": "\\varsupsetneqq",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-62.png"
+    },
+    "relation_symbols2_63": {
+        "latex_code": "\\vartriangle",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-63.png"
+    },
+    "relation_symbols2_64": {
+        "latex_code": "\\vartriangleleft",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-64.png"
+    },
+    "relation_symbols2_65": {
+        "latex_code": "\\vartriangleright",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-65.png"
+    },
+    "relation_symbols2_66": {
+        "latex_code": "\\vdash",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-66.png"
+    },
+    "relation_symbols2_67": {
+        "latex_code": "\\Vdash",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-67.png"
+    },
+    "relation_symbols2_68": {
+        "latex_code": "\\vDash",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-68.png"
+    },
+    "relation_symbols2_69": {
+        "latex_code": "\\Vvdash",
+        "help_info": "relation symbols",
+        "button_image": "images/relation_symbols2/relation_symbols2-69.png"
+    },
+    "arrows_01": {
+        "latex_code": "\\circlearrowleft",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-01.png"
+    },
+    "arrows_02": {
+        "latex_code": "\\circlearrowright",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-02.png"
+    },
+    "arrows_03": {
+        "latex_code": "\\curvearrowleft",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-03.png"
+    },
+    "arrows_04": {
+        "latex_code": "\\curvearrowright",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-04.png"
+    },
+    "arrows_05": {
+        "latex_code": "\\downdownarrows",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-05.png"
+    },
+    "arrows_06": {
+        "latex_code": "\\downharpoonleft",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-06.png"
+    },
+    "arrows_07": {
+        "latex_code": "\\downharpoonright",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-07.png"
+    },
+    "arrows_08": {
+        "latex_code": "\\hookleftarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-08.png"
+    },
+    "arrows_09": {
+        "latex_code": "\\hookleftarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-09.png"
+    },
+    "arrows_10": {
+        "latex_code": "\\leftarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-10.png"
+    },
+    "arrows_11": {
+        "latex_code": "\\Leftarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-11.png"
+    },
+    "arrows_12": {
+        "latex_code": "\\leftarrowtail",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-12.png"
+    },
+    "arrows_13": {
+        "latex_code": "\\leftharpoondown",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-13.png"
+    },
+    "arrows_14": {
+        "latex_code": "\\leftharpoonup",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-14.png"
+    },
+    "arrows_15": {
+        "latex_code": "\\leftleftarrows",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-15.png"
+    },
+    "arrows_16": {
+        "latex_code": "\\leftrightarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-16.png"
+    },
+    "arrows_17": {
+        "latex_code": "\\Leftrightarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-17.png"
+    },
+    "arrows_18": {
+        "latex_code": "\\leftrightarrows",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-18.png"
+    },
+    "arrows_19": {
+        "latex_code": "\\leftrightharpoons",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-19.png"
+    },
+    "arrows_20": {
+        "latex_code": "\\leftrightsquigarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-20.png"
+    },
+    "arrows_21": {
+        "latex_code": "\\Lleftarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-21.png"
+    },
+    "arrows_22": {
+        "latex_code": "\\longleftarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-22.png"
+    },
+    "arrows_23": {
+        "latex_code": "\\Longleftarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-23.png"
+    },
+    "arrows_24": {
+        "latex_code": "\\longleftrightarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-24.png"
+    },
+    "arrows_25": {
+        "latex_code": "\\Longleftrightarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-25.png"
+    },
+    "arrows_26": {
+        "latex_code": "\\longmapsto",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-26.png"
+    },
+    "arrows_27": {
+        "latex_code": "\\longrightarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-27.png"
+    },
+    "arrows_28": {
+        "latex_code": "\\Longrightarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-28.png"
+    },
+    "arrows_29": {
+        "latex_code": "\\looparrowleft",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-29.png"
+    },
+    "arrows_30": {
+        "latex_code": "\\looparrowright",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-30.png"
+    },
+    "arrows_31": {
+        "latex_code": "\\Lsh",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-31.png"
+    },
+    "arrows_32": {
+        "latex_code": "\\mapsto",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-32.png"
+    },
+    "arrows_33": {
+        "latex_code": "\\multimap",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-33.png"
+    },
+    "arrows_34": {
+        "latex_code": "\\nLeftarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-34.png"
+    },
+    "arrows_35": {
+        "latex_code": "\\nLeftrightarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-35.png"
+    },
+    "arrows_36": {
+        "latex_code": "\\nRightarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-36.png"
+    },
+    "arrows_37": {
+        "latex_code": "\\nearrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-37.png"
+    },
+    "arrows_38": {
+        "latex_code": "\\nleftarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-38.png"
+    },
+    "arrows_39": {
+        "latex_code": "\\nleftrightarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-39.png"
+    },
+    "arrows_40": {
+        "latex_code": "\\nrightarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-40.png"
+    },
+    "arrows_41": {
+        "latex_code": "\\nwarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-41.png"
+    },
+    "arrows_42": {
+        "latex_code": "\\rightarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-42.png"
+    },
+    "arrows_43": {
+        "latex_code": "\\Rightarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-43.png"
+    },
+    "arrows_44": {
+        "latex_code": "\\rightarrowtail",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-44.png"
+    },
+    "arrows_45": {
+        "latex_code": "\\rightharpoondown",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-45.png"
+    },
+    "arrows_46": {
+        "latex_code": "\\rightharpoonup",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-46.png"
+    },
+    "arrows_47": {
+        "latex_code": "\\rightleftarrows",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-47.png"
+    },
+    "arrows_48": {
+        "latex_code": "\\rightleftharpoons",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-48.png"
+    },
+    "arrows_49": {
+        "latex_code": "\\rightrightarrows",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-49.png"
+    },
+    "arrows_50": {
+        "latex_code": "\\rightsquigarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-50.png"
+    },
+    "arrows_51": {
+        "latex_code": "\\Rrightarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-51.png"
+    },
+    "arrows_52": {
+        "latex_code": "\\Rsh",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-52.png"
+    },
+    "arrows_53": {
+        "latex_code": "\\searrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-53.png"
+    },
+    "arrows_54": {
+        "latex_code": "\\swarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-54.png"
+    },
+    "arrows_55": {
+        "latex_code": "\\twoheadleftarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-55.png"
+    },
+    "arrows_56": {
+        "latex_code": "\\twoheadleftarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-56.png"
+    },
+    "arrows_57": {
+        "latex_code": "\\upharpoonleft",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-57.png"
+    },
+    "arrows_58": {
+        "latex_code": "\\upharpoonright",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-58.png"
+    },
+    "arrows_59": {
+        "latex_code": "\\upuparrows",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-59.png"
+    },
+    "arrows_60": {
+        "latex_code": "\\uparrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-60.png"
+    },
+    "arrows_61": {
+        "latex_code": "\\Uparrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-61.png"
+    },
+    "arrows_62": {
+        "latex_code": "\\downarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-62.png"
+    },
+    "arrows_63": {
+        "latex_code": "\\Downarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-63.png"
+    },
+    "arrows_64": {
+        "latex_code": "\\updownarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-64.png"
+    },
+    "arrows_65": {
+        "latex_code": "\\Updownarrow",
+        "help_info": "arrows ",
+        "button_image": "images/arrows/arrows-65.png"
     }
 }
