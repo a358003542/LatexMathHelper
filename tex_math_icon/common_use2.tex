@@ -1,0 +1,74 @@
+\documentclass[tikz,border=0pt]{standalone}
+
+\usepackage{fontspec} 
+\usepackage{amssymb,amsmath}
+
+\setmainfont[Mapping=tex-text]{DejaVu Serif}
+\setsansfont[Mapping=tex-text]{DejaVu Sans}
+\setmonofont[Mapping=tex-text]{DejaVu Sans Mono}
+
+\begin{document}
+\definecolor{TextColor}{HTML}{000000}
+
+
+\tikzset{outline/.style={
+    help lines,
+    color = white,
+    line width = 0.1pt,
+    xstep = 0.01,
+    ystep = 0.01
+}}
+
+\tikzset{nodestyle/.style={
+     text=TextColor, 
+     font=\Huge,
+     scale=1,
+     anchor =center,
+     inner sep = 1pt,
+     outer sep = 0pt,
+     minimum height=2.4cm,
+     minimum width = 2.4cm,
+     %minimum size = 2.2cm,
+     %fill = gray!50
+}}
+
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\ln_{x}{m}$};
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\underset{x\rightarrow\infty}{\lim}$};
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {${\sum}_x^m$};
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\underset{m}{\overset{x}{\sum}}$};
+\end{tikzpicture}
+
+
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {${\prod}_m^x$};
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\underset{m}{\overset{x}{\int}}b$};
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\int_{m}^{x}b$};
+\end{tikzpicture}
+
+
+\begin{tikzpicture}
+\node (node1) at (0,0)[nodestyle] {$\oint_{m}^{x}b$};
+\end{tikzpicture}
+
+
+
+
+
+
+\end{document}
