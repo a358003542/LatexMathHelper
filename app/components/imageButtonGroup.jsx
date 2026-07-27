@@ -14,7 +14,7 @@ export function ImageButtonGroup(props) {
     let image_buttons_group = lodash.chunk(image_button_keys, group_row_item_nums)
 
     const image_buttons_head = image_buttons_group[0].map(button_key => {
-        let image_src = `../main_window/static/${LatexSettings[button_key]["button_image"]}`
+        let image_src = `./static/${LatexSettings[button_key]["button_image"]}`
         return <ImageButton button_key={button_key}
             image_src={image_src} key={button_key} image_button_class={image_button_class} />;
     });
@@ -23,7 +23,7 @@ export function ImageButtonGroup(props) {
     const image_buttons_body = image_buttons_group.slice(1).map(image_buttons => {
         group_count++;
         let image_button_group = image_buttons.map(button_key => {
-            let image_src = `../main_window/static/${LatexSettings[button_key]["button_image"]}`
+            let image_src = `./static/${LatexSettings[button_key]["button_image"]}`
             return <ImageButton button_key={button_key}
                 image_src={image_src} key={button_key} image_button_class={image_button_class}/>
         })
