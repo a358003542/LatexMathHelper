@@ -1,6 +1,13 @@
 # LatexMathHelper
 LatexMathHelper
 
+
+## TODO
+现在还有点问题，之前因为没有什么需求就懒得弄了，现在有的时候似乎又想起它来了。
+
+项目已经跑不起来了，一些依赖库变动的吧，项目也看不明白了，后面有时间再弄好点，有的时候还是有点用的。
+
+
 ## 截图
 
 ![latexMathHelper](./resources/latexMathHelper.png)
