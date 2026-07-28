@@ -4,7 +4,7 @@ export function displayLatex() {
     const latexResult = document.getElementById("latex-result")
     const editor = document.getElementById("latex-editor")
     latexResult.textContent = `$$${editor.value}$$`
-    window.MathJax.typeset([latexResult])
+    MathJax.typesetPromise([latexResult])
 }
 
 export function inputToEditor(editor, startString, endString) {
@@ -50,3 +50,23 @@ export function inputLatex(name) {
     inputToEditor(editor, inputStart, inputEnd)
     displayLatex()
   }
+
+
+ export function openModal(modal_name) {
+  switch (modal_name) {
+    case 'example_multiline_equations':
+      window.example_multiline_equations.show();
+      break;
+    case 'example_matrices':
+      window.example_matrices.show();
+      break;
+    case 'modal_help':
+      window.modal_help.show();
+      break;
+    case 'modal_reference':
+      window.modal_reference.show();
+      break;
+    default:
+      console.warn('invalid modal name');
+  }
+}

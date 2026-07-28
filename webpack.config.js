@@ -4,49 +4,16 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = [
     {
-        mode: 'development',
-        entry: './app/main.js',
-        target: 'electron-main',
-        output: {
-            path: path.resolve(__dirname, 'dist'),
-            filename: 'main.js'
-        },
-        module: {
-            rules: [
-                {
-                    test: /native_modules[/\\].+\.node$/,
-                    use: 'node-loader',
-                },
-                {
-                    test: /\.(png|svg|jpg|jpeg|gif)$/i,
-                    type: 'asset/resource',
-                },
-                {
-                    test: /\.css$/,
-                    use: [{ loader: 'style-loader' }, { loader: 'css-loader' }],
-                }
-            ],
-        }
-    },
-    {
-        mode: 'development',
-        entry: './app/preload.js',
-        target: 'electron-preload',
-        output: {
-            path: path.resolve(__dirname, 'dist'),
-            filename: 'preload.js'
-        },
-        module: {
-            rules: [] // 预加载脚本一般用纯 JS，不需要 loader
-        }
-    },
-    {
         mode: "development",
         target: 'web',
         entry: './app/renderer.js',
         output: {
             path: path.resolve(__dirname, 'dist'),
-            filename: 'renderer.js'
+            filename: 'renderer.js',
+            clean: true,
+        },
+        resolve: {
+            extensions: ['.js', '.jsx'],
         },
         module: {
             rules: [
@@ -66,7 +33,6 @@ module.exports = [
             new CopyPlugin({
                 patterns: [
                     { from: 'resources/images', to: 'static/images' },
-                    { from: 'resources/mathjax', to: 'static/mathjax' },
                     { from: 'resources/bootstrap', to: 'static/bootstrap' },
                 ],
             }),

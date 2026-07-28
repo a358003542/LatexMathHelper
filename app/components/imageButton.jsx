@@ -6,7 +6,7 @@ import {inputLatex} from '../utils'
 function showStatusInfo(content) {
     const statusBarPanel = document.getElementById('statusBar')
     statusBarPanel.innerHTML = content
-    window.MathJax.typeset([statusBarPanel])
+    MathJax.typesetPromise([statusBarPanel])
 }
 
 function showHelpInfo(key) {
