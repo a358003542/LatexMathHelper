@@ -11,25 +11,14 @@
 
   <script>
     MathJax = {
+      loader: {load: ['[tex]/mhchem']},
       tex: {
-        inlineMath: [
-          ['$', '$'],
-          ['\\(', '\\)']
-        ],
-        displayMath: [
-          ["$$", "$$"],
-          ['\\[', '\\]']
-        ],
-        packages: {
-          '[+]': ['mhchem']
+        inlineMath: {'[+]': [['$', '$']]},
+        packages: {'[+]': ['mhchem']}
         }
-      },
-      loader: {
-        load: ['[tex]/mhchem']
-      },
     }
   </script>
-  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
 </head>
 
 <body>
@@ -50,7 +39,7 @@
           <div class="row">
             <div class="col">
               <pre class="text-center">
-\begin{equation}\label{xx}
+\begin{equation}
 \begin{split}
 a& =b+c-d\\
 & \quad +e-f\\
@@ -62,7 +51,7 @@ a& =b+c-d\\
             </div>
 
             <div class="col">
-              \begin{equation}\label{xx}
+              \begin{equation}
               \begin{split}
               a& =b+c-d\\
               & \quad +e-f\\
@@ -215,10 +204,10 @@ a_{22}& =b_{22}+c_{22}
           <div class="row">
             <div class="col">
               <pre class="text-center">
-                \begin{matrix}
-                1 & 2 & 3\\
-                a & b & c
-                \end{matrix}
+\begin{matrix}
+1 & 2 & 3\\
+a & b & c
+\end{matrix}
               </pre>
             </div>
 
@@ -233,14 +222,14 @@ a_{22}& =b_{22}+c_{22}
           <div class="row">
             <div class="col">
               <pre class="text-center">
-                \[
-                \left[ 
-                \begin{matrix}
-               1 & 2 & 3\\
-                a & b & c
-                \end{matrix}
-                \right]
-                \]
+\[
+\left[ 
+\begin{matrix}
+1 & 2 & 3\\
+a & b & c
+\end{matrix}
+\right]
+\]
               </pre>
             </div>
 
@@ -260,10 +249,10 @@ a_{22}& =b_{22}+c_{22}
           <div class="row">
             <div class="col">
               <pre class="text-center">
-                \begin{bmatrix}
-                1 & 2 & 3\\
-                a & b & c
-                \end{bmatrix}
+\begin{bmatrix}
+1 & 2 & 3\\
+a & b & c
+\end{bmatrix}
               </pre>
             </div>
 
@@ -278,10 +267,10 @@ a_{22}& =b_{22}+c_{22}
           <div class="row">
             <div class="col">
               <pre class="text-center">
-                \begin{pmatrix}
-                1 & 2 & 3\\
-                a & b & c
-                \end{pmatrix}
+\begin{pmatrix}
+1 & 2 & 3\\
+a & b & c
+\end{pmatrix}
               </pre>
             </div>
 
@@ -333,10 +322,10 @@ a & b & c
           <div class="row">
             <div class="col">
               <pre class="text-center">
-                \begin{Vmatrix}
-                1 & 2 & 3\\
-                a & b & c
-                \end{Vmatrix}
+\begin{Vmatrix}
+1 & 2 & 3\\
+a & b & c
+\end{Vmatrix}
               </pre>
             </div>
 
@@ -367,11 +356,13 @@ a & b & c
         </div>
         <div class="modal-body">
           <ul>
-            <li>Unicode符号查询: <code>https://unicode-table.com/cn/</code>。
-              如果有一些符号看上去大概差不多的，那么在应用上拉丁字母和扩展分区的优先级会高一些。</li>
+            <li>如果有一些符号看上去大概差不多的，那么在应用上拉丁字母和扩展分区的优先级会高一些。</li>
             <li>希腊字母有一些没有列出来是因为它们和平时使用的拉丁字母是一样的。</li>
             <li>数学字体的切换只对拉丁大写字母ABC等有意义，一些小写字母加粗推荐使用boldsymbol命令。</li>
             <li>数学着重符号比如$\acute{a}$等可能有对应的Unicode编码，但显示效果很不一样，个人推断这些生成的符号可能就是Tex排版出来的，并没有所谓的Unicode符号对应。</li>
+            <li>hbar和hslash都指向一个unicode，推荐统一为hslash。</li>
+            <li>empthset和varnothing都指向一个unicode，推荐统一为varnothing。</li>
+            <li>mathjax把centerdot和cdot都指向一个unicode，那么推荐统一为cdot。</li>
           </ul>
         </div>
         <div class="modal-footer">
@@ -391,10 +382,9 @@ a & b & c
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <ul>
-            <li>pdf: Unicode characters and corresponding Latex math code commands.</li>
-            <li>pdf: Comprehensive List of Mathematical Symbols, Math Vault.</li>
+          <ul>            
             <li>pdf: Short Math Guide for LaTeX, Michael Downes.</li>
+            <li>pdf: Comprehensive List of Mathematical Symbols, Math Vault.</li>
           </ul>
         </div>
         <div class="modal-footer">

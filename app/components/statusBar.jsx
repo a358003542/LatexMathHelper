@@ -2,10 +2,14 @@ import React from 'react';
 
 function StatusBar() {
     return (
-        <footer className="fixed-bottom footer">
-            <div className="alert alert-info text-center" role="alert" id="statusBar">
+        <div className="row">
+            <div className="col-6">
+              <div className="alert alert-info text-center" role="alert" id="statusBar"></div>
             </div>
-        </footer>
+            <div className="col-6">
+              <div className="alert alert-info text-center" role="alert" id="clickHistory"></div>
+            </div>
+        </div>
     )
 }
 

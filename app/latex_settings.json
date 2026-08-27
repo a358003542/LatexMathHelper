@@ -1,212 +1,254 @@
 {
     "greek_letters_alpha": {
         "latex_code": "\\alpha",
-        "help_info": "Greek Small Letter Alpha Unicode: 003B1",
+        "help_info": "Greek Small Letter Alpha",
+        "click_info": "Unicode: 003B1 Symbol: α ",
         "button_image": "images/greek_letters/math_icon_greek_letters-001.png"
     },
     "greek_letters_beta": {
         "latex_code": "\\beta",
-        "help_info": "Greek Small Letter Beta Unicode: 003B2",
+        "help_info": "Greek Small Letter Beta",
+        "click_info": "Unicode: 003B2 Symbol: β ",
         "button_image": "images/greek_letters/math_icon_greek_letters-002.png"
     },
     "greek_letters_gamma": {
         "latex_code": "\\gamma",
-        "help_info": "Greek Small Letter Gamma Unicode: 003B3",
+        "help_info": "Greek Small Letter Gamma",
+        "click_info": "Unicode: 003B3 Symbol: γ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-003.png"
     },
     "greek_letters_delta": {
         "latex_code": "\\delta",
-        "help_info": "Greek Small Letter Delta Unicode: 003B4",
+        "help_info": "Greek Small Letter Delta",
+        "click_info": "Unicode: 003B4 Symbol: δ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-004.png"
     },
     "greek_letters_zeta": {
         "latex_code": "\\zeta",
-        "help_info": "Greek Small Letter Zeta Unicode: 003B6",
+        "help_info": "Greek Small Letter Zeta",
+        "click_info": "Unicode: 003B6 Symbol: ζ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-006.png"
     },
     "greek_letters_eta": {
         "latex_code": "\\eta",
-        "help_info": "Greek Small Letter Eta Unicode: 003B7",
+        "help_info": "Greek Small Letter Eta",
+        "click_info": "Unicode: 003B7 Symbol: η ",
         "button_image": "images/greek_letters/math_icon_greek_letters-007.png"
     },
     "greek_letters_theta": {
         "latex_code": "\\theta",
-        "help_info": "Greek Small Letter Theta Unicode: 003B8",
+        "help_info": "Greek Small Letter Theta",
+        "click_info": "Unicode: 003B8 Symbol: θ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-008.png"
     },
     "greek_letters_iota": {
         "latex_code": "\\iota",
-        "help_info": "Greek Small Letter Iota Unicode: 003B9",
+        "help_info": "Greek Small Letter Iota",
+        "click_info": "Unicode: 003B9 Symbol: ι ",
         "button_image": "images/greek_letters/math_icon_greek_letters-009.png"
     },
     "greek_letters_kappa": {
         "latex_code": "\\kappa",
-        "help_info": "Greek Small Letter Kappa Unicode: 003BA",
+        "help_info": "Greek Small Letter Kappa",
+        "click_info": "Unicode: 003BA Symbol: κ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-010.png"
     },
     "greek_letters_lambda": {
         "latex_code": "\\lambda",
-        "help_info": "Greek Small Letter Lamda Unicode: 003BB",
+        "help_info": "Greek Small Letter Lamda",
+        "click_info": "Unicode: 003BB Symbol: λ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-011.png"
     },
     "greek_letters_mu": {
         "latex_code": "\\mu",
-        "help_info": "Greek Small Letter Mu Unicode: 003BC",
+        "help_info": "Greek Small Letter Mu",
+        "click_info": "Unicode: 003BC Symbol: μ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-012.png"
     },
     "greek_letters_nu": {
-        "latex_code": "\\mu",
-        "help_info": "Greek Small Letter Nu Unicode: 003BD",
+        "latex_code": "\\nu",
+        "help_info": "Greek Small Letter Nu",
+        "click_info": "Unicode: 003BD Symbol: ν ",
         "button_image": "images/greek_letters/math_icon_greek_letters-013.png"
     },
     "greek_letters_xi": {
         "latex_code": "\\xi",
-        "help_info": "Greek Small Letter Xi Unicode: 003BE",
+        "help_info": "Greek Small Letter Xi",
+        "click_info": "Unicode: 003BE Symbol: ξ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-014.png"
     },
     "greek_letters_pi": {
         "latex_code": "\\pi",
-        "help_info": "Greek Small Letter Pi Unicode: 003C0",
+        "help_info": "Greek Small Letter Pi",
+        "click_info": "Unicode: 003C0 Symbol: π ",
         "button_image": "images/greek_letters/math_icon_greek_letters-015.png"
     },
     "greek_letters_rho": {
         "latex_code": "\\rho",
-        "help_info": "Greek Small Letter Rho Unicode: 003C1",
+        "help_info": "Greek Small Letter Rho",
+        "click_info": "Unicode: 003C1 Symbol: ρ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-016.png"
     },
     "greek_letters_varsigma": {
         "latex_code": "\\varsigma",
-        "help_info": "Greek Small Letter Final Sigma Unicode: 003C2",
+        "help_info": "Greek Small Letter Final Sigma",
+        "click_info": "Unicode: 003C2 Symbol: ς ",
         "button_image": "images/greek_letters/math_icon_greek_letters-030.png"
     },
     "greek_letters_sigma": {
         "latex_code": "\\sigma",
-        "help_info": "Greek Small Letter Sigma Unicode: 003C3",
+        "help_info": "Greek Small Letter Sigma",
+        "click_info": "Unicode: 003C3 Symbol: σ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-017.png"
     },
     "greek_letters_tau": {
         "latex_code": "\\tau",
-        "help_info": "Greek Small Letter Tau Unicode: 003C4",
+        "help_info": "Greek Small Letter Tau",
+        "click_info": "Unicode: 003C4 Symbol: τ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-018.png"
     },
     "greek_letters_upsilon": {
         "latex_code": "\\upsilon",
-        "help_info": "Greek Small Letter Upsilon Unicode: 003C5",
+        "help_info": "Greek Small Letter Upsilon",
+        "click_info": "Unicode: 003C5 Symbol: υ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-019.png"
     },
     "greek_letters_varphi": {
         "latex_code": "\\varphi",
-        "help_info": "Greek Small Letter Phi Unicode: 003C6",
+        "help_info": "Greek Small Letter Phi",
+        "click_info": "Unicode: 003C6 Symbol: φ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-027.png"
     },
     "greek_letters_chi": {
         "latex_code": "\\chi",
-        "help_info": "Greek Small Letter Chi Unicode: 003C7",
+        "help_info": "Greek Small Letter Chi",
+        "click_info": "Unicode: 003C7 Symbol: χ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-021.png"
     },
     "greek_letters_psi": {
         "latex_code": "\\psi",
-        "help_info": "Greek Small Letter Psi Unicode: 003C8",
+        "help_info": "Greek Small Letter Psi",
+        "click_info": "Unicode: 003C8 Symbol: ψ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-022.png"
     },
     "greek_letters_omega": {
         "latex_code": "\\omega",
-        "help_info": "Greek Small Letter Omega Unicode: 003C9",
+        "help_info": "Greek Small Letter Omega",
+        "click_info": "Unicode: 003C9 Symbol: ω ",
         "button_image": "images/greek_letters/math_icon_greek_letters-023.png"
     },
     "greek_letters_vartheta": {
         "latex_code": "\\vartheta",
-        "help_info": "Greek Theta Symbol Unicode: 003D1",
+        "help_info": "Greek Theta Symbol",
+        "click_info": "Unicode: 003D1 Symbol: ϑ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-031.png"
     },
     "greek_letters_phi": {
         "latex_code": "\\phi",
-        "help_info": "Greek Phi Symbol Unicode: 003D5",
+        "help_info": "Greek Phi Symbol",
+        "click_info": "Unicode: 003D5 Symbol: ϕ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-020.png"
     },
     "greek_letters_varpi": {
         "latex_code": "\\varpi",
-        "help_info": "Greek Pi Symbol Unicode: 003D6",
+        "help_info": "Greek Pi Symbol",
+        "click_info": "Unicode: 003D6 Symbol: ϖ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-028.png"
     },
     "greek_letters_digamma": {
         "latex_code": "\\digamma",
-        "help_info": "Greek Small Letter Digamma Unicode: 003DD",
+        "help_info": "Greek Small Letter Digamma",
+        "click_info": "Unicode: 003DD Symbol: ϝ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-024.png"
     },
     "greek_letters_varepsilon": {
         "latex_code": "\\varepsilon",
-        "help_info": "Greek Small Letter Epsilon Unicode: 003B5",
+        "help_info": "Greek Small Letter Epsilon",
+        "click_info": "Unicode: 003B5 Symbol: ε ",
         "button_image": "images/greek_letters/math_icon_greek_letters-025.png"
     },
     "greek_letters_varkappa": {
         "latex_code": "\\varkappa",
-        "help_info": "Greek Kappa Symbol Unicode: 003F0",
+        "help_info": "Greek Kappa Symbol",
+        "click_info": "Unicode: 003F0 Symbol: ϰ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-026.png"
     },
     "greek_letters_varrho": {
         "latex_code": "\\varrho",
-        "help_info": "Greek Rho Symbol Unicode: 003F1",
+        "help_info": "Greek Rho Symbol",
+        "click_info": "Unicode: 003F1 Symbol: ϱ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-029.png"
     },
     "greek_letters_epsilon": {
         "latex_code": "\\epsilon",
-        "help_info": "Greek Lunate Epsilon Symbol Unicode: 003F5",
+        "help_info": "Greek Lunate Epsilon Symbol",
+        "click_info": "Unicode: 003F5 Symbol: ϵ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-005.png"
     },
     "greek_letters_Gamma": {
         "latex_code": "\\Gamma",
-        "help_info": "Greek Capital Letter Gamma Unicode: 00393",
+        "help_info": "Greek Capital Letter Gamma",
+        "click_info": "Unicode: 00393 Symbol: Γ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-032.png"
     },
     "greek_letters_Delta": {
         "latex_code": "\\Delta",
-        "help_info": "Greek Capital Letter Delta Unicode: 00394",
+        "help_info": "Greek Capital Letter Delta",
+        "click_info": "Unicode: 00394 Symbol: Δ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-033.png"
     },
     "greek_letters_Theta": {
         "latex_code": "\\Theta",
-        "help_info": "Greek Capital Letter Theta Unicode: 00398",
+        "help_info": "Greek Capital Letter Theta",
+        "click_info": "Unicode: 00398 Symbol: Θ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-039.png"
     },
     "greek_letters_Lambda": {
         "latex_code": "\\Lambda",
-        "help_info": "Greek Capital Letter Lamda Unicode: 0039B",
+        "help_info": "Greek Capital Letter Lamda",
+        "click_info": "Unicode: 0039B Symbol: Λ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-034.png"
     },
     "greek_letters_Xi": {
         "latex_code": "\\Xi",
-        "help_info": "Greek Capital Letter Xi Unicode: 0039E",
+        "help_info": "Greek Capital Letter Xi",
+        "click_info": "Unicode: 0039E Symbol: Ξ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-041.png"
     },
     "greek_letters_Pi": {
         "latex_code": "\\Pi",
-        "help_info": "Greek Capital Letter Pi Unicode: 003A0",
+        "help_info": "Greek Capital Letter Pi",
+        "click_info": "Unicode: 003A0 Symbol: Π ",
         "button_image": "images/greek_letters/math_icon_greek_letters-036.png"
     },
     "greek_letters_Sigma": {
         "latex_code": "\\Sigma",
-        "help_info": "Greek Capital Letter Sigma Unicode: 003A3",
+        "help_info": "Greek Capital Letter Sigma",
+        "click_info": "Unicode: 003A3 Symbol: Σ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-038.png"
     },
     "greek_letters_Upsilon": {
         "latex_code": "\\Upsilon",
-        "help_info": "Greek Capital Letter Upsilon Unicode: 003A5",
+        "help_info": "Greek Capital Letter Upsilon",
+        "click_info": "Unicode: 003A5 Symbol: Υ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-040.png"
     },
     "greek_letters_Phi": {
         "latex_code": "\\Phi",
-        "help_info": "Greek Capital Letter Phi Unicode: 003A6",
+        "help_info": "Greek Capital Letter Phi",
+        "click_info": "Unicode: 003A6 Symbol: Φ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-035.png"
     },
     "greek_letters_Psi": {
         "latex_code": "\\Psi",
-        "help_info": "Greek Capital Letter Psi Unicode: 003A8",
+        "help_info": "Greek Capital Letter Psi",
+        "click_info": "Unicode: 003A8 Symbol: Ψ ",
         "button_image": "images/greek_letters/math_icon_greek_letters-037.png"
     },
     "greek_letters_Omega": {
         "latex_code": "\\Omega",
-        "help_info": "Greek Capital Letter Omega Unicode: 003A9",
+        "help_info": "Greek Capital Letter Omega",
+        "click_info": "Unicode: 003A9 Symbol: Ω ",
         "button_image": "images/greek_letters/math_icon_greek_letters-042.png"
     },
     "math_accents_acute": {
@@ -412,38 +454,45 @@
         "button_image": "images/notations/notations-012.png"
     },
     "math_set_1": {
-        "latex_code": "\\emptyset",
-        "help_info": "Empty set Unicode: 02205 ",
+        "latex_code": "\\varnothing",
+        "help_info": "Empty set",
+        "click_info": "Unicode: 02205 Symbol: ∅ ",
         "button_image": "images/basic_symbols/basic_symbols-32.png"
     },
     "math_set_2": {
         "latex_code": "\\mathbb{N}",
-        "help_info": "Set of natual numbers Unicode: 02115 ",
+        "help_info": "Set of natual numbers",
+        "click_info": "Unicode: 02115 Symbol: ℕ ",
         "button_image": "images/math_set_symbols/math_set_symbols-002.png"
     },
     "math_set_3": {
         "latex_code": "\\mathbb{Z}",
-        "help_info": "Set of integers Unicode: 02124 ",
+        "help_info": "Set of integers",
+        "click_info": "Unicode: 02124 Symbol: ℤ ",
         "button_image": "images/math_set_symbols/math_set_symbols-003.png"
     },
     "math_set_5": {
         "latex_code": "\\mathbb{Q}",
-        "help_info": "Set of rational numbers Unicode: 0211A ",
+        "help_info": "Set of rational numbers",
+        "click_info": "Unicode: 0211A Symbol: ℚ ",
         "button_image": "images/math_set_symbols/math_set_symbols-005.png"
     },
     "math_set_6": {
         "latex_code": "\\mathbb{R}",
-        "help_info": "Set of real numbers Unicode: 0211D ",
+        "help_info": "Set of real numbers",
+        "click_info": "Unicode: 0211D Symbol: ℝ ",
         "button_image": "images/math_set_symbols/math_set_symbols-006.png"
     },
     "math_set_8": {
         "latex_code": "\\mathbb{C}",
-        "help_info": "Set of complex numbers Unicode: 02102 ",
+        "help_info": "Set of complex numbers",
+        "click_info": "Unicode: 02102 Symbol: ℂ ",
         "button_image": "images/math_set_symbols/math_set_symbols-008.png"
     },
     "math_set_9": {
         "latex_code": "\\mathbb{Z}_n",
         "help_info": "Set of integer modulo n ",
+        "click_info": "Unicode: 02124 Symbol: ℤ ",
         "button_image": "images/math_set_symbols/math_set_symbols-009.png"
     },
     "math_set_10": {
@@ -464,51 +513,61 @@
     "basic_symbols_01": {
         "latex_code": "\\aleph",
         "help_info": "Cardinality of natural numbers: <code>$\\aleph_0$</code> $\\aleph_0$ ",
+        "click_info": "Unicode: 02135 Symbol: ℵ ",
         "button_image": "images/basic_symbols/basic_symbols-01.png"
     },
     "basic_symbols_02": {
         "latex_code": "\\mathfrak{c}",
         "help_info": "Cardinality of real numbers: <code>$\\mathfrak{c}$</code> $\\mathfrak{c}$ ",
+        "click_info": "MATHEMATICAL FRAKTUR SMALL C Unicode: 1D520 Symbol: 𝔠 ",
         "button_image": "images/basic_symbols/basic_symbols-02.png"
     },
     "basic_symbols_03": {
         "latex_code": "\\ell",
         "help_info": "Line one in geometry: <code>$\\ell_1$</code> $\\ell_1$",
+        "click_info": "SCRIPT SMALL L Unicode: 02113 Symbol: ℓ ",
         "button_image": "images/basic_symbols/basic_symbols-03.png"
     },
     "basic_symbols_04": {
         "latex_code": "\\partial",
         "help_info": "Partial differential: <code>$\\partial x$</code> $\\partial x$",
+        "click_info": "PARTIAL DIFFERENTIAL Unicode: 02202 Symbol: ∂ ",
         "button_image": "images/basic_symbols/basic_symbols-04.png"
     },
     "basic_symbols_05": {
         "latex_code": "\\Game",
-        "help_info": "basic symbols ",
+        "help_info": "TURNED SANS-SERIF CAPITAL G",
+        "click_info": "Unicode: 02141 Symbol: ⅁ ",
         "button_image": "images/basic_symbols/basic_symbols-05.png"
     },
     "basic_symbols_06": {
         "latex_code": "\\beth",
-        "help_info": "basic symbols ",
+        "help_info": "BET SYMBOL",
+        "click_info": "Unicode: 02136 Symbol: ℶ ",
         "button_image": "images/basic_symbols/basic_symbols-06.png"
     },
     "basic_symbols_07": {
         "latex_code": "\\eth",
-        "help_info": "basic symbols ",
+        "help_info": "LATIN SMALL LETTER ETH",
+        "click_info": "Unicode: 00F0 Symbol: ð ",
         "button_image": "images/basic_symbols/basic_symbols-07.png"
     },
     "basic_symbols_08": {
         "latex_code": "\\wp",
-        "help_info": "basic symbols ",
+        "help_info": "SCRIPT CAPITAL P",
+        "click_info": "Unicode: 02118 Symbol: ℘ ",
         "button_image": "images/basic_symbols/basic_symbols-08.png"
     },
     "basic_symbols_09": {
         "latex_code": "\\Im",
-        "help_info": "basic symbols ",
+        "help_info": "BLACK-LETTER CAPITAL I",
+        "click_info": "Unicode: 02111 Symbol: ℑ ",
         "button_image": "images/basic_symbols/basic_symbols-09.png"
     },
     "basic_symbols_10": {
         "latex_code": "\\daleth",
-        "help_info": "basic symbols ",
+        "help_info": "DALET SYMBOL",
+        "click_info": "Unicode: 02138 Symbol: ℸ ",
         "button_image": "images/basic_symbols/basic_symbols-10.png"
     },
     "basic_symbols_11": {
@@ -518,212 +577,254 @@
     },
     "basic_symbols_12": {
         "latex_code": "\\circledS",
-        "help_info": "basic symbols ",
+        "help_info": "CIRCLED LATIN CAPITAL LETTER S",
+        "click_info": "Unicode: 024C8 Symbol: Ⓢ ",
         "button_image": "images/basic_symbols/basic_symbols-12.png"
     },
     "basic_symbols_13": {
         "latex_code": "\\Re",
-        "help_info": "basic symbols ",
+        "help_info": "BLACK-LETTER CAPITAL R",
+        "click_info": "Unicode: 0211C Symbol: ℜ ",
         "button_image": "images/basic_symbols/basic_symbols-13.png"
     },
     "basic_symbols_14": {
         "latex_code": "\\gimel",
-        "help_info": "basic symbols ",
+        "help_info": "GIMEL SYMBOL",
+        "click_info": "Unicode: 02137 Symbol: ℷ ",
         "button_image": "images/basic_symbols/basic_symbols-14.png"
     },
     "basic_symbols_15": {
         "latex_code": "\\hslash",
-        "help_info": "basic symbols ",
+        "help_info": "PLANCK CONSTANT OVER TWO PI",
+        "click_info": "Unicode: 0210F Symbol: ℏ ",
         "button_image": "images/basic_symbols/basic_symbols-15.png"
     },
     "basic_symbols_16": {
         "latex_code": "\\Bbbk",
-        "help_info": "basic symbols ",
+        "help_info": "MATHEMATICAL DOUBLE-STRUCK SMALL K",
+        "click_info": "Unicode: 01D55C Symbol: 𝕜 ",
         "button_image": "images/basic_symbols/basic_symbols-16.png"
     },
     "basic_symbols_17": {
         "latex_code": "\\complement",
-        "help_info": "basic symbols ",
+        "help_info": "COMPLEMENT",
+        "click_info": "Unicode: 02201 Symbol: ∁ ",
         "button_image": "images/basic_symbols/basic_symbols-17.png"
     },
     "basic_symbols_18": {
         "latex_code": "\\mho",
-        "help_info": "basic symbols ",
+        "help_info": "INVERTED OHM SIGN",
+        "click_info": "Unicode: 02127 Symbol: ℧ ",
         "button_image": "images/basic_symbols/basic_symbols-18.png"
     },
     "basic_symbols_19": {
         "latex_code": "\\Finv",
-        "help_info": "basic symbols ",
+        "help_info": "TURNED CAPITAL F",
+        "click_info": "Unicode: 02132 Symbol: Ⅎ ",
         "button_image": "images/basic_symbols/basic_symbols-19.png"
     },
     "basic_symbols_20": {
         "latex_code": "\\angle",
-        "help_info": "basic symbols ",
+        "help_info": "ANGLE",
+        "click_info": "Unicode: 02220 Symbol: ∠ ",
         "button_image": "images/basic_symbols/basic_symbols-20.png"
     },
     "basic_symbols_21": {
         "latex_code": "\\backprime",
-        "help_info": "basic symbols ",
+        "help_info": "REVERSED PRIME",
+        "click_info": "Unicode: 02035 Symbol: ‵ ",
         "button_image": "images/basic_symbols/basic_symbols-21.png"
     },
     "basic_symbols_22": {
         "latex_code": "\\bigstar",
-        "help_info": "basic symbols ",
+        "help_info": "BLACK STAR",
+        "click_info": "Unicode: 02605 Symbol: ★ ",
         "button_image": "images/basic_symbols/basic_symbols-22.png"
     },
     "basic_symbols_23": {
         "latex_code": "\\blacklozenge",
-        "help_info": "basic symbols ",
+        "help_info": "BLACK LOZENGE",
+        "click_info": "Unicode: 029EB Symbol: ⧫ ",
         "button_image": "images/basic_symbols/basic_symbols-23.png"
     },
     "basic_symbols_24": {
         "latex_code": "\\blacksquare",
-        "help_info": "basic symbols ",
+        "help_info": "BLACK MEDIUM SQUARE",
+        "click_info": "Unicode: 025FC Symbol: ◼ ",
         "button_image": "images/basic_symbols/basic_symbols-24.png"
     },
     "basic_symbols_25": {
         "latex_code": "\\blacktriangle",
-        "help_info": "basic symbols ",
+        "help_info": "BLACK UP-POINTING SMALL TRIANGLE",
+        "click_info": "Unicode: 025B4 Symbol: ▴ ",
         "button_image": "images/basic_symbols/basic_symbols-25.png"
     },
     "basic_symbols_26": {
         "latex_code": "\\blacktriangledown",
-        "help_info": "basic symbols ",
+        "help_info": "BLACK DOWN-POINTING SMALL TRIANGLE",
+        "click_info": "Unicode: 025BE Symbol: ▾ ",
         "button_image": "images/basic_symbols/basic_symbols-26.png"
     },
     "basic_symbols_27": {
         "latex_code": "\\bot",
-        "help_info": "basic symbols ",
+        "help_info": "UP TACK",
+        "click_info": "Unicode: 022A5 Symbol: ⊥ ",
         "button_image": "images/basic_symbols/basic_symbols-27.png"
     },
     "basic_symbols_28": {
         "latex_code": "\\clubsuit",
-        "help_info": "basic symbols ",
+        "help_info": "BLACK CLUB SUIT",
+        "click_info": "Unicode: 02663 Symbol: ♣ ",
         "button_image": "images/basic_symbols/basic_symbols-28.png"
     },
     "basic_symbols_29": {
         "latex_code": "\\diagdown",
-        "help_info": "basic symbols ",
+        "help_info": "BOX DRAWINGS LIGHT DIAGONAL UPPER LEFT TO LOWER RIGHT",
+        "click_info": "Unicode: 02572 Symbol: ╲ ",
         "button_image": "images/basic_symbols/basic_symbols-29.png"
     },
     "basic_symbols_30": {
         "latex_code": "\\diagup",
-        "help_info": "basic symbols ",
+        "help_info": "BOX DRAWINGS LIGHT DIAGONAL UPPER RIGHT TO LOWER LEFT",
+        "click_info": "Unicode: 02571 Symbol: ╱ ",
         "button_image": "images/basic_symbols/basic_symbols-30.png"
     },
     "basic_symbols_31": {
         "latex_code": "\\diamondsuit",
-        "help_info": "basic symbols ",
+        "help_info": "WHITE DIAMOND SUIT",
+        "click_info": "Unicode: 02662 Symbol: ♢ ",
         "button_image": "images/basic_symbols/basic_symbols-31.png"
     },
     "basic_symbols_32": {
         "latex_code": "\\emptyset",
-        "help_info": "basic symbols ",
+        "help_info": "EMPTY SET",
+        "click_info": "Unicode: 02205 Symbol: ∅ ",
         "button_image": "images/basic_symbols/basic_symbols-32.png"
     },
     "basic_symbols_33": {
         "latex_code": "\\exists",
-        "help_info": "basic symbols ",
+        "help_info": "THERE EXISTS",
+        "click_info": "Unicode: 02203 Symbol: ∃ ",
         "button_image": "images/basic_symbols/basic_symbols-33.png"
     },
     "basic_symbols_34": {
         "latex_code": "\\flat",
-        "help_info": "basic symbols ",
+        "help_info": "MUSIC FLAT SIGN",
+        "click_info": "Unicode: 0266D Symbol: ♭ ",
         "button_image": "images/basic_symbols/basic_symbols-34.png"
     },
     "basic_symbols_35": {
         "latex_code": "\\forall",
-        "help_info": "basic symbols ",
+        "help_info": "FOR ALL",
+        "click_info": "Unicode: 02200 Symbol: ∀ ",
         "button_image": "images/basic_symbols/basic_symbols-35.png"
     },
     "basic_symbols_36": {
         "latex_code": "\\heartsuit",
-        "help_info": "basic symbols ",
+        "help_info": "WHITE HEART SUIT",
+        "click_info": "Unicode: 02661 Symbol: ♡ ",
         "button_image": "images/basic_symbols/basic_symbols-36.png"
     },
     "basic_symbols_37": {
         "latex_code": "\\infty",
-        "help_info": "basic symbols ",
+        "help_info": "INFINITY",
+        "click_info": "Unicode: 0221E Symbol: ∞ ",
         "button_image": "images/basic_symbols/basic_symbols-37.png"
     },
     "basic_symbols_38": {
         "latex_code": "\\lozenge",
-        "help_info": "basic symbols ",
+        "help_info": "LOZENGE",
+        "click_info": "Unicode: 025CA Symbol: ◊ ",
         "button_image": "images/basic_symbols/basic_symbols-38.png"
     },
     "basic_symbols_39": {
         "latex_code": "\\measuredangle",
-        "help_info": "basic symbols ",
+        "help_info": "MEASURED ANGLE",
+        "click_info": "Unicode: 02221 Symbol: ∡ ",
         "button_image": "images/basic_symbols/basic_symbols-39.png"
     },
     "basic_symbols_40": {
         "latex_code": "\\nabla",
-        "help_info": "basic symbols ",
+        "help_info": "NABLA",
+        "click_info": "Unicode: 02207 Symbol: ∇ ",
         "button_image": "images/basic_symbols/basic_symbols-40.png"
     },
     "basic_symbols_41": {
         "latex_code": "\\natural",
-        "help_info": "basic symbols ",
+        "help_info": "MUSIC NATURAL SIGN",
+        "click_info": "Unicode: 0266E Symbol: ♮ ",
         "button_image": "images/basic_symbols/basic_symbols-41.png"
     },
     "basic_symbols_42": {
         "latex_code": "\\neg",
-        "help_info": "basic symbols ",
+        "help_info": "NOT SIGN",
+        "click_info": "Unicode: 000AC Symbol: ¬ ",
         "button_image": "images/basic_symbols/basic_symbols-42.png"
     },
     "basic_symbols_43": {
         "latex_code": "\\nexists",
-        "help_info": "basic symbols ",
+        "help_info": "THERE DOES NOT EXIST",
+        "click_info": "Unicode: 02204 Symbol: ∄ ",
         "button_image": "images/basic_symbols/basic_symbols-43.png"
     },
     "basic_symbols_44": {
         "latex_code": "\\prime",
-        "help_info": "basic symbols ",
+        "help_info": "PRIME",
+        "click_info": "Unicode: 02032 Symbol: ′ ",
         "button_image": "images/basic_symbols/basic_symbols-44.png"
     },
     "basic_symbols_45": {
         "latex_code": "\\sharp",
-        "help_info": "basic symbols ",
+        "help_info": "MUSIC SHARP SIGN",
+        "click_info": "Unicode: 0266F Symbol: ♯ ",
         "button_image": "images/basic_symbols/basic_symbols-45.png"
     },
     "basic_symbols_46": {
         "latex_code": "\\spadesuit",
-        "help_info": "basic symbols ",
+        "help_info": "BLACK SPADE SUIT",
+        "click_info": "Unicode: 02660 Symbol: ♠ ",
         "button_image": "images/basic_symbols/basic_symbols-46.png"
     },
     "basic_symbols_47": {
         "latex_code": "\\sphericalangle",
-        "help_info": "basic symbols ",
+        "help_info": "SPHERICAL ANGLE",
+        "click_info": "Unicode: 02222 Symbol: ∢ ",
         "button_image": "images/basic_symbols/basic_symbols-47.png"
     },
     "basic_symbols_48": {
         "latex_code": "\\square",
-        "help_info": "basic symbols ",
+        "help_info": "WHITE MEDIUM SQUARE",
+        "click_info": "Unicode: 025FB Symbol: ◻ ",
         "button_image": "images/basic_symbols/basic_symbols-48.png"
     },
     "basic_symbols_49": {
         "latex_code": "\\surd",
-        "help_info": "basic symbols ",
+        "help_info": "SQUARE ROOT",
+        "click_info": "Unicode: 0221A Symbol: √ ",
         "button_image": "images/basic_symbols/basic_symbols-49.png"
     },
     "basic_symbols_50": {
         "latex_code": "\\top",
-        "help_info": "basic symbols ",
+        "help_info": "DOWN TACK",
+        "click_info": "Unicode: 022A4 Symbol: ⊤ ",
         "button_image": "images/basic_symbols/basic_symbols-50.png"
     },
     "basic_symbols_51": {
         "latex_code": "\\triangle",
-        "help_info": "basic symbols ",
+        "help_info": "WHITE UP-POINTING TRIANGLE",
+        "click_info": "Unicode: 025B3 Symbol: △ ",
         "button_image": "images/basic_symbols/basic_symbols-51.png"
     },
     "basic_symbols_52": {
         "latex_code": "\\triangledown",
-        "help_info": "basic symbols ",
+        "help_info": "WHITE DOWN-POINTING TRIANGLE",
+        "click_info": "Unicode: 025BD Symbol: ▽ ",
         "button_image": "images/basic_symbols/basic_symbols-52.png"
     },
     "basic_symbols_53": {
         "latex_code": "\\varnothing",
-        "help_info": "\\varnothing Another expression of the symbol for the empty set ",
+        "help_info": "EMPTY SET",
+        "click_info": "Unicode: 02205 Symbol: ∅ ",
         "button_image": "images/basic_symbols/basic_symbols-53.png"
     },
     "math_font_examples_1": {
@@ -1474,7 +1575,8 @@
     },
     "binary_operator_symbols_01": {
         "latex_code": "\\amalg",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: AMALGAMATION OR COPRODUCT ",
+        "click_info": "Unicode: 02A3F Symbol: ⨿ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-01.png"
     },
     "binary_operator_symbols_02": {
@@ -1484,62 +1586,74 @@
     },
     "binary_operator_symbols_03": {
         "latex_code": "\\barwedge",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: NAND ",
+        "click_info": "Unicode: 022BC Symbol: ⊼ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-03.png"
     },
     "binary_operator_symbols_04": {
         "latex_code": "\\bigcirc",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: LARGE CIRCLE ",
+        "click_info": "Unicode: 025EF Symbol: ◯ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-04.png"
     },
     "binary_operator_symbols_05": {
         "latex_code": "\\bigtriangledown",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: WHITE DOWN-POINTING TRIANGLE ",
+        "click_info": "Unicode: 025BD Symbol: ▽ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-05.png"
     },
     "binary_operator_symbols_06": {
         "latex_code": "\\bigtriangleup",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: WHITE UP-POINTING TRIANGLE ",
+        "click_info": "Unicode: 025B3 Symbol: △ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-06.png"
     },
     "binary_operator_symbols_07": {
         "latex_code": "\\boxdot",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: SQUARED DOT OPERATOR ",
+        "click_info": "Unicode: 022A1 Symbol: ⊡ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-07.png"
     },
     "binary_operator_symbols_08": {
         "latex_code": "\\boxminus",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: SQUARED MINUS ",
+        "click_info": "Unicode: 0229F Symbol: ⊟ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-08.png"
     },
     "binary_operator_symbols_09": {
         "latex_code": "\\boxplus",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: SQUARED PLUS ",
+        "click_info": "Unicode: 0229E Symbol: ⊞ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-09.png"
     },
     "binary_operator_symbols_10": {
         "latex_code": "\\boxtimes",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: SQUARED TIMES ",
+        "click_info": "Unicode: 022A0 Symbol: ⊠ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-10.png"
     },
     "binary_operator_symbols_11": {
         "latex_code": "\\bullet",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: BULLET OPERATOR ",
+        "click_info": "Unicode: 02219 Symbol: ∙ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-11.png"
     },
     "binary_operator_symbols_12": {
         "latex_code": "\\cap",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: INTERSECTION ",
+        "click_info": "Unicode: 02229 Symbol: ∩ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-12.png"
     },
     "binary_operator_symbols_13": {
         "latex_code": "\\Cap",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: DOUBLE INTERSECTION ",
+        "click_info": "Unicode: 022D2 Symbol: ⋒ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-13.png"
     },
     "binary_operator_symbols_14": {
         "latex_code": "\\cdot",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: DOT OPERATOR ",
+        "click_info": "Unicode: 022C5 Symbol: ⋅ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-14.png"
     },
     "binary_operator_symbols_15": {
@@ -1549,62 +1663,74 @@
     },
     "binary_operator_symbols_16": {
         "latex_code": "\\circ",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: RING OPERATOR ",
+        "click_info": "Unicode: 02218 Symbol: ∘ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-16.png"
     },
     "binary_operator_symbols_17": {
         "latex_code": "\\circledast",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: CIRCLED ASTERISK OPERATOR ",
+        "click_info": "Unicode: 0229B Symbol: ⊛ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-17.png"
     },
     "binary_operator_symbols_18": {
         "latex_code": "\\circledcirc",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: CIRCLED RING OPERATOR ",
+        "click_info": "Unicode: 0229A Symbol: ⊚ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-18.png"
     },
     "binary_operator_symbols_19": {
         "latex_code": "\\circleddash",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: CIRCLED DASH ",
+        "click_info": "Unicode: 0229D Symbol: ⊝ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-19.png"
     },
     "binary_operator_symbols_20": {
         "latex_code": "\\cup",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: UNION ",
+        "click_info": "Unicode: 0222A Symbol: ∪ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-20.png"
     },
     "binary_operator_symbols_21": {
         "latex_code": "\\Cup",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: DOUBLE UNION ",
+        "click_info": "Unicode: 022D3 Symbol: ⋓ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-21.png"
     },
     "binary_operator_symbols_22": {
         "latex_code": "\\curlyvee",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: CURLY LOGICAL OR ",
+        "click_info": "Unicode: 022CE Symbol: ⋎ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-22.png"
     },
     "binary_operator_symbols_23": {
         "latex_code": "\\curlywedge",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: CURLY LOGICAL AND ",
+        "click_info": "Unicode: 022CF Symbol: ⋏ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-23.png"
     },
     "binary_operator_symbols_24": {
         "latex_code": "\\dagger",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: DAGGER ",
+        "click_info": "Unicode: 02020 Symbol: † ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-24.png"
     },
     "binary_operator_symbols_25": {
         "latex_code": "\\ddagger",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: DOUBLE DAGGER ",
+        "click_info": "Unicode: 02021 Symbol: ‡ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-25.png"
     },
     "binary_operator_symbols_26": {
         "latex_code": "\\diamond",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: DIAMOND OPERATOR ",
+        "click_info": "Unicode: 022C4 Symbol: ⋄ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-26.png"
     },
     "binary_operator_symbols_27": {
         "latex_code": "\\div",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: DIVISION SIGN ",
+        "click_info": "Unicode: 000F7 Symbol: ÷ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-27.png"
     },
     "binary_operator_symbols_28": {
@@ -1719,7 +1845,8 @@
     },
     "binary_operator_symbols_50": {
         "latex_code": "\\times",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: MULTIPLICATION SIGN ",
+        "click_info": "Unicode: 000D7 Symbol: × ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-50.png"
     },
     "binary_operator_symbols_51": {
