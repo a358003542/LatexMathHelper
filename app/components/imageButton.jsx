@@ -9,6 +9,13 @@ function showStatusInfo(content) {
     MathJax.typesetPromise([statusBarPanel])
 }
 
+function showClickInfo(content) {
+    const clickHistoryPanel = document.getElementById('clickHistory')
+    clickHistoryPanel.innerHTML = content
+    MathJax.typesetPromise([clickHistoryPanel])
+}
+
+
 function showHelpInfo(key) {
     if (key in LatexSettings) {
         if ('help_info' in LatexSettings[key]) {
@@ -18,6 +25,16 @@ function showHelpInfo(key) {
     }
 }
 
+function showClickHistory(key) {
+    if (key in LatexSettings) {
+        if ('click_info' in LatexSettings[key]) {
+            let click_info = LatexSettings[key]['click_info']
+            showClickInfo(click_info)
+        }
+    }
+}
+
+
 function ImageButton(props) {
     let button_key = props.button_key
     let image_src = props.image_src
@@ -25,6 +42,7 @@ function ImageButton(props) {
 
     function handleClick(e) {
         inputLatex(button_key)
+        showClickHistory(button_key)
     }
     function handleMouseOver(e) {
         showHelpInfo(button_key)

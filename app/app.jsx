@@ -21,6 +21,7 @@ function Main() {
           <br />
           <InputPanel />
           <hr />
+          
           <div className="row">
             <div className="col-6">
               <LatexEditor />
@@ -29,10 +30,11 @@ function Main() {
               <LatexResult />
             </div>
           </div>
+
+          <hr />
+          <StatusBar />
         </div>
       </main>
-
-      <StatusBar />
 
     </div>
   );

@@ -15,9 +15,7 @@ export const common_use_keys = [
     "common_use2_7",
     "common_use2_8",
 ]
-export const common_use_2 = [
-    "relation_symbols_51",
-]
+
 export const greek_letters = [
     "greek_letters_alpha",
     "greek_letters_beta",
@@ -75,7 +73,7 @@ export const basic_symbols = [
     "basic_symbols_08",
     "basic_symbols_09",
     "basic_symbols_10",
-    "basic_symbols_11",
+    //"basic_symbols_11",  推荐使用hslash
     "basic_symbols_12",
     "basic_symbols_13",
     "basic_symbols_14",
@@ -96,7 +94,7 @@ export const basic_symbols = [
     "basic_symbols_29",
     "basic_symbols_30",
     "basic_symbols_31",
-    // "basic_symbols_32",
+    //"basic_symbols_32",
     "basic_symbols_33",
     "basic_symbols_34",
     "basic_symbols_35",
@@ -185,15 +183,10 @@ export const math_set_symbols = [
     "math_set_4",
 ]
 
-export const set_relations = [
-    "relation_symbols2_09",
-    "relation_symbols2_14"
-]
-
 
 export const binary_operator_symbols = [
     "binary_operator_symbols_01",
-    "binary_operator_symbols_02",
+    // "binary_operator_symbols_02",
     "binary_operator_symbols_03",
     "binary_operator_symbols_04",
     "binary_operator_symbols_05",
@@ -206,7 +199,7 @@ export const binary_operator_symbols = [
     "binary_operator_symbols_12",
     "binary_operator_symbols_13",
     "binary_operator_symbols_14",
-    "binary_operator_symbols_15",
+    // "binary_operator_symbols_15",
     "binary_operator_symbols_16",
     "binary_operator_symbols_17",
     "binary_operator_symbols_18",
@@ -303,7 +296,7 @@ export const relation_symbols = [
     "relation_symbols_48",
     "relation_symbols_49",
     "relation_symbols_50",
-    // "relation_symbols_51",
+    "relation_symbols_51",
     "relation_symbols_52",
     "relation_symbols_53",
     "relation_symbols_54",
@@ -351,10 +344,12 @@ export const relation_symbols2 = [
     "relation_symbols2_06",
     "relation_symbols2_07",
     "relation_symbols2_08",
+    "relation_symbols2_09",
     "relation_symbols2_10",
     "relation_symbols2_11",
     "relation_symbols2_12",
     "relation_symbols2_13",
+    "relation_symbols2_14",
     "relation_symbols2_15",
     "relation_symbols2_16",
     "relation_symbols2_17",
