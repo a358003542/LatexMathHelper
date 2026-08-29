@@ -1145,77 +1145,92 @@
     },
     "relation_symbols_01": {
         "latex_code": "\\approx",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: ALMOST EQUAL TO",
+        "click_info": "Unicode: 02248 Symbol: ≈ ",
         "button_image": "images/relation_symbols/relation_symbols-01.png"
     },
     "relation_symbols_02": {
         "latex_code": "\\approxeq",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: ALMOST EQUAL OR EQUAL TO",
+        "click_info": "Unicode: 0224A Symbol: ≊ ",
         "button_image": "images/relation_symbols/relation_symbols-02.png"
     },
     "relation_symbols_03": {
         "latex_code": "\\asymp",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: EQUIVALENT TO",
+        "click_info": "Unicode: 0224D Symbol: ≍ ",
         "button_image": "images/relation_symbols/relation_symbols-03.png"
     },
     "relation_symbols_04": {
         "latex_code": "\\backsim",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: REVERSED TILDE",
+        "click_info": "Unicode: 0223D Symbol: ∽ ",
         "button_image": "images/relation_symbols/relation_symbols-04.png"
     },
     "relation_symbols_05": {
         "latex_code": "\\backsimeq",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: REVERSED TILDE EQUALS",
+        "click_info": "Unicode: 022CD Symbol: ⋍ ",
         "button_image": "images/relation_symbols/relation_symbols-05.png"
     },
     "relation_symbols_06": {
         "latex_code": "\\bumpeq",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: DIFFERENCE BETWEEN",
+        "click_info": "Unicode: 0224F Symbol: ≏ ",
         "button_image": "images/relation_symbols/relation_symbols-06.png"
     },
     "relation_symbols_07": {
         "latex_code": "\\Bumpeq",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: GEOMETRICALLY EQUIVALENT TO",
+        "click_info": "Unicode: 0224E Symbol: ≎ ",
         "button_image": "images/relation_symbols/relation_symbols-07.png"
     },
     "relation_symbols_08": {
         "latex_code": "\\circeq",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: RING EQUAL TO",
+        "click_info": "Unicode: 02257 Symbol: ≗ ",
         "button_image": "images/relation_symbols/relation_symbols-08.png"
     },
     "relation_symbols_09": {
         "latex_code": "\\cong",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: APPROXIMATELY EQUAL TO",
+        "click_info": "Unicode: 02245 Symbol: ≅ ",
         "button_image": "images/relation_symbols/relation_symbols-09.png"
     },
     "relation_symbols_10": {
         "latex_code": "\\curlyeqprec",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: EQUAL TO OR PRECEDES",
+        "click_info": "Unicode: 022DE Symbol: ⋞ ",
         "button_image": "images/relation_symbols/relation_symbols-10.png"
     },
     "relation_symbols_11": {
         "latex_code": "\\curlyeqsucc",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: EQUAL TO OR SUCCEEDS ",
+        "click_info": "Unicode: 022DF Symbol: ⋟ ",
         "button_image": "images/relation_symbols/relation_symbols-11.png"
     },
     "relation_symbols_12": {
         "latex_code": "\\doteq",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: APPROACHES THE LIMIT",
+        "click_info": "Unicode: 02250 Symbol: ≐ ",
         "button_image": "images/relation_symbols/relation_symbols-12.png"
     },
     "relation_symbols_13": {
         "latex_code": "\\doteqdot",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: GEOMETRICALLY EQUAL TO",
+        "click_info": "Unicode: 02251 Symbol: ≑ ",
         "button_image": "images/relation_symbols/relation_symbols-13.png"
     },
     "relation_symbols_14": {
         "latex_code": "\\eqcirc",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: RING IN EQUAL TO",
+        "click_info": "Unicode: 02256 Symbol: ≖ ",
         "button_image": "images/relation_symbols/relation_symbols-14.png"
     },
     "relation_symbols_15": {
         "latex_code": "\\eqsim",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: MINUS TILDE",
+        "click_info": "Unicode: 02242 Symbol: ≂ ",
         "button_image": "images/relation_symbols/relation_symbols-15.png"
     },
     "relation_symbols_16": {
@@ -1735,92 +1750,110 @@
     },
     "binary_operator_symbols_28": {
         "latex_code": "\\divideontimes",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: DIVISION TIMES ",
+        "click_info": "Unicode: 022C7 Symbol: ⋇ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-28.png"
     },
     "binary_operator_symbols_29": {
         "latex_code": "\\dotplus",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: DOT PLUS",
+        "click_info": "Unicode: 02214 Symbol: ∔ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-29.png"
     },
     "binary_operator_symbols_30": {
         "latex_code": "\\doublebarwedge",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: LOGICAL AND WITH DOUBLE OVERBAR ",
+        "click_info": "Unicode: 02A5E Symbol: ⩞ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-30.png"
     },
     "binary_operator_symbols_31": {
         "latex_code": "\\gtrdot",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: GREATER-THAN WITH DOT ",
+        "click_info": "Unicode: 022D7 Symbol: ⋗ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-31.png"
     },
     "binary_operator_symbols_32": {
         "latex_code": "\\intercal",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: INTERCALATE ",
+        "click_info": "Unicode: 022BA Symbol: ⊺ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-32.png"
     },
     "binary_operator_symbols_33": {
         "latex_code": "\\leftthreetimes",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: LEFT SEMIDIRECT PRODUCT ",
+        "click_info": "Unicode: 022CB Symbol: ⋋ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-33.png"
     },
     "binary_operator_symbols_34": {
         "latex_code": "\\lessdot",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: LESS-THAN WITH DOT ",
+        "click_info": "Unicode: 022D6 Symbol: ⋖ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-34.png"
     },
     "binary_operator_symbols_35": {
         "latex_code": "\\ltimes",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: LEFT NORMAL FACTOR SEMIDIRECT PRODUCT ",
+        "click_info": "Unicode: 022C9 Symbol: ⋉ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-35.png"
     },
     "binary_operator_symbols_36": {
         "latex_code": "\\mp",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: MINUS-OR-PLUS SIGN ",
+        "click_info": "Unicode: 02213 Symbol: ∓ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-36.png"
     },
     "binary_operator_symbols_37": {
         "latex_code": "\\odot",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: CIRCLED DOT OPERATOR ",
+        "click_info": "Unicode: 02299 Symbol: ⊙ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-37.png"
     },
     "binary_operator_symbols_38": {
         "latex_code": "\\ominus",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: CIRCLED MINUS ",
+        "click_info": "Unicode: 02296 Symbol: ⊖ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-38.png"
     },
     "binary_operator_symbols_39": {
         "latex_code": "\\oplus",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: CIRCLED PLUS ",
+        "click_info": "Unicode: 02295 Symbol: ⊕ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-39.png"
     },
     "binary_operator_symbols_40": {
         "latex_code": "\\oslash",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: CIRCLED DIVISION SLASH ",
+        "click_info": "Unicode: 02298 Symbol: ⊘ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-40.png"
     },
     "binary_operator_symbols_41": {
         "latex_code": "\\otimes",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: CIRCLED TIMES ",
+        "click_info": "Unicode: 02297 Symbol: ⊗ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-41.png"
     },
     "binary_operator_symbols_42": {
         "latex_code": "\\pm",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: PLUS-MINUS SIGN ",
+        "click_info": "Unicode: 000B1 Symbol: ± ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-42.png"
     },
     "binary_operator_symbols_43": {
         "latex_code": "\\rightthreetimes",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: RIGHT SEMIDIRECT PRODUCT ",
+        "click_info": "Unicode: 022CC Symbol: ⋌ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-43.png"
     },
     "binary_operator_symbols_44": {
         "latex_code": "\\rtimes",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: RIGHT NORMAL FACTOR SEMIDIRECT PRODUCT ",
+        "click_info": "Unicode: 022CA Symbol: ⋊ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-44.png"
     },
     "binary_operator_symbols_45": {
         "latex_code": "\\setminus",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: SET MINUS ",
+        "click_info": "Unicode: 02216 Symbol: ∖ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-45.png"
     },
     "binary_operator_symbols_46": {
@@ -1830,17 +1863,20 @@
     },
     "binary_operator_symbols_47": {
         "latex_code": "\\sqcap",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: SQUARE CAP ",
+        "click_info": "Unicode: 02293 Symbol: ⊓ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-47.png"
     },
     "binary_operator_symbols_48": {
         "latex_code": "\\sqcup",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: SQUARE CUP ",
+        "click_info": "Unicode: 02294 Symbol: ⊔ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-48.png"
     },
     "binary_operator_symbols_49": {
         "latex_code": "\\star",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: STAR OPERATOR ",
+        "click_info": "Unicode: 022C6 Symbol: ⋆ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-49.png"
     },
     "binary_operator_symbols_50": {
@@ -1851,37 +1887,44 @@
     },
     "binary_operator_symbols_51": {
         "latex_code": "\\triangleleft",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: WHITE LEFT-POINTING SMALL TRIANGLE ",
+        "click_info": "Unicode: 025C3 Symbol: ◃ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-51.png"
     },
     "binary_operator_symbols_52": {
         "latex_code": "\\triangleright",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: WHITE RIGHT-POINTING SMALL TRIANGLE ",
+        "click_info": "Unicode: 025B9 Symbol: ▹ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-52.png"
     },
     "binary_operator_symbols_53": {
         "latex_code": "\\uplus",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: MULTISET UNION ",
+        "click_info": "Unicode: 0228E Symbol: ⊎ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-53.png"
     },
     "binary_operator_symbols_54": {
         "latex_code": "\\vee",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: LOGICAL OR ",
+        "click_info": "Unicode: 02228 Symbol: ∨ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-54.png"
     },
     "binary_operator_symbols_55": {
         "latex_code": "\\veebar",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: XOR ",
+        "click_info": "Unicode: 022BB Symbol: ⊻ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-55.png"
     },
     "binary_operator_symbols_56": {
         "latex_code": "\\wedge",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: LOGICAL AND ",
+        "click_info": "Unicode: 02227 Symbol: ∧ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-56.png"
     },
     "binary_operator_symbols_57": {
         "latex_code": "\\wr",
-        "help_info": "binary operator symbols ",
+        "help_info": "binary operator symbols: WREATH PRODUCT ",
+        "click_info": "Unicode: 02240 Symbol: ≀ ",
         "button_image": "images/binary_operator_symbols/binary_operator_symbols-57.png"
     },
     "relation_symbols2_01": {

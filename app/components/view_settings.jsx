@@ -230,7 +230,7 @@ export const binary_operator_symbols = [
     "binary_operator_symbols_43",
     "binary_operator_symbols_44",
     "binary_operator_symbols_45",
-    "binary_operator_symbols_46",
+    // "binary_operator_symbols_46",
     "binary_operator_symbols_47",
     "binary_operator_symbols_48",
     "binary_operator_symbols_49",
