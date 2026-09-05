@@ -1994,77 +1994,92 @@
     },
     "relation_symbols2_01": {
         "latex_code": "\\backepsilon",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: SMALL CONTAINS AS MEMBER",
+        "click_info": "Unicode: 0220D Symbol: ∍ ",
         "button_image": "images/relation_symbols2/relation_symbols2-01.png"
     },
     "relation_symbols2_02": {
         "latex_code": "\\because",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: BECAUSE",
+        "click_info": "Unicode: 02235 Symbol: ∵ ",
         "button_image": "images/relation_symbols2/relation_symbols2-02.png"
     },
     "relation_symbols2_03": {
         "latex_code": "\\between",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: BETWEEN",
+        "click_info": "Unicode: 0226C Symbol: ≬ ",
         "button_image": "images/relation_symbols2/relation_symbols2-03.png"
     },
     "relation_symbols2_04": {
         "latex_code": "\\blacktriangleleft",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: BLACK LEFT-POINTING SMALL TRIANGLE",
+        "click_info": "Unicode: 025C2 Symbol: ◂ ",
         "button_image": "images/relation_symbols2/relation_symbols2-04.png"
     },
     "relation_symbols2_05": {
         "latex_code": "\\blacktriangleright",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: BLACK RIGHT-POINTING SMALL TRIANGLE",
+        "click_info": "Unicode: 025B8 Symbol: ▸ ",
         "button_image": "images/relation_symbols2/relation_symbols2-05.png"
     },
     "relation_symbols2_06": {
         "latex_code": "\\bowtie",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: BOWTIE",
+        "click_info": "Unicode: 022C8 Symbol: ⋈ ",
         "button_image": "images/relation_symbols2/relation_symbols2-06.png"
     },
     "relation_symbols2_07": {
         "latex_code": "\\dashv",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: LEFT TACK",
+        "click_info": "Unicode: 022A3 Symbol: ⊣ ",
         "button_image": "images/relation_symbols2/relation_symbols2-07.png"
     },
     "relation_symbols2_08": {
         "latex_code": "\\frown",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: FROWN",
+        "click_info": "Unicode: 02322 Symbol: ⌢ ",
         "button_image": "images/relation_symbols2/relation_symbols2-08.png"
     },
     "relation_symbols2_09": {
         "latex_code": "\\in",
-        "help_info": "t is a member of B: $t\\in B$ ",
+        "help_info": "relation symbols: ELEMENT OF",
+        "click_info": "Unicode: 02208 Symbol: ∈ ",
         "button_image": "images/relation_symbols2/relation_symbols2-09.png"
     },
     "relation_symbols2_10": {
         "latex_code": "\\mid",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: DIVIDES",
+        "click_info": "Unicode: 02223 Symbol: ∣ ",
         "button_image": "images/relation_symbols2/relation_symbols2-10.png"
     },
     "relation_symbols2_11": {
         "latex_code": "\\models",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: MODELS",
+        "click_info": "Unicode: 022A7 Symbol: ⊧ ",
         "button_image": "images/relation_symbols2/relation_symbols2-11.png"
     },
     "relation_symbols2_12": {
         "latex_code": "\\ni",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: CONTAINS AS MEMBER",
+        "click_info": "Unicode: 0220B Symbol: ∋ ",
         "button_image": "images/relation_symbols2/relation_symbols2-12.png"
     },
     "relation_symbols2_13": {
         "latex_code": "\\nmid",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: DOES NOT DIVIDE",
+        "click_info": "Unicode: 02224 Symbol: ∤ ",
         "button_image": "images/relation_symbols2/relation_symbols2-13.png"
     },
     "relation_symbols2_14": {
         "latex_code": "\\notin",
-        "help_info": "t is not a member of B: $t\\notin B$ ",
+        "help_info": "relation symbols: NOT AN ELEMENT OF",
+        "click_info": "Unicode: 02209 Symbol: ∉ ",
         "button_image": "images/relation_symbols2/relation_symbols2-14.png"
     },
     "relation_symbols2_15": {
         "latex_code": "\\nparallel",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: NOT PARALLEL TO",
+        "click_info": "Unicode: 02226 Symbol: ∦ ",
         "button_image": "images/relation_symbols2/relation_symbols2-15.png"
     },
     "relation_symbols2_16": {
@@ -2079,7 +2094,8 @@
     },
     "relation_symbols2_18": {
         "latex_code": "\\nsubseteq",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: NEITHER A SUBSET OF NOR EQUAL TO ",
+        "click_info": "Unicode: 02288 Symbol: ⊈ ",
         "button_image": "images/relation_symbols2/relation_symbols2-18.png"
     },
     "relation_symbols2_19": {
@@ -2089,7 +2105,8 @@
     },
     "relation_symbols2_20": {
         "latex_code": "\\nsupseteq",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: NEITHER A SUPERSET OF NOR EQUAL TO",
+        "click_info": "Unicode: 02289 Symbol: ⊉ ",
         "button_image": "images/relation_symbols2/relation_symbols2-20.png"
     },
     "relation_symbols2_21": {
@@ -2099,62 +2116,74 @@
     },
     "relation_symbols2_22": {
         "latex_code": "\\ntriangleleft",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: NOT NORMAL SUBGROUP OF",
+        "click_info": "Unicode: 022EA Symbol: ⋪ ",
         "button_image": "images/relation_symbols2/relation_symbols2-22.png"
     },
     "relation_symbols2_23": {
         "latex_code": "\\ntrianglelefteq",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: NOT NORMAL SUBGROUP OF OR EQUAL TO",
+        "click_info": "Unicode: 022EC Symbol: ⋬ ",
         "button_image": "images/relation_symbols2/relation_symbols2-23.png"
     },
     "relation_symbols2_24": {
         "latex_code": "\\ntriangleright",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: DOES NOT CONTAIN AS NORMAL SUBGROUP",
+        "click_info": "Unicode: 022EB Symbol: ⋫ ",
         "button_image": "images/relation_symbols2/relation_symbols2-24.png"
     },
     "relation_symbols2_25": {
         "latex_code": "\\ntrianglerighteq",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: DOES NOT CONTAIN AS NORMAL SUBGROUP OR EQUAL",
+        "click_info": "Unicode: 022ED Symbol: ⋭ ",
         "button_image": "images/relation_symbols2/relation_symbols2-25.png"
     },
     "relation_symbols2_26": {
         "latex_code": "\\nvdash",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: DOES NOT PROVE",
+        "click_info": "Unicode: 022AC Symbol: ⊬ ",
         "button_image": "images/relation_symbols2/relation_symbols2-26.png"
     },
     "relation_symbols2_27": {
         "latex_code": "\\nVdash",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: DOES NOT FORCE",
+        "click_info": "Unicode: 022AE Symbol: ⊮ ",
         "button_image": "images/relation_symbols2/relation_symbols2-27.png"
     },
     "relation_symbols2_28": {
         "latex_code": "\\nvDash",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: NOT TRUE",
+        "click_info": "Unicode: 022AD Symbol: ⊭ ",
         "button_image": "images/relation_symbols2/relation_symbols2-28.png"
     },
     "relation_symbols2_29": {
         "latex_code": "\\nVDash",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: NEGATED DOUBLE VERTICAL BAR DOUBLE RIGHT TURNSTILE",
+        "click_info": "Unicode: 022AF Symbol: ⊯ ",
         "button_image": "images/relation_symbols2/relation_symbols2-29.png"
     },
     "relation_symbols2_30": {
         "latex_code": "\\parallel",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: PARALLEL TO",
+        "click_info": "Unicode: 02225 Symbol: ∥ ",
         "button_image": "images/relation_symbols2/relation_symbols2-30.png"
     },
     "relation_symbols2_31": {
         "latex_code": "\\perp",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: PERPENDICULAR",
+        "click_info": "Unicode: 027C2 Symbol: ⟂ ",
         "button_image": "images/relation_symbols2/relation_symbols2-31.png"
     },
     "relation_symbols2_32": {
         "latex_code": "\\pitchfork",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: PITCHFORK",
+        "click_info": "Unicode: 022D4 Symbol: ⋔ ",
         "button_image": "images/relation_symbols2/relation_symbols2-32.png"
     },
     "relation_symbols2_33": {
         "latex_code": "\\propto",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: PROPORTIONAL TO",
+        "click_info": "Unicode: 0221D Symbol: ∝ ",
         "button_image": "images/relation_symbols2/relation_symbols2-33.png"
     },
     "relation_symbols2_34": {
@@ -2179,102 +2208,122 @@
     },
     "relation_symbols2_38": {
         "latex_code": "\\smile",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: SMILE",
+        "click_info": "Unicode: 02323 Symbol: ⌣ ",
         "button_image": "images/relation_symbols2/relation_symbols2-38.png"
     },
     "relation_symbols2_39": {
         "latex_code": "\\sqsubset",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: SQUARE IMAGE OF",
+        "click_info": "Unicode: 0228F Symbol: ⊏ ",
         "button_image": "images/relation_symbols2/relation_symbols2-39.png"
     },
     "relation_symbols2_40": {
         "latex_code": "\\sqsubseteq",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: SQUARE IMAGE OF OR EQUAL TO",
+        "click_info": "Unicode: 02291 Symbol: ⊑ ",
         "button_image": "images/relation_symbols2/relation_symbols2-40.png"
     },
     "relation_symbols2_41": {
         "latex_code": "\\sqsupset",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: SQUARE ORIGINAL OF",
+        "click_info": "Unicode: 02290 Symbol: ⊐ ",
         "button_image": "images/relation_symbols2/relation_symbols2-41.png"
     },
     "relation_symbols2_42": {
         "latex_code": "\\sqsupseteq",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: SQUARE ORIGINAL OF OR EQUAL TO",
+        "click_info": "Unicode: 02292 Symbol: ⊒ ",
         "button_image": "images/relation_symbols2/relation_symbols2-42.png"
     },
     "relation_symbols2_43": {
         "latex_code": "\\subset",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: SUBSET OF",
+        "click_info": "Unicode: 02282 Symbol: ⊂ ",
         "button_image": "images/relation_symbols2/relation_symbols2-43.png"
     },
     "relation_symbols2_44": {
         "latex_code": "\\Subset",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: DOUBLE SUBSET",
+        "click_info": "Unicode: 022D0 Symbol: ⋐ ",
         "button_image": "images/relation_symbols2/relation_symbols2-44.png"
     },
     "relation_symbols2_45": {
         "latex_code": "\\subseteq",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: SUBSET OF OR EQUAL TO",
+        "click_info": "Unicode: 02286 Symbol: ⊆ ",
         "button_image": "images/relation_symbols2/relation_symbols2-45.png"
     },
     "relation_symbols2_46": {
         "latex_code": "\\subseteqq",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: SUBSET OF ABOVE EQUALS SIGN",
+        "click_info": "Unicode: 02AC5 Symbol: ⫅ ",
         "button_image": "images/relation_symbols2/relation_symbols2-46.png"
     },
     "relation_symbols2_47": {
         "latex_code": "\\subsetneq",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: SUBSET OF WITH NOT EQUAL TO",
+        "click_info": "Unicode: 0228A Symbol: ⊊ ",
         "button_image": "images/relation_symbols2/relation_symbols2-47.png"
     },
     "relation_symbols2_48": {
         "latex_code": "\\subsetneqq",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: SUBSET OF ABOVE NOT EQUAL TO",
+        "click_info": "Unicode: 02ACB Symbol: ⫋ ",
         "button_image": "images/relation_symbols2/relation_symbols2-48.png"
     },
     "relation_symbols2_49": {
         "latex_code": "\\supset",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: SUPERSET OF",
+        "click_info": "Unicode: 02283 Symbol: ⊃ ",
         "button_image": "images/relation_symbols2/relation_symbols2-49.png"
     },
     "relation_symbols2_50": {
         "latex_code": "\\Supset",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: DOUBLE SUPERSET",
+        "click_info": "Unicode: 022D1 Symbol: ⋑ ",
         "button_image": "images/relation_symbols2/relation_symbols2-50.png"
     },
     "relation_symbols2_51": {
         "latex_code": "\\supseteq",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: SUPERSET OF OR EQUAL TO",
+        "click_info": "Unicode: 02287 Symbol: ⊇ ",
         "button_image": "images/relation_symbols2/relation_symbols2-51.png"
     },
     "relation_symbols2_52": {
         "latex_code": "\\supseteqq",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: SUPERSET OF ABOVE EQUALS SIGN",
+        "click_info": "Unicode: 02AC6 Symbol: ⫆ ",
         "button_image": "images/relation_symbols2/relation_symbols2-52.png"
     },
     "relation_symbols2_53": {
         "latex_code": "\\supsetneq",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: SUPERSET OF WITH NOT EQUAL TO",
+        "click_info": "Unicode: 0228B Symbol: ⊋ ",
         "button_image": "images/relation_symbols2/relation_symbols2-53.png"
     },
     "relation_symbols2_54": {
         "latex_code": "\\supsetneqq",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: SUPERSET OF ABOVE NOT EQUAL TO",
+        "click_info": "Unicode: 02ACC Symbol: ⫌ ",
         "button_image": "images/relation_symbols2/relation_symbols2-54.png"
     },
     "relation_symbols2_55": {
         "latex_code": "\\therefore",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: THEREFORE",
+        "click_info": "Unicode: 02234 Symbol: ∴ ",
         "button_image": "images/relation_symbols2/relation_symbols2-55.png"
     },
     "relation_symbols2_56": {
         "latex_code": "\\trianglelefteq",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: NORMAL SUBGROUP OF OR EQUAL TO",
+        "click_info": "Unicode: 022B4 Symbol: ⊴ ",
         "button_image": "images/relation_symbols2/relation_symbols2-56.png"
     },
     "relation_symbols2_57": {
         "latex_code": "\\trianglerighteq",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: CONTAINS AS NORMAL SUBGROUP OR EQUAL TO",
+        "click_info": "Unicode: 022B5 Symbol: ⊵ ",
         "button_image": "images/relation_symbols2/relation_symbols2-57.png"
     },
     "relation_symbols2_58": {
@@ -2309,42 +2358,50 @@
     },
     "relation_symbols2_64": {
         "latex_code": "\\vartriangleleft",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: NORMAL SUBGROUP OF",
+        "click_info": "Unicode: 022B2 Symbol: ⊲ ",
         "button_image": "images/relation_symbols2/relation_symbols2-64.png"
     },
     "relation_symbols2_65": {
         "latex_code": "\\vartriangleright",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: CONTAINS AS NORMAL SUBGROUP",
+        "click_info": "Unicode: 022B3 Symbol: ⊳ ",
         "button_image": "images/relation_symbols2/relation_symbols2-65.png"
     },
     "relation_symbols2_66": {
         "latex_code": "\\vdash",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: RIGHT TACK",
+        "click_info": "Unicode: 022A2 Symbol: ⊢ ",
         "button_image": "images/relation_symbols2/relation_symbols2-66.png"
     },
     "relation_symbols2_67": {
         "latex_code": "\\Vdash",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: FORCES",
+        "click_info": "Unicode: 022A9 Symbol: ⊩ ",
         "button_image": "images/relation_symbols2/relation_symbols2-67.png"
     },
     "relation_symbols2_68": {
         "latex_code": "\\vDash",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: TRUE",
+        "click_info": "Unicode: 022A8 Symbol: ⊨ ",
         "button_image": "images/relation_symbols2/relation_symbols2-68.png"
     },
     "relation_symbols2_69": {
         "latex_code": "\\Vvdash",
-        "help_info": "relation symbols",
+        "help_info": "relation symbols: TRIPLE VERTICAL BAR RIGHT TURNSTILE",
+        "click_info": "Unicode: 022AA Symbol: ⊪ ",
         "button_image": "images/relation_symbols2/relation_symbols2-69.png"
     },
     "arrows_01": {
         "latex_code": "\\circlearrowleft",
-        "help_info": "arrows ",
+        "help_info": "arrows: ANTICLOCKWISE OPEN CIRCLE ARROW ",
+        "click_info": "Unicode: 021BA Symbol: ↺ ",
         "button_image": "images/arrows/arrows-01.png"
     },
     "arrows_02": {
         "latex_code": "\\circlearrowright",
-        "help_info": "arrows ",
+        "help_info": "arrows: CLOCKWISE OPEN CIRCLE ARROW",
+        "click_info": "Unicode: 021BB Symbol: ↻ ",
         "button_image": "images/arrows/arrows-02.png"
     },
     "arrows_03": {
