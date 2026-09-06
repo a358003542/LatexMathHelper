@@ -2406,317 +2406,380 @@
     },
     "arrows_03": {
         "latex_code": "\\curvearrowleft",
-        "help_info": "arrows ",
+        "help_info": "arrows: ANTICLOCKWISE TOP SEMICIRCLE ARROW",
+        "click_info": "Unicode: 021B6 Symbol: ↶ ",
         "button_image": "images/arrows/arrows-03.png"
     },
     "arrows_04": {
         "latex_code": "\\curvearrowright",
-        "help_info": "arrows ",
+        "help_info": "arrows: CLOCKWISE TOP SEMICIRCLE ARROW",
+        "click_info": "Unicode: 021B7 Symbol: ↷ ",
         "button_image": "images/arrows/arrows-04.png"
     },
     "arrows_05": {
         "latex_code": "\\downdownarrows",
-        "help_info": "arrows ",
+        "help_info": "arrows: DOWNWARDS PAIRED ARROWS ",
+        "click_info": "Unicode: 021CA Symbol: ⇊ ",
         "button_image": "images/arrows/arrows-05.png"
     },
     "arrows_06": {
         "latex_code": "\\downharpoonleft",
-        "help_info": "arrows ",
+        "help_info": "arrows: DOWNWARDS HARPOON WITH BARB LEFTWARDS ",
+        "click_info": "Unicode: 021C3 Symbol: ⇃ ",
         "button_image": "images/arrows/arrows-06.png"
     },
     "arrows_07": {
         "latex_code": "\\downharpoonright",
-        "help_info": "arrows ",
+        "help_info": "arrows: DOWNWARDS HARPOON WITH BARB RIGHTWARDS ",
+        "click_info": "Unicode: 021C2 Symbol: ⇂ ",
         "button_image": "images/arrows/arrows-07.png"
     },
     "arrows_08": {
         "latex_code": "\\hookleftarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: LEFTWARDS ARROW WITH HOOK ",
+        "click_info": "Unicode: 021A9 Symbol: ↩ ",
         "button_image": "images/arrows/arrows-08.png"
     },
     "arrows_09": {
-        "latex_code": "\\hookleftarrow",
-        "help_info": "arrows ",
+        "latex_code": "\\hookrightarrow",
+        "help_info": "arrows: RIGHTWARDS ARROW WITH HOOK ",
+        "click_info": "Unicode: 021AA Symbol: ↪ ",
         "button_image": "images/arrows/arrows-09.png"
     },
     "arrows_10": {
         "latex_code": "\\leftarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: LEFTWARDS ARROW ",
+        "click_info": "Unicode: 02190 Symbol: ← ",
         "button_image": "images/arrows/arrows-10.png"
     },
     "arrows_11": {
         "latex_code": "\\Leftarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: LEFTWARDS DOUBLE ARROW ",
+        "click_info": "Unicode: 021D0 Symbol: ⇐ ",
         "button_image": "images/arrows/arrows-11.png"
     },
     "arrows_12": {
         "latex_code": "\\leftarrowtail",
-        "help_info": "arrows ",
+        "help_info": "arrows: LEFTWARDS ARROW WITH TAIL ",
+        "click_info": "Unicode: 021A2 Symbol: ↢ ",
         "button_image": "images/arrows/arrows-12.png"
     },
     "arrows_13": {
         "latex_code": "\\leftharpoondown",
-        "help_info": "arrows ",
+        "help_info": "arrows: LEFTWARDS HARPOON WITH BARB DOWNWARDS ",
+        "click_info": "Unicode: 021BD Symbol: ↽ ",
         "button_image": "images/arrows/arrows-13.png"
     },
     "arrows_14": {
         "latex_code": "\\leftharpoonup",
-        "help_info": "arrows ",
+        "help_info": "arrows: LEFTWARDS HARPOON WITH BARB UPWARDS ",
+        "click_info": "Unicode: 021BC Symbol: ↼ ",
         "button_image": "images/arrows/arrows-14.png"
     },
     "arrows_15": {
         "latex_code": "\\leftleftarrows",
-        "help_info": "arrows ",
+        "help_info": "arrows: LEFTWARDS PAIRED ARROWS ",
+        "click_info": "Unicode: 021C7 Symbol: ⇇ ",
         "button_image": "images/arrows/arrows-15.png"
     },
     "arrows_16": {
         "latex_code": "\\leftrightarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: LEFT RIGHT ARROW ",
+        "click_info": "Unicode: 02194 Symbol: ↔ ",
         "button_image": "images/arrows/arrows-16.png"
     },
     "arrows_17": {
         "latex_code": "\\Leftrightarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: LEFT RIGHT DOUBLE ARROW ",
+        "click_info": "Unicode: 021D4 Symbol: ⇔ ",
         "button_image": "images/arrows/arrows-17.png"
     },
     "arrows_18": {
         "latex_code": "\\leftrightarrows",
-        "help_info": "arrows ",
+        "help_info": "arrows: LEFTWARDS ARROW OVER RIGHTWARDS ARROW ",
+        "click_info": "Unicode: 021C6 Symbol: ⇆ ",
         "button_image": "images/arrows/arrows-18.png"
     },
     "arrows_19": {
         "latex_code": "\\leftrightharpoons",
-        "help_info": "arrows ",
+        "help_info": "arrows: LEFTWARDS HARPOON OVER RIGHTWARDS HARPOON ",
+        "click_info": "Unicode: 021CB Symbol: ⇋ ",
         "button_image": "images/arrows/arrows-19.png"
     },
     "arrows_20": {
         "latex_code": "\\leftrightsquigarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: LEFT RIGHT WAVE ARROW ",
+        "click_info": "Unicode: 021AD Symbol: ↭ ",
         "button_image": "images/arrows/arrows-20.png"
     },
     "arrows_21": {
         "latex_code": "\\Lleftarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: LEFTWARDS TRIPLE ARROW ",
+        "click_info": "Unicode: 021DA Symbol: ⇚ ",
         "button_image": "images/arrows/arrows-21.png"
     },
     "arrows_22": {
         "latex_code": "\\longleftarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: LONG LEFTWARDS ARROW ",
+        "click_info": "Unicode: 027F5 Symbol: ⟵ ",
         "button_image": "images/arrows/arrows-22.png"
     },
     "arrows_23": {
         "latex_code": "\\Longleftarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: LONG LEFTWARDS DOUBLE ARROW ",
+        "click_info": "Unicode: 027F8 Symbol: ⟸ ",
         "button_image": "images/arrows/arrows-23.png"
     },
     "arrows_24": {
         "latex_code": "\\longleftrightarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: LONG LEFT RIGHT ARROW ",
+        "click_info": "Unicode: 027F7 Symbol: ⟷ ",
         "button_image": "images/arrows/arrows-24.png"
     },
     "arrows_25": {
         "latex_code": "\\Longleftrightarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: LONG LEFT RIGHT DOUBLE ARROW ",
+        "click_info": "Unicode: 027FA Symbol: ⟺ ",
         "button_image": "images/arrows/arrows-25.png"
     },
     "arrows_26": {
         "latex_code": "\\longmapsto",
-        "help_info": "arrows ",
+        "help_info": "arrows: LONG RIGHTWARDS ARROW FROM BAR ",
+        "click_info": "Unicode: 027FC Symbol: ⟼ ",
         "button_image": "images/arrows/arrows-26.png"
     },
     "arrows_27": {
         "latex_code": "\\longrightarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: LONG RIGHTWARDS ARROW ",
+        "click_info": "Unicode: 027F6 Symbol: ⟶ ",
         "button_image": "images/arrows/arrows-27.png"
     },
     "arrows_28": {
         "latex_code": "\\Longrightarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: LONG RIGHTWARDS DOUBLE ARROW ",
+        "click_info": "Unicode: 027F9 Symbol: ⟹ ",
         "button_image": "images/arrows/arrows-28.png"
     },
     "arrows_29": {
         "latex_code": "\\looparrowleft",
-        "help_info": "arrows ",
+        "help_info": "arrows: LEFTWARDS ARROW WITH LOOP ",
+        "click_info": "Unicode: 021AB Symbol: ↫ ",
         "button_image": "images/arrows/arrows-29.png"
     },
     "arrows_30": {
         "latex_code": "\\looparrowright",
-        "help_info": "arrows ",
+        "help_info": "arrows: RIGHTWARDS ARROW WITH LOOP ",
+        "click_info": "Unicode: 021AC Symbol: ↬ ",
         "button_image": "images/arrows/arrows-30.png"
     },
     "arrows_31": {
         "latex_code": "\\Lsh",
-        "help_info": "arrows ",
+        "help_info": "arrows: UPWARDS ARROW WITH TIP LEFTWARDS ",
+        "click_info": "Unicode: 021B0 Symbol: ↰ ",
         "button_image": "images/arrows/arrows-31.png"
     },
     "arrows_32": {
         "latex_code": "\\mapsto",
-        "help_info": "arrows ",
+        "help_info": "arrows: RIGHTWARDS ARROW FROM BAR ",
+        "click_info": "Unicode: 021A6 Symbol: ↦ ",
         "button_image": "images/arrows/arrows-32.png"
     },
     "arrows_33": {
         "latex_code": "\\multimap",
-        "help_info": "arrows ",
+        "help_info": "arrows: MULTIMAP ",
+        "click_info": "Unicode: 021B8 Symbol: ⊸ ",
         "button_image": "images/arrows/arrows-33.png"
     },
     "arrows_34": {
         "latex_code": "\\nLeftarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: LEFTWARDS DOUBLE ARROW WITH STROKE ",
+        "click_info": "Unicode: 021CD Symbol: ⇍ ",
         "button_image": "images/arrows/arrows-34.png"
     },
     "arrows_35": {
         "latex_code": "\\nLeftrightarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: LEFT RIGHT DOUBLE ARROW WITH STROKE ",
+        "click_info": "Unicode: 021CE Symbol: ⇎ ",
         "button_image": "images/arrows/arrows-35.png"
     },
     "arrows_36": {
         "latex_code": "\\nRightarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: RIGHTWARDS DOUBLE ARROW WITH STROKE ",
+        "click_info": "Unicode: 021CF Symbol: ⇏ ",
         "button_image": "images/arrows/arrows-36.png"
     },
     "arrows_37": {
         "latex_code": "\\nearrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: NORTH EAST ARROW ",
+        "click_info": "Unicode: 02197 Symbol: ↗ ",
         "button_image": "images/arrows/arrows-37.png"
     },
     "arrows_38": {
         "latex_code": "\\nleftarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: LEFTWARDS ARROW WITH STROKE ",
+        "click_info": "Unicode: 0219A Symbol: ↚  ",
         "button_image": "images/arrows/arrows-38.png"
     },
     "arrows_39": {
         "latex_code": "\\nleftrightarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: LEFT RIGHT ARROW WITH STROKE ",
+        "click_info": "Unicode: 021AE Symbol: ↮  ",
         "button_image": "images/arrows/arrows-39.png"
     },
     "arrows_40": {
         "latex_code": "\\nrightarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: RIGHTWARDS ARROW WITH STROKE ",
+        "click_info": "Unicode: 0219B Symbol: ↛  ",
         "button_image": "images/arrows/arrows-40.png"
     },
     "arrows_41": {
         "latex_code": "\\nwarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: NORTH WEST ARROW ",
+        "click_info": "Unicode: 02196 Symbol: ↖ ",
         "button_image": "images/arrows/arrows-41.png"
     },
     "arrows_42": {
         "latex_code": "\\rightarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: RIGHTWARDS ARROW ",
+        "click_info": "Unicode: 02192 Symbol: → ",
         "button_image": "images/arrows/arrows-42.png"
     },
     "arrows_43": {
         "latex_code": "\\Rightarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: RIGHTWARDS DOUBLE ARROW ",
+        "click_info": "Unicode: 021D2 Symbol: ⇒ ",
         "button_image": "images/arrows/arrows-43.png"
     },
     "arrows_44": {
         "latex_code": "\\rightarrowtail",
-        "help_info": "arrows ",
+        "help_info": "arrows: RIGHTWARDS ARROW WITH TAIL ",
+        "click_info": "Unicode: 021A3 Symbol: ↣ ",
         "button_image": "images/arrows/arrows-44.png"
     },
     "arrows_45": {
         "latex_code": "\\rightharpoondown",
-        "help_info": "arrows ",
+        "help_info": "arrows: RIGHTWARDS HARPOON WITH BARB DOWNWARDS ",
+        "click_info": "Unicode: 021C1 Symbol: ⇁ ",
         "button_image": "images/arrows/arrows-45.png"
     },
     "arrows_46": {
         "latex_code": "\\rightharpoonup",
-        "help_info": "arrows ",
+        "help_info": "arrows: RIGHTWARDS HARPOON WITH BARB UPWARDS ",
+        "click_info": "Unicode: 021C0 Symbol: ⇀ ",
         "button_image": "images/arrows/arrows-46.png"
     },
     "arrows_47": {
         "latex_code": "\\rightleftarrows",
-        "help_info": "arrows ",
+        "help_info": "arrows: RIGHTWARDS ARROW OVER LEFTWARDS ARROW ",
+        "click_info": "Unicode: 021C4 Symbol: ⇄ ",
         "button_image": "images/arrows/arrows-47.png"
     },
     "arrows_48": {
         "latex_code": "\\rightleftharpoons",
-        "help_info": "arrows ",
+        "help_info": "arrows: RIGHTWARDS HARPOON OVER LEFTWARDS HARPOON ",
+        "click_info": "Unicode: 021CC Symbol: ⇌ ",
         "button_image": "images/arrows/arrows-48.png"
     },
     "arrows_49": {
         "latex_code": "\\rightrightarrows",
-        "help_info": "arrows ",
+        "help_info": "arrows: RIGHTWARDS PAIRED ARROWS ",
+        "click_info": "Unicode: 021C9 Symbol: ⇉ ",
         "button_image": "images/arrows/arrows-49.png"
     },
     "arrows_50": {
         "latex_code": "\\rightsquigarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: RIGHTWARDS SQUIGGLE ARROW ",
+        "click_info": "Unicode: 021DD Symbol: ⇝ ",
         "button_image": "images/arrows/arrows-50.png"
     },
     "arrows_51": {
         "latex_code": "\\Rrightarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: RIGHTWARDS TRIPLE ARROW ",
+        "click_info": "Unicode: 021DB Symbol: ⇛ ",
         "button_image": "images/arrows/arrows-51.png"
     },
     "arrows_52": {
         "latex_code": "\\Rsh",
-        "help_info": "arrows ",
+        "help_info": "arrows: UPWARDS ARROW WITH TIP RIGHTWARDS ",
+        "click_info": "Unicode: 021B1 Symbol: ↱ ",
         "button_image": "images/arrows/arrows-52.png"
     },
     "arrows_53": {
         "latex_code": "\\searrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: SOUTH EAST ARROW ",
+        "click_info": "Unicode: 02198 Symbol: ↘ ",
         "button_image": "images/arrows/arrows-53.png"
     },
     "arrows_54": {
         "latex_code": "\\swarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: SOUTH WEST ARROW ",
+        "click_info": "Unicode: 02199 Symbol: ↙ ",
         "button_image": "images/arrows/arrows-54.png"
     },
     "arrows_55": {
         "latex_code": "\\twoheadleftarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: LEFTWARDS TWO HEADED ARROW ",
+        "click_info": "Unicode: 0219E Symbol: ↞",
         "button_image": "images/arrows/arrows-55.png"
     },
     "arrows_56": {
-        "latex_code": "\\twoheadleftarrow",
-        "help_info": "arrows ",
+        "latex_code": "\\twoheadrightarrow",
+        "help_info": "arrows: RIGHTWARDS TWO HEADED ARROW ",
+        "click_info": "Unicode: 021A0 Symbol: ↠ ",
         "button_image": "images/arrows/arrows-56.png"
     },
     "arrows_57": {
         "latex_code": "\\upharpoonleft",
-        "help_info": "arrows ",
+        "help_info": "arrows: UPWARDS HARPOON WITH BARB LEFTWARDS ",
+        "click_info": "Unicode: 021BF Symbol: ↿ ",
         "button_image": "images/arrows/arrows-57.png"
     },
     "arrows_58": {
         "latex_code": "\\upharpoonright",
-        "help_info": "arrows ",
+        "help_info": "arrows: UPWARDS HARPOON WITH BARB RIGHTWARDS ",
+        "click_info": "Unicode: 021BE Symbol: ↾ ",
         "button_image": "images/arrows/arrows-58.png"
     },
     "arrows_59": {
         "latex_code": "\\upuparrows",
-        "help_info": "arrows ",
+        "help_info": "arrows: UPWARDS PAIRED ARROWS ",
+        "click_info": "Unicode: 021C8 Symbol: ⇈ ",
         "button_image": "images/arrows/arrows-59.png"
     },
     "arrows_60": {
         "latex_code": "\\uparrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: UPWARDS ARROW ",
+        "click_info": "Unicode: 02191 Symbol: ↑ ",
         "button_image": "images/arrows/arrows-60.png"
     },
     "arrows_61": {
         "latex_code": "\\Uparrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: UPWARDS DOUBLE ARROW ",
+        "click_info": "Unicode: 021D1 Symbol: ⇑ ",
         "button_image": "images/arrows/arrows-61.png"
     },
     "arrows_62": {
         "latex_code": "\\downarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: DOWNWARDS ARROW ",
+        "click_info": "Unicode: 02193 Symbol: ↓ ",
         "button_image": "images/arrows/arrows-62.png"
     },
     "arrows_63": {
         "latex_code": "\\Downarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: DOWNWARDS DOUBLE ARROW ",
+        "click_info": "Unicode: 021D3 Symbol: ⇓ ",
         "button_image": "images/arrows/arrows-63.png"
     },
     "arrows_64": {
         "latex_code": "\\updownarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: UP DOWN ARROW ",
+        "click_info": "Unicode: 02195 Symbol: ↕ ",
         "button_image": "images/arrows/arrows-64.png"
     },
     "arrows_65": {
         "latex_code": "\\Updownarrow",
-        "help_info": "arrows ",
+        "help_info": "arrows: UP DOWN DOUBLE ARROW ",
+        "click_info": "Unicode: 021D5 Symbol: ⇕ ",
         "button_image": "images/arrows/arrows-65.png"
     }
 }
